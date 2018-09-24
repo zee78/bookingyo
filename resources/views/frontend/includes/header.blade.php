@@ -1,7 +1,7 @@
 <header>
   <div class="top_header hidden-xs">
     <div class="container">
-      <div class="row">
+      <div class="">
         <ul class="top_nav_2 pull-left hidden-sm">
           <li><img src="{{'frontend-assets/static-images/header/logo_main.png'}}"></li>
         </ul>
@@ -20,44 +20,68 @@
   <div class="container">
     <nav class="navbar navbar-inverse"> <!-- main-navbar -->
     
-      <div class="navbar-header"><!-- Brand and toggle -->
+      <!-- <div class="navbar-header"> -->
         <!-- <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
            <span class="sr-only">Toggle navigation</span>
            <span class="icon-bar"></span>
            <span class="icon-bar"></span>
            <span class="icon-bar"></span>
          </button>-->
-        <a class="navbar-brand" href="{{'/'}}"><i class="fa fa-home fa-2x"></i></a>
-      </div>
+        
+      <!-- </div> -->
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-        <ul class="nav navbar-nav">
-          <li>
-            <form>
-              <div class="search-box">
-                <div class="select-sec">
-                  <label><i class="fa fa-map-marker"></i></label>
-                  <select class="form-control">
-                    <option>Islamabad</option>
-                    <option>Islamabad</option>
-                    <option>Islamabad</option>
-                    <option>Islamabad</option>
-                  </select>                  
-                </div>
-                <div class="input-group">
-                  <span class="input-group-btn">
-                    <input type="text" class="form-control" placeholder="Get free quotes...">
-                    <button class="btn btn-default" type="button"><span class="glyphicon glyphicon-search"></span> </button>
-                  </span>
-                </div>
-              </div> 
-            </form>
-          </li>
-          <li><a href="#">Client <span class="caret"></span></a> </li>
-          <li><a href="#">Helper <span class="caret"></span></a> </li>
-          <li><a href="#">My Project <span class="caret"></span></a> </li>
-          <li><a href="#">get support <span class="caret"></span></a> </li>
-          
-        </ul>
+        <div class="col-md-6">
+          <a class="navbar-brand" href="{{'/'}}"><i class="fa fa-home fa-2x"></i></a>
+          <ul class="nav navbar-nav">
+            <li>
+              <form>
+                <div class="search-box">
+                  <div class="select-sec">
+                    <label><i class="fa fa-map-marker"></i></label>
+                    <select class="form-control">
+                      <option>Islamabad</option>
+                      <option>Islamabad</option>
+                      <option>Islamabad</option>
+                      <option>Islamabad</option>
+                    </select>                  
+                  </div>
+                  <div class="input-group">
+                    <span class="input-group-btn">
+                      <input type="text" class="form-control" placeholder="Get free quotes...">
+                      <label class="search-bar"><i class="fa fa-microphone"></i></label>
+                      <button class="btn btn-default bg-orange" type="button"><span class="glyphicon glyphicon-search"></span> </button>
+                    </span>
+                  </div>
+                </div> 
+              </form>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-6 right-menu">
+          <ul class="nav navbar-nav">
+            <li><a href="#" class="btn bg-primary"> Advertise </a></li>
+            <li style="padding-left: 15px;"><a href="#" class="btn listing-btn"> Free Listing</a> </li>
+            <li>    
+              <div class="dropdown">
+              <button class="language btn btn-primary dropdown-toggle" style="background:transparent" type="button" data-toggle="dropdown">Language
+              <span class="caret"></span></button>
+              <ul class="dropdown-menu">
+                <li><a href="{{ url('locale/en') }}">English</a></li>
+                <li><a href="{{ url('locale/kr') }}">Korean</a></li>
+              
+              </ul>
+              </div>
+            </li>
+            <li><a href="#"><i class="fa fa-heart-o"></i></a> </li>
+            <li><a href="#"><i class="fa fa-random"></i></a> </li>
+            <li class="text-center">
+              <a href="#"><i class="fa fa-shopping-cart" aria-hidden="true" style="color:#c3c3c3;font-size:20px;"></i><br><span style="color:#c3c3c3;">0 Items</span></a>
+            </li>
+            <li>
+              <a href=""> <img class="img-responsive" src="{{'frontend-assets/static-images/header/user-icon.png'}}" style="height: 25px;"></a>
+            </li>
+          </ul>
+        </div>
       </div>
     </nav><!-- main-navbar -->
   </div>
