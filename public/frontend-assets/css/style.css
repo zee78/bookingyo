@@ -1,0 +1,56 @@
+/*Header Css*/
+.top_header{padding-top:7px;background-color: #fff;}
+.top_header ul{list-style-type: none;margin: 0;}
+.top_header ul.top_nav_2 li{display: inline-block;padding: 15px 20px;}
+.top_header ul.top_nav_2 li:last-child{padding: 0px 0px 7px;}
+.top_header ul.top_nav_2{padding-left: 0;}
+.top_header ul li{display: inline-block;padding: 15px 12px;}
+.top_header ul li:last-child{padding: 0;}
+.top_header ul li:last-child a{line-height: 0}
+.top_header ul li a{font-size: 16px;color: #999;}
+.top_header ul li a img{width: 53px;height: 53px;margin-top: -6px;}
+.navbar-nav{padding-top: 14px;  }
+.navbar{  border-radius: 0;  height: 80px;  opacity:0.9;}
+.navbar.navbar-inverse{background: #161e2c;margin-bottom: 0;opacity: 1;}
+.navbar-inverse .navbar-nav>li>a{font-size: 16px;color: #fff;text-transform: uppercase;}
+.navbar-inverse .navbar-nav>li:last-child{padding-left: 15px;}
+.navbar.navbar-defualt{background: #d0a620;margin-bottom: 0;height: 50px;}
+.navbar.navbar-defualt .navbar-nav{padding-top: 0;}
+.navbar.navbar-defualt .navbar-nav li a:hover{background: transparent;}
+.navbar.navbar-defualt .navbar-nav li>a{color: #fff;font-size: 16px;}
+.navbar.navbar-defualt .navbar-nav li:first-child a{padding-left: 0;}
+.navbar.navbar-defualt .navbar-nav li>a.start_project{background: #161e2c;padding-top: 12px;padding-bottom: 12px;margin-top: 2px;padding-left:15px;}
+.navbar.navbar-inverse .input-group{width: 300px;background: transparent;padding-right: 0px;border-radius: 0;}
+.navbar.navbar-inverse .input-group .form-control{border-radius: 0;color: #fff;height: 44px;}
+.navbar.navbar-inverse .input-group .btn-default{
+	background: #FF6D00;
+	border-radius: 0;color: #fff;height: 44px;border-left: 0; border: none; border-bottom-right-radius: 5px !important;
+    border-top-right-radius: 5px !important;
+    padding: 6px 15px;
+}
+.navbar.navbar-inverse .input-group input::-webkit-input-placeholder{color: #fff;}
+
+.search-box{
+	display: -webkit-box;
+}
+.search-box label{
+	position: absolute;
+    top: 8px;
+    left: 5px;
+    z-index: 999;
+    font-size: 20px;
+    color: #979797;
+}
+.search-box select{
+	background: #EFEFEF;
+	border-bottom-left-radius: 5px !important;
+	border-top-left-radius: 5px !important;
+}
+.search-box .form-control{
+	border-radius: 0;
+	height: 44px;
+}
+.select-sec{
+	width: 36%;
+}
+/*End Header Css*/
