@@ -5,7 +5,7 @@
 @section('content')
 
 <div class="container" style="background: #fff;">
-        <div class="">
+        <div class="content">
             <div class="contentblock">
 				
 				
@@ -476,46 +476,67 @@
 
 				</div>
 			</div>
-
-
-			
-			
-
-        </div>	
-        <div class="row">
-        	<div class="col-md-12 shopsBlock">
-				<div class="col-md-4">
-					<img src="{{'frontend-assets/static-images/home/electronics.jpeg'}}"">
-					<h4>Electronics</h4>
-					<a href="">Shop Now</a>
-				</div>
-				<div class="col-md-4">
-					<img src="{{'frontend-assets/static-images/home/booksCate.jpg'}}">
-					<h4>Books</h4>
-					<a href="">Shop Now</a>
-				</div>
-				<div class="col-md-4">
-					<img src="{{'frontend-assets/static-images/home/flowersCate.jpg'}}">
-					<h4>Flowers</h4>
-					<a href="">Shop Now</a>
-				</div>
-				<div class="col-md-4">
-					<img src="{{'frontend-assets/static-images/home/onlineShop.jpeg'}}">
-					<h4>Shop Online</h4>
-					<a href="">Shop Now</a>
-				</div>
-				<div class="col-md-4">
-					<img src="{{'frontend-assets/static-images/home/autoMobile.jpeg'}}">
-					<h4>Auto Mobile</h4>
-					<a href="">Shop Now</a>
-				</div>
-				<div class="col-md-4">
-					<img src="{{'frontend-assets/static-images/home/livingRooms.jpg'}}">
-					<h4>Living Rooms</h4>
-					<a href="">Shop Now</a>
+        	
+        	<div class="col-md-12" style="padding: 0 33px; margin-bottom: 25px;">
+				<div class="col-md-12 shopsBlock">
+					<div class="col-md-4">
+						<img src="{{'frontend-assets/static-images/home/electronics.jpeg'}}"">
+						<h4>Electronics</h4>
+						<a href="">Shop Now<i class="fa fa-play" aria-hidden="true"></i></a>
+					</div>
+					<div class="col-md-4">
+						<img src="{{'frontend-assets/static-images/home/booksCates.jpg'}}">
+						<h4>Books</h4>
+						<a href="">Shop Now<i class="fa fa-play" aria-hidden="true"></i></a>
+					</div>
+					<div class="col-md-4">
+						<img src="{{'frontend-assets/static-images/home/flowersCates.jpg'}}">
+						<h4>Flower</h4>
+						<a href="">Shop Now<i class="fa fa-play" aria-hidden="true"></i></a>
+					</div>
+					<div class="col-md-4">
+						<img src="{{'frontend-assets/static-images/home/onlineShops.jpg'}}">
+						<h4>Shop Online</h4>
+						<a href="">Shop Now<i class="fa fa-play" aria-hidden="true"></i></a>
+					</div>
+					<div class="col-md-4" style="padding-top: 15px;">
+						<img src="{{'frontend-assets/static-images/home/autoMobiles.jpg'}}">
+						<h4>Automobiles</h4>
+						<a href="">Shop Now<i class="fa fa-play" aria-hidden="true"></i></a>
+					</div>
+					<div class="col-md-4" style="padding-top: 15px;">
+						<img src="{{'frontend-assets/static-images/home/livingRoom.jpg'}}">
+						<h4>Living Rooms</h4>
+						<a href="">Shop Now<i class="fa fa-play" aria-hidden="true"></i></a>
+					</div>
 				</div>
 			</div>
+
+        	<div class="col-md-12" style="padding: 0 33px; margin-bottom: 25px;">
+				<div class="col-md-12 shopsBlock" style=" background-image: url('frontend-assets/static-images/home/footerBg.jpg');">
+					<div class="text-center col-md-offset-4 col-md-4" style="padding: 40px 15px">
+						<h3 class="text-white">Be a part of our family & <br> get everything in your pocket</h3>
+						<div class="form-group getApp">
+							<label>Download the Booking Yo App</label>
+							<div class="input-group">
+			                    <span class="input-group-btn">
+			                    	
+			                      <input type="text" class="form-control" placeholder="Enter Phone Number">
+			                      <button class="btn btn-default bg-orange" type="button">Get App</button>
+			                    </span>
+							</div>
+		                 </div>
+		                 <div class="app-bottom-btn">						
+     						<div class="apple-btn" style="background: #222;"><a href="#"><img src="{{'frontend-assets/static-images/home/apple-app.svg'}}"></a></div>
+     						<div class="google-btn" style="background: #222;"><a href="#"><img src="{{'frontend-assets/static-images/home/google-play.svg'}}"></a></div>	
+     									
+     					</div>
+					</div>
+				</div>
+			</div>
+
         </div>	
+        
 			
     </div>
 

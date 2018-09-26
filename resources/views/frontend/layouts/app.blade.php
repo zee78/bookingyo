@@ -13,6 +13,8 @@
 	    <link href="{{ asset('frontend-assets/css/font-awesome.css') }}" rel="stylesheet">
         
         <link href="{{ asset('frontend-assets/css/toastr.css') }}" rel="stylesheet">
+
+        <link href="{{('frontend-assets/css/owl.carousel.min.css')}}" rel="stylesheet">
         
     </head>
     <body style="background: #C3C3C3;">
@@ -24,24 +26,30 @@
 
         @include('frontend.includes.footer')
 
-        <a href="#" class="job-notification">
+        <!-- <a href="#" class="job-notification">
             <i class="fa fa-bell"></i>
             <span class="notification-label">Subscribe for job notifications</span>
         </a>
 
         <a href="#" class="back-to-top" style="display: inline;">
             <i class="fa fa-arrow-up"></i>
-        </a>
+        </a> -->
         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
         <script src="{{ asset('frontend-assets/js/jquery.min.js') }}"></script>
         <!-- Include all compiled plugins (below), or include individual files as needed -->
         <script src="{{ asset('frontend-assets/js/bootstrap.min.js') }}"></script>
+        <!-- Owl Carousel -->
+
+        <script type="{{('frontend-assets/js/owl.carousel.min.js')}}"></script>
 		
 
         @yield('page-footer')
     </body>
 
     <script>
+       
+
+        
     var myIndex = 0;
     carousel();
 
@@ -67,5 +75,7 @@
 
         });
     </script>
-
+    <script>
+        
+    </script>
 </html>

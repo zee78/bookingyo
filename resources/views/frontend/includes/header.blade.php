@@ -3,7 +3,19 @@
     <div class="container">
       <div class="">
         <ul class="top_nav_2 pull-left hidden-sm">
-          <li><img src="{{'frontend-assets/static-images/header/logo_main.png'}}"></li>
+          <li class="logo-list"><img src="{{'frontend-assets/static-images/header/logo_main.png'}}">
+            <div class="dropdown country-dropdown">
+            <button class="language btn btn-primary dropdown-toggle" style="background:transparent;" type="button" data-toggle="dropdown">Pakistan
+            <span class="caret"></span></button>
+            <ul class="dropdown-menu">
+              <li><a href="">Korea</a></li>
+              <li><a href="">China</a></li>
+              <li><a href="">Japan</a></li>
+              <li><a href="">USA</a></li>
+              <li><a href="">UK</a></li>
+            </ul>
+            </div>
+          </li>
         </ul>
         <ul class="top_nav pull-right">
           <li><a href="#">00.00 USD $</a></li>
@@ -21,12 +33,12 @@
     <nav class="navbar navbar-inverse"> <!-- main-navbar -->
     
       <!-- <div class="navbar-header"> -->
-        <!-- <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
            <span class="sr-only">Toggle navigation</span>
            <span class="icon-bar"></span>
            <span class="icon-bar"></span>
            <span class="icon-bar"></span>
-         </button>-->
+         </button>
         
       <!-- </div> -->
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -40,7 +52,7 @@
                     <label><i class="fa fa-map-marker"></i></label>
                     <select class="form-control">
                       <option>Islamabad</option>
-                      <option>Islamabad</option>
+                      <option>Karachi</option>
                       <option>Islamabad</option>
                       <option>Islamabad</option>
                     </select>                  
