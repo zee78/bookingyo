@@ -54,3 +54,411 @@
 	width: 36%;
 }
 /*End Header Css*/
+
+
+/*Cover Image*/
+.cover_img  {
+background-size: cover;
+    height: 60vh;
+    overflow: hidden;
+}
+/*Text on cover image*/
+.about_hotel {
+	padding-top: 1px;
+    padding-left: 20px;
+	color: white;
+	background: black;
+    opacity: 0.5;
+    width: 30%;
+}
+.about_hotel ul {
+	list-style: none;
+}
+/*Links on bottom of cover image*/
+.about_hotel_bottom {
+	margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 178px;
+}
+.about_hotel_bottom .col  span{
+	position: absolute;
+	top: 20px;
+	color: white;
+	font-size: 15px;
+	/*opacity: 1;*/
+}
+.about_hotel_bottom .col {
+	background: black;
+	height: 70px;
+	opacity: 0.7;
+}
+/*Links on bottom of cover image Ends*/
+
+/*Tabs*/
+.main_tab {
+	background: white !important;
+}
+.nav-tab-main {
+	background: #E0E0E0;
+}
+.nav-tab-main li a{
+	color: black;
+}
+.nav-tab-main li a:hover{
+	background:  #38414A;
+	color: white;
+}
+.nav-tab-main li a:active {
+	background:  #38414A;
+	color: white;
+}
+.nav-tab-main li a:focus {
+	background:  #38414A;
+	color: white;
+}
+.nav-tab-main > .active > a, .nav-tab-main > .active > a:hover, .nav-tab-main > .active > a:focus{
+	background: #38414A !important;
+	color: white;
+}
+
+/*Tabs Border Css*/
+.nav-tab-main a:after {
+  content: " ";
+  position: absolute;
+  top: 0;
+  width: 23px;
+  height: 100%;
+  background-color: inherit;
+}
+.nav-tab-main a:after {
+      border-radius: 0 4px 0 0;
+    transform: skew(34deg);
+    right: -12px; / play with this one to give the LI border ~2px extrusion /
+  border-right: 1px solid #628E2F;
+  z-index: 1; / overlap next element /
+}
+
+/ LI ACTIVE  /
+
+nav-tab-main li.active {
+  border-bottom: 1px solid #fff;
+}
+
+nav-tab-main li.active a {
+  color: #8BBF50;
+  background: #fff;
+}
+
+nav-tab-main li.active a:before {
+  z-index: 1; / overlap prev element /
+}
+
+nav-tab-main li.active a:after {
+  border-bottom: 1px solid #fff;
+}
+.nav-tab-main>li>a {
+	padding: 7px 15px;
+}
+
+/*Tabs border css ends*/
+.review_section {
+	/*border: 1px solid #eee;*/
+	border: 1px solid #eee;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px 1px #dddcdc;
+}
+.review_section_row {
+	/*background: white;*/
+	margin-top: 30px;
+}
+.card {
+	border: 1px solid #e7e1e1;
+	padding: 15px;
+    height: 132px;
+    border-radius: 5px;
+
+}
+.card_span {
+	float: right;
+}
+.card_arrow {
+	padding-right: 5px;
+}
+.bg-success {
+    background-color: green;
+    color: white;
+}
+.bg-primary {
+    background-color: blue;
+    color: white;
+}
+.menu_btn_row {
+	/*margin-left: 0px;*/
+	/*margin-right: 0px;*/
+}
+
+.btn_row {
+	margin-left: 20px;
+}
+.btn_arrow {
+	margin-top: -5px;
+}
+.btn-success {
+	background: #01a201 !important;
+	color: white;
+}
+.fa_arrow {
+	/*background: green;*/
+}
+
+
+*,
+*:after,
+*:before {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.clearfix:before,
+.clearfix:after {
+	content: " ";
+	display: table;
+}
+
+.clearfix:after {
+	clear: both;
+}
+
+
+/*Fun begins*/
+.tab_container {
+	width: 90%;
+	margin: 0 auto;
+	padding-top: 70px;
+	position: relative;
+}
+
+input, section {
+  clear: both;
+  padding-top: 10px;
+  display: none;
+}
+
+.label_tabs {
+  font-weight: 700;
+  font-size: 18px;
+  display: block;
+  float: left;
+  width: 40%;
+  padding: 1.5em;
+  color: #757575;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+  background: #f0f0f0;
+}
+
+#tab1:checked ~ #content1,
+#tab2:checked ~ #content2,
+#tab3:checked ~ #content3,
+#tab4:checked ~ #content4,
+#tab5:checked ~ #content5 {
+  display: block;
+  padding: 20px;
+  background: #fff;
+  color: #999;
+  border-bottom: 2px solid #f0f0f0;
+}
+
+.tab_container .tab-content p,
+.tab_container .tab-content h3 {
+  -webkit-animation: fadeInScale 0.7s ease-in-out;
+  -moz-animation: fadeInScale 0.7s ease-in-out;
+  animation: fadeInScale 0.7s ease-in-out;
+}
+.tab_container .tab-content h3  {
+  text-align: center;
+}
+
+.tab_container [id^="tab"]:checked + label {
+  background: #fff;
+  box-shadow: inset 0 3px #0CE;
+}
+
+.tab_container [id^="tab"]:checked + label .fa {
+  color: #0CE;
+}
+
+label .fa {
+  font-size: 1.3em;
+  margin: 0 0.4em 0 0;
+}
+
+/*Media query*/
+@media only screen and (max-width: 930px) {
+  label span {
+    font-size: 14px;
+  }
+  label .fa {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  label span {
+    display: none;
+  }
+
+  label .fa {
+    font-size: 16px;
+  }
+
+  .tab_container {
+    width: 98%;
+  }
+}
+
+/*Content Animation*/
+@keyframes fadeInScale {
+  0% {
+  	transform: scale(0.9);
+  	opacity: 0;
+  }
+  
+  100% {
+  	transform: scale(1);
+  	opacity: 1;
+  }
+}
+.c100{
+	background-color: #fff !important;
+	font-size: 80px !important;
+}
+.pie, .c100 .bar, .c100.p51 .fill, .c100.p52 .fill, .c100.p53 .fill, .c100.p54 .fill, .c100.p55 .fill, .c100.p56 .fill, .c100.p57 .fill, .c100.p58 .fill, .c100.p59 .fill, .c100.p60 .fill, .c100.p61 .fill, .c100.p62 .fill, .c100.p63 .fill, .c100.p64 .fill, .c100.p65 .fill, .c100.p66 .fill, .c100.p67 .fill, .c100.p68 .fill, .c100.p69 .fill, .c100.p70 .fill, .c100.p71 .fill, .c100.p72 .fill, .c100.p73 .fill, .c100.p74 .fill, .c100.p75 .fill, .c100.p76 .fill, .c100.p77 .fill, .c100.p78 .fill, .c100.p79 .fill, .c100.p80 .fill, .c100.p81 .fill, .c100.p82 .fill, .c100.p83 .fill, .c100.p84 .fill, .c100.p85 .fill, .c100.p86 .fill, .c100.p87 .fill, .c100.p88 .fill, .c100.p89 .fill, .c100.p90 .fill, .c100.p91 .fill, .c100.p92 .fill, .c100.p93 .fill, .c100.p94 .fill, .c100.p95 .fill, .c100.p96 .fill, .c100.p97 .fill, .c100.p98 .fill, .c100.p99 .fill, .c100.p100 .fill{
+	border: 0.08em solid green !important;
+}
+.c100 > span{
+  left: 3px !important;
+    top: -2px;
+
+}
+.rating_circle {
+	color: green !important;
+}
+/* Three column layout */
+.side {
+    float: left;
+    width: 15%;
+    margin-top:10px;
+}
+
+.middle {
+    margin-top:10px;
+    float: left;
+    width: 70%;
+}
+
+/* Place text to the right */
+.right {
+    text-align: right;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* The bar container */
+.bar-container {
+    width: 30%;
+    background-color: #f1f1f1;
+    text-align: center;
+    color: white;
+}
+
+/* Individual bars */
+.bar-5 {width: 100%; height: 4px; background-color: #4CAF50;}
+.bar-4 {width: 100%; height: 4px; background-color: #4CAF50;}
+.bar-3 {width: 10%; height: 18px; background-color: #00bcd4;}
+.bar-40 {width: 40%; height: 4px; background-color: #4CAF50;}
+.bar-10 {width: 10%; height: 4px; background-color: #4CAF50;}
+.bar-1 {width: 2%; height: 4px; background-color: #ddd7d7;}
+.bar-end {width: 100%; height: 4px; background-color: #ddd7d7;}
+
+/* Responsive layout - make the columns stack on top of each other instead of next to each other */
+@media (max-width: 400px) {
+    .side, .middle {
+        width: 100%;
+    }
+    .right {
+        display: none;
+    }
+}
+.bar_div {
+	display: -webkit-box;
+}
+.bar_space {
+	margin-left: 5px;
+}
+.rating_figures {
+	margin-top: -18px;
+	float: right;
+}
+.gallery_section .col-xs-4 {
+	padding: 0 2px 8px;
+}
+.gallery_image {
+	overflow: hidden;
+    height: 60px;
+    border-radius: 5px;
+    border: 1px solid #bbbbbb
+}
+.add_new_img {
+	background: #adaaaa;
+	overflow: hidden;
+    height: 66px;
+	/*display: block;*/
+}
+.fa-plus-icon {
+
+}
+
+
+
+
+
+/*Media Query*/
+@media screen and (max-width: 768px) {
+
+	.bar-container {
+		 width: 15%;
+	}
+	.label_tabs {
+		padding: 0.5em;
+	}
+
+	.menu_btn_row .col-xs-12 {
+		padding-bottom: 8px;
+	}
+	.review_card h4 {
+		font-size: 14px !important;
+	}
+	.review_card p {
+		font-size: 11px !important;
+	}
+	.review_card a {
+		font-size: 11px !important;
+	}
+	.about_hotel {
+		width: 100%;
+	}
+	.about_hotel_bottom {
+		margin-top: 130px;
+	}
+	.about_hotel_bottom .col{
+		height: 63px;
+	}
+}
