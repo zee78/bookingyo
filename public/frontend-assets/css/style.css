@@ -9,19 +9,19 @@
 .top_header ul li:last-child a{line-height: 0}
 .top_header ul li a{font-size: 16px;color: #999;}
 .top_header ul li a img{width: 53px;height: 53px;margin-top: -6px;}
-.navbar-nav{padding-top: 14px;  }
+.navbar-nav{padding-top: 17px;  }
 .navbar{  border-radius: 0;  height: 80px;  opacity:0.9;}
 .navbar.navbar-inverse{background: #161e2c;margin-bottom: 0;opacity: 1;}
-.navbar-inverse .navbar-nav>li>a{font-size: 16px;color: #fff;text-transform: uppercase;}
-.navbar-inverse .navbar-nav>li:last-child{padding-left: 15px;}
+.navbar-inverse .navbar-nav>li>a{color: #fff;}
+/*.navbar-inverse .navbar-nav>li:last-child{padding-left: 15px;}*/
 .navbar.navbar-defualt{background: #d0a620;margin-bottom: 0;height: 50px;}
 .navbar.navbar-defualt .navbar-nav{padding-top: 0;}
 .navbar.navbar-defualt .navbar-nav li a:hover{background: transparent;}
 .navbar.navbar-defualt .navbar-nav li>a{color: #fff;font-size: 16px;}
 .navbar.navbar-defualt .navbar-nav li:first-child a{padding-left: 0;}
 .navbar.navbar-defualt .navbar-nav li>a.start_project{background: #161e2c;padding-top: 12px;padding-bottom: 12px;margin-top: 2px;padding-left:15px;}
-.navbar.navbar-inverse .input-group{width: 300px;background: transparent;padding-right: 0px;border-radius: 0;}
-.navbar.navbar-inverse .input-group .form-control{border-radius: 0;color: #fff;height: 44px;}
+.navbar.navbar-inverse .input-group{width: 318px;background: transparent;padding-right: 0px;border-radius: 0;}
+.navbar.navbar-inverse .input-group .form-control{border-radius: 0;color: #222;height: 44px;}
 .navbar.navbar-inverse .input-group .btn-default{
 	background: #FF6D00;
 	border-radius: 0;color: #fff;height: 44px;border-left: 0; border: none; border-bottom-right-radius: 5px !important;
@@ -30,13 +30,17 @@
 }
 .navbar.navbar-inverse .input-group input::-webkit-input-placeholder{color: #fff;}
 
+.navbar-inverse .navbar-brand{
+	color: white;
+	padding: 19px 15px;
+} 
 .search-box{
 	display: -webkit-box;
 }
 .search-box label{
 	position: absolute;
     top: 8px;
-    left: 5px;
+    left: 8px;
     z-index: 999;
     font-size: 20px;
     color: #979797;
@@ -45,6 +49,7 @@
 	background: #EFEFEF;
 	border-bottom-left-radius: 5px !important;
 	border-top-left-radius: 5px !important;
+	padding-left: 17px;
 }
 .search-box .form-control{
 	border-radius: 0;
@@ -425,14 +430,245 @@ label .fa {
 .fa-plus-icon {
 
 }
+.search-bar{
+	left: 92% !important;
+	color: #4285F4 !important;
+}
+.right-menu{
+	padding-top: 7px;
+}
+.right-menu .navbar-nav{
+	margin-left: 45px;
+}
+.right-menu li>a{
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.right-menu li> .btn{
+	border-radius: 0;
+}
+.listing-btn{
+	background: #FF6D00;
+}
+.dropdown button{
+	border: transparent;
+}
+.logo-list{
+	display: -webkit-box !important;
+}
+.logo-list .country-dropdown{
+	padding-top: 11px;
+}
+.country-dropdown .btn{
+	color: black !important;
+}
+.country-dropdown .btn .caret{
+	color: red;
+}
+.logo-list .dropdown-menu{
+	box-shadow: none;
+	border-radius: 0;
+	border-color: black;
+}
+.logo-list .dropdown-menu >li{
+	    padding: 10px 20px 10px 0 !important;
+}
+.logo-list .dropdown-menu >li>a{
+	font-size: 14px;
+}
+/*End Header Css*/
+
+/*Home Page*/
+.container{
+	padding-left: 0;
+	padding-right: 0;
+}
+.contentblock{
+	margin-top: 2px;
+}
+.contentblock .col-md-7, .col-md-5{
+	padding-left: 0;
+	padding-right: 0;
+}
+.carousel-indicators{
+	text-align: left;
+	left: 80%;
+}
+.contentblock .col-md-5 .col-md-6{
+	padding-left: 2px;
+    padding-right: 2px;
+}
+.contentblock .col-md-5 .col-md-6 img{
+	width: 100%;
+	height: 222px;
+}
+.overlay-text{
+	position: absolute;
+	z-index: 999;
+	top: 74%;
+	left: 7px;
+	color: white;
+	font-weight: 600;
+}
+.overlay-text h4{
+	text-transform: uppercase;
+}
+.contentblock .col-md-12{
+	padding-right: 2px;
+	padding-left: 0;
+	display: -webkit-box;
+}
+.contentblock .col-md-12 .col-md-2-1{
+	width: 20%;
+	padding-left: 2px;
+	padding-right: 2px;
+}
+.contentblock .col-md-12 .col-md-2-1 img{
+	width: 100%;
+	height: 222px;
+}
+.contentblock2 .col-md-12{
+	padding-right: 2px;
+	padding-left: 0;
+	display: -webkit-box;
+}
+.contentblock2 .col-md-12 .col-md-2-1{
+	width: 20%;
+	padding-left: 2px;
+	padding-right: 2px;
+}
+.contentblock2 .col-md-12 .col-md-2-1 img{
+	width: 100%;
+	height: 222px;
+}
+.shopsBlock{
+	padding-top: 15px;
+    padding-bottom: 15px;
+	border: 1px solid lightgray;
+    box-shadow: 0px 0px 2px 1px #d3d3d3f7;
+	border-radius: 6px;
+	margin-top: 25px;
+}
+.shopsBlock .col-md-4{
+	text-align: center;
+}
+.shopsBlock .col-md-4 a{
+    color: #c0bfbf;
+    text-decoration: none;
+}
+.shopsBlock .col-md-4 a .fa{
+    color: #222;
+    padding-left: 3px;
+}
+.shopsBlock .col-md-4:nth-Child(4){
+	padding-top: 15px;
+}
+/*.shopsBlock .col-md-4:nth-Child(5){
+	padding-top: 15px;
+}
+.shopsBlock .col-md-4:nth-Child(last){
+	padding-top: 15px;
+}*/
+.shopsBlock .col-md-4 img{
+	width: 100%;
+	height: 225px;
+}
+.getApp label{
+	color: white;
+}
+.getApp input{
+	height: 48px;
+}
+.getApp .btn{
+	padding: 14px 15px;
+	border: none;
+}
+.bg-orange{
+	background: #FF6D00;
+	color: white;
+}
+.text-white{
+	color: white;
+}
+.app-bottom-btn{
+	list-style: none;
+	display: flex;
+	padding-left: 30px;
+}
+/*.app-bottom-btn li{
+	background: #222;
+	height: 45px;
+}*/
+.app-bottom-btn a img{
+	height: 41px !important;
+} 
+.apple-btn, .google-btn{
+	margin-left: 25px;
+    background: #222;
+    border-radius: 5px;
+}
+.add_image_icon{
+	margin-left: 40px;
+}
+.add_image_icon  i{
+	margin-top: 10px;
+}
+.add_image_text  {
+	margin-left: 18px;
+}
 
 
-
-
+/*Footer Css*/
+.top-footer-section{
+	background: #fff;
+	border-top: 1px solid lightgray;
+}
+.top-footer-section .row{
+    padding: 5px 35px;
+}
+.top-footer-section .row .col-md-2 a{
+	color: gray;
+	font-size: 17px;
+}
+.footer-sec-2{
+	padding-left: 0;
+	padding-right: 0;
+}
+.footer-sec-2 ul{
+	list-style: none;
+	padding-left: 0;
+}
+.footer-sec-2 ul li a, .footer-sec-2 ul li{
+	color: #929292;
+    cursor: pointer;
+    font-size: 12px;
+    padding-left: 3px;
+    float: left;
+}
+.footer-sec-2 ul li a, .footer-sec-2 ul li{
+    color: #929292;
+    cursor: pointer;
+}
+.bottom-footer-section{
+	background: #DEDEDE;
+	padding: 15px 26px;
+}
+.copyright a{
+	color: #222;
+}
+/*End Footer*/
 
 /*Media Query*/
-@media screen and (max-width: 768px) {
-
+@media  only screen and (max-width: 767px){
+	.col-md-2-1{
+		width: 100% !important;
+	}
+	.contentblock .col-md-12 {
+    	display: block;
+	}
+	.contentblock2 .col-md-12{
+		display: block;
+	}
 	.bar-container {
 		 width: 15%;
 	}

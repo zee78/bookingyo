@@ -15,6 +15,7 @@
         <link href="{{asset('frontend-assets/css/prettyPhoto.css')}}" rel='stylesheet' type='text/css' />
         
         <link href="{{ asset('frontend-assets/css/toastr.css') }}" rel="stylesheet">
+
         <style type="text/css">
             
             ul li { display: inline; }
@@ -35,6 +36,9 @@
                 width: 1000px;
             }
         </style>
+
+        <link href="{{('frontend-assets/css/owl.carousel.min.css')}}" rel="stylesheet">
+        
     </head>
     <body style="background: #C3C3C3;">
         @include('frontend.includes.header')
@@ -45,20 +49,23 @@
 
         @include('frontend.includes.footer')
 
-        <a href="#" class="job-notification">
+        <!-- <a href="#" class="job-notification">
             <i class="fa fa-bell"></i>
             <span class="notification-label">Subscribe for job notifications</span>
         </a>
 
         <a href="#" class="back-to-top" style="display: inline;">
             <i class="fa fa-arrow-up"></i>
-        </a>
+        </a> -->
         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
         <script src="{{ asset('frontend-assets/js/jquery.min.js') }}"></script>
         <!-- Include all compiled plugins (below), or include individual files as needed -->
         <script src="{{ asset('frontend-assets/js/bootstrap.min.js') }}"></script>
+        <!-- Pretty Photo for Slider -->
         <script src="{{ asset('frontend-assets/js/jquery.prettyPhoto.js') }}"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-bar-rating/1.2.2/jquery.barrating.min.js"></script>
+        <!-- Owl Carousel -->
+        <script type="{{('frontend-assets/js/owl.carousel.min.js')}}"></script>
 		
         <script type="text/javascript" charset="utf-8">
             $(document).ready(function(){
@@ -83,4 +90,37 @@
 
         @yield('page-footer')
     </body>
+
+    <script>
+       
+
+        
+    var myIndex = 0;
+    carousel();
+
+    function carousel() {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        for (i = 0; i < x.length; i++) {
+           x[i].style.display = "none";  
+        }
+        myIndex++;
+        if (myIndex > x.length) {myIndex = 1}    
+        x[myIndex-1].style.display = "block";  
+        setTimeout(carousel, 2000); // Change image every 2 seconds
+    }
+    </script>
+    <script type="text/javascript">
+        $(function() {
+
+            $('#da-slider').cslider({
+                autoplay : true,
+                bgincrement : 450
+            });
+
+        });
+    </script>
+    <script>
+        
+    </script>
 </html>

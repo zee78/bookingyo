@@ -123,7 +123,8 @@
 										<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
 											<div class="gallery_image">
 												<div class="add_new_img">
-													<i class="fa fa-plus fa-plus-icon"></i>
+													<span class="add_image_icon"><i class="fa fa-plus fa-plus-icon"></i></span><br>
+													<span class="add_image_text">Add New</span>
 												</div>
 											</div>
 										</div>	
