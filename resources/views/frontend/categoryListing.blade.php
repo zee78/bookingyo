@@ -4,12 +4,11 @@
 
 @section('content')
 
-<section>
-	<div class="container">
-		<div>
+<div class="container" style="background: #fff; padding-bottom: 25px;">
+	<div>
 		Google Adds
 	</div>
-	<div class="row" style="margin: 0;">
+	<div class="row" style="margin: 0;display: -webkit-box;">
 		<!-- Left SideBar -->
 		<div class="col-md-2-5 left-sidebar">
 			<div class="title">
@@ -186,15 +185,522 @@
 					</ul>
 					<button class="btn btn-default search-storesBtn">Search All Stores</button>
 				</div>
+				<div class="popular-area">
+					<div class="title2">
+						<h5>Favorite Store Search</h5>
+					</div>
+					<ul>
+						<li><i class="fa fa-circle" aria-hidden="true"></i>Strike Fang Sangam Branch</li>
+						<li><i class="fa fa-circle" aria-hidden="true"></i>Financial Safety Management</li>
+						<li><i class="fa fa-circle" aria-hidden="true"></i>SPI International</li>
+						<li><i class="fa fa-circle" aria-hidden="true"></i>Realshot Practice Shooting Archery</li>
+					</ul>
+					<button class="btn btn-default">Search All Stores</button>
+				</div>
+
+				<div class="favorite-store">
+					<div class="title2">
+						<h5>My Favorite Store</h5>
+					</div>
+					<div class="row" style="margin: 0;">
+						<div class="col-md-4">
+							<img src="{{('frontend-assets/static-images/listing/daghchy.jpg')}}" style="width: 100%;">
+						</div>
+						<div class="col-md-8">
+							<p><b style="color: #222222c7;">Kitchn Pan</b></p>
+							<p><b class="text-success">Price :</b> $1500</p>
+							<a href=""><b>Add to Cart</b></a>
+						</div>
+					</div>
+					<div class="row" style="margin: 0;">
+						<div class="col-md-4">
+							<img src="{{('frontend-assets/static-images/listing/iphone.jpg')}}" style="width: 100%;">
+						</div>
+						<div class="col-md-8">
+							<p><b style="color: #222222c7;">I Phone 8</b></p>
+							<p><b class="text-success">Price :</b> $1100</p>
+							<a href=""><b>Add to Cart</b></a>
+						</div>
+					</div>
+				</div>
+				<div class="coupon">
+					<div class="title2">
+						<h5>Coupon</h5>
+					</div>
+					<button class="btn btn-default">Search All Stores</button>
+				</div>
 
 			</div>
 		</div>
 		<!-- End -->
 		<div class="col-md-9-5">
-			
+			<ul class="list-inline">
+				<span class="curve">Sort Results By</span>
+				<li><a href="">Top Results</a></li>
+				<li><a href="">Location</a></li>
+				<li><a href="">Distance</a></li>
+				<li><a href="">Rating <i class="fa fa-long-arrow-up" aria-hidden="true"></i></a></li>
+				<li><a href=""><i class="fa fa-filter"></i> Filter</a></li>
+				<li class="dropdown list-dropdown">
+				    <a class="dropdown-toggle" data-toggle="dropdown" href="#"><i class="fa fa-list" aria-hidden="true"></i> List
+				    <span class="caret"></span></a>
+				    <ul class="dropdown-menu">
+				      <li style="display: block;"><a href="#"><i class="fa fa-picture-o" aria-hidden="true"></i> Image</a></li>
+				    </ul>
+				</li>
+				<li><a href=""><i class="fa fa-share-alt" aria-hidden="true"></i></a></li>
+			</ul>
+			<div class="row listing-grid">
+				<div class="col-md-3">
+					<img src="{{('frontend-assets/static-images/listing/casualDress.jpg')}}" style="width: 100%;height: 192px;">
+					<div class="picture-overlay">
+						<p>
+							<span>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+							</span>
+							<span> 3 votes</span>
+							<span class="pull-right" style="padding-right: 15px;">120k</span>
+						</p>					
+					</div>
+				</div>
+				<div class="col-md-9">
+					<div class="row">
+						<div class="col-md-9 grid-detail">
+							<h4>Casual Outfit</h4>
+							<p><i class="fa fa-phone" aria-hidden="true"></i> 031457922</p>
+							<p><i class="fa fa-map-marker" aria-hidden="true"></i> Lorem ipsum dolor sit amet</p>
+							<p><i class="fa fa-product-hunt" aria-hidden="true"></i> Jeans, Casual Shirts, Pants , Jumper, Shoes</p>
+							<ul class="list-inline">
+								<li style="padding-left: 7px;"><i class="fa fa-video-camera text-danger" aria-hidden="true"></i></li>
+								<li><i class="fa fa-comments text-info" aria-hidden="true"></i></li>
+								<li><i class="fa fa-money" aria-hidden="true"></i></li>
+								<li><i class="fa fa-truck" aria-hidden="true"></i></li>
+								<li style="border-right: 0;"><i class="fa fa-file-archive-o" aria-hidden="true"></i></li>
+								<span>100</span>
+							</ul>
+						</div>
+						<div class="col-md-3 table-btn">
+							<button type="button" class="btn btn-success">Book a Table<i class="fa fa-chevron-circle-right fa_arrow"></i></button>
+							<button type="button" class="btn btn-success">Order Online<i class="fa fa-chevron-circle-right fa_arrow"></i></button>
+						</div>
+					</div>
+					<div class="row bottom-row">
+						<div class="col-md-12" style="display: -webkit-box;">
+							<div class="bottom-row-btn">
+								<button type="button" class="btn btn-default btn-xs">Email</button>
+								<button type="button" class="btn btn-default btn-xs">Edit</button>
+								<button type="button" class="btn btn-default btn-xs">Own This</button>
+								<button type="button" class="btn btn-default btn-xs">Rate This</button>
+							</div>
+							<div class="paymnt-section">
+								<span><i class="fa fa-credit-card-alt" aria-hidden="true"></i> $$$$</span>
+								<span><i class="fa fa-shopping-bag" aria-hidden="true"></i> 15% OFF</span>
+								<span><i class="fa fa-stumbleupon-circle" aria-hidden="true"></i> 700P</span>
+								<span><i class="fa fa-binoculars" aria-hidden="true"></i> Distance 8.7Km</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row listing-grid">
+				<div class="col-md-3">
+					<img src="{{('frontend-assets/static-images/listing/casualDress.jpg')}}" style="width: 100%;height: 192px;">
+					<div class="picture-overlay">
+						<p>
+							<span>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+							</span>
+							<span> 3 votes</span>
+							<span class="pull-right" style="padding-right: 15px;">120k</span>
+						</p>					
+					</div>
+				</div>
+				<div class="col-md-9">
+					<div class="row">
+						<div class="col-md-9 grid-detail">
+							<h4>Casual Outfit</h4>
+							<p><i class="fa fa-phone" aria-hidden="true"></i> 031457922</p>
+							<p><i class="fa fa-map-marker" aria-hidden="true"></i> Lorem ipsum dolor sit amet</p>
+							<p><i class="fa fa-product-hunt" aria-hidden="true"></i> Jeans, Casual Shirts, Pants , Jumper, Shoes</p>
+							<ul class="list-inline">
+								<li style="padding-left: 7px;"><i class="fa fa-video-camera text-danger" aria-hidden="true"></i></li>
+								<li><i class="fa fa-comments text-info" aria-hidden="true"></i></li>
+								<li><i class="fa fa-money" aria-hidden="true"></i></li>
+								<li><i class="fa fa-truck" aria-hidden="true"></i></li>
+								<li style="border-right: 0;"><i class="fa fa-file-archive-o" aria-hidden="true"></i></li>
+								<span>100</span>
+							</ul>
+						</div>
+						<div class="col-md-3 table-btn">
+							<button type="button" class="btn btn-success">Book a Table<i class="fa fa-chevron-circle-right fa_arrow"></i></button>
+							<button type="button" class="btn btn-success">Order Online<i class="fa fa-chevron-circle-right fa_arrow"></i></button>
+						</div>
+					</div>
+					<div class="row bottom-row">
+						<div class="col-md-12" style="display: -webkit-box;">
+							<div class="bottom-row-btn">
+								<button type="button" class="btn btn-default btn-xs">Email</button>
+								<button type="button" class="btn btn-default btn-xs">Edit</button>
+								<button type="button" class="btn btn-default btn-xs">Own This</button>
+								<button type="button" class="btn btn-default btn-xs">Rate This</button>
+							</div>
+							<div class="paymnt-section">
+								<span><i class="fa fa-credit-card-alt" aria-hidden="true"></i> $$$$</span>
+								<span><i class="fa fa-shopping-bag" aria-hidden="true"></i> 15% OFF</span>
+								<span><i class="fa fa-stumbleupon-circle" aria-hidden="true"></i> 700P</span>
+								<span><i class="fa fa-binoculars" aria-hidden="true"></i> Distance 8.7Km</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row listing-grid">
+				<div class="col-md-3">
+					<img src="{{('frontend-assets/static-images/listing/casualDress.jpg')}}" style="width: 100%;height: 192px;">
+					<div class="picture-overlay">
+						<p>
+							<span>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+							</span>
+							<span> 3 votes</span>
+							<span class="pull-right" style="padding-right: 15px;">120k</span>
+						</p>					
+					</div>
+				</div>
+				<div class="col-md-9">
+					<div class="row">
+						<div class="col-md-9 grid-detail">
+							<h4>Casual Outfit</h4>
+							<p><i class="fa fa-phone" aria-hidden="true"></i> 031457922</p>
+							<p><i class="fa fa-map-marker" aria-hidden="true"></i> Lorem ipsum dolor sit amet</p>
+							<p><i class="fa fa-product-hunt" aria-hidden="true"></i> Jeans, Casual Shirts, Pants , Jumper, Shoes</p>
+							<ul class="list-inline">
+								<li style="padding-left: 7px;"><i class="fa fa-video-camera text-danger" aria-hidden="true"></i></li>
+								<li><i class="fa fa-comments text-info" aria-hidden="true"></i></li>
+								<li><i class="fa fa-money" aria-hidden="true"></i></li>
+								<li><i class="fa fa-truck" aria-hidden="true"></i></li>
+								<li style="border-right: 0;"><i class="fa fa-file-archive-o" aria-hidden="true"></i></li>
+								<span>100</span>
+							</ul>
+						</div>
+						<div class="col-md-3 table-btn">
+							<button type="button" class="btn btn-success">Book a Table<i class="fa fa-chevron-circle-right fa_arrow"></i></button>
+							<button type="button" class="btn btn-success">Order Online<i class="fa fa-chevron-circle-right fa_arrow"></i></button>
+						</div>
+					</div>
+					<div class="row bottom-row">
+						<div class="col-md-12" style="display: -webkit-box;">
+							<div class="bottom-row-btn">
+								<button type="button" class="btn btn-default btn-xs">Email</button>
+								<button type="button" class="btn btn-default btn-xs">Edit</button>
+								<button type="button" class="btn btn-default btn-xs">Own This</button>
+								<button type="button" class="btn btn-default btn-xs">Rate This</button>
+							</div>
+							<div class="paymnt-section">
+								<span><i class="fa fa-credit-card-alt" aria-hidden="true"></i> $$$$</span>
+								<span><i class="fa fa-shopping-bag" aria-hidden="true"></i> 15% OFF</span>
+								<span><i class="fa fa-stumbleupon-circle" aria-hidden="true"></i> 700P</span>
+								<span><i class="fa fa-binoculars" aria-hidden="true"></i> Distance 8.7Km</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row listing-grid">
+				<div class="col-md-3">
+					<img src="{{('frontend-assets/static-images/listing/casualDress.jpg')}}" style="width: 100%;height: 192px;">
+					<div class="picture-overlay">
+						<p>
+							<span>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+							</span>
+							<span> 3 votes</span>
+							<span class="pull-right" style="padding-right: 15px;">120k</span>
+						</p>					
+					</div>
+				</div>
+				<div class="col-md-9">
+					<div class="row">
+						<div class="col-md-9 grid-detail">
+							<h4>Casual Outfit</h4>
+							<p><i class="fa fa-phone" aria-hidden="true"></i> 031457922</p>
+							<p><i class="fa fa-map-marker" aria-hidden="true"></i> Lorem ipsum dolor sit amet</p>
+							<p><i class="fa fa-product-hunt" aria-hidden="true"></i> Jeans, Casual Shirts, Pants , Jumper, Shoes</p>
+							<ul class="list-inline">
+								<li style="padding-left: 7px;"><i class="fa fa-video-camera text-danger" aria-hidden="true"></i></li>
+								<li><i class="fa fa-comments text-info" aria-hidden="true"></i></li>
+								<li><i class="fa fa-money" aria-hidden="true"></i></li>
+								<li><i class="fa fa-truck" aria-hidden="true"></i></li>
+								<li style="border-right: 0;"><i class="fa fa-file-archive-o" aria-hidden="true"></i></li>
+								<span>100</span>
+							</ul>
+						</div>
+						<div class="col-md-3 table-btn">
+							<button type="button" class="btn btn-success">Book a Table<i class="fa fa-chevron-circle-right fa_arrow"></i></button>
+							<button type="button" class="btn btn-success">Order Online<i class="fa fa-chevron-circle-right fa_arrow"></i></button>
+						</div>
+					</div>
+					<div class="row bottom-row">
+						<div class="col-md-12" style="display: -webkit-box;">
+							<div class="bottom-row-btn">
+								<button type="button" class="btn btn-default btn-xs">Email</button>
+								<button type="button" class="btn btn-default btn-xs">Edit</button>
+								<button type="button" class="btn btn-default btn-xs">Own This</button>
+								<button type="button" class="btn btn-default btn-xs">Rate This</button>
+							</div>
+							<div class="paymnt-section">
+								<span><i class="fa fa-credit-card-alt" aria-hidden="true"></i> $$$$</span>
+								<span><i class="fa fa-shopping-bag" aria-hidden="true"></i> 15% OFF</span>
+								<span><i class="fa fa-stumbleupon-circle" aria-hidden="true"></i> 700P</span>
+								<span><i class="fa fa-binoculars" aria-hidden="true"></i> Distance 8.7Km</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row listing-grid">
+				<div class="col-md-3">
+					<img src="{{('frontend-assets/static-images/listing/casualDress.jpg')}}" style="width: 100%;height: 192px;">
+					<div class="picture-overlay">
+						<p>
+							<span>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+							</span>
+							<span> 3 votes</span>
+							<span class="pull-right" style="padding-right: 15px;">120k</span>
+						</p>					
+					</div>
+				</div>
+				<div class="col-md-9">
+					<div class="row">
+						<div class="col-md-9 grid-detail">
+							<h4>Casual Outfit</h4>
+							<p><i class="fa fa-phone" aria-hidden="true"></i> 031457922</p>
+							<p><i class="fa fa-map-marker" aria-hidden="true"></i> Lorem ipsum dolor sit amet</p>
+							<p><i class="fa fa-product-hunt" aria-hidden="true"></i> Jeans, Casual Shirts, Pants , Jumper, Shoes</p>
+							<ul class="list-inline">
+								<li style="padding-left: 7px;"><i class="fa fa-video-camera text-danger" aria-hidden="true"></i></li>
+								<li><i class="fa fa-comments text-info" aria-hidden="true"></i></li>
+								<li><i class="fa fa-money" aria-hidden="true"></i></li>
+								<li><i class="fa fa-truck" aria-hidden="true"></i></li>
+								<li style="border-right: 0;"><i class="fa fa-file-archive-o" aria-hidden="true"></i></li>
+								<span>100</span>
+							</ul>
+						</div>
+						<div class="col-md-3 table-btn">
+							<button type="button" class="btn btn-success">Book a Table<i class="fa fa-chevron-circle-right fa_arrow"></i></button>
+							<button type="button" class="btn btn-success">Order Online<i class="fa fa-chevron-circle-right fa_arrow"></i></button>
+						</div>
+					</div>
+					<div class="row bottom-row">
+						<div class="col-md-12" style="display: -webkit-box;">
+							<div class="bottom-row-btn">
+								<button type="button" class="btn btn-default btn-xs">Email</button>
+								<button type="button" class="btn btn-default btn-xs">Edit</button>
+								<button type="button" class="btn btn-default btn-xs">Own This</button>
+								<button type="button" class="btn btn-default btn-xs">Rate This</button>
+							</div>
+							<div class="paymnt-section">
+								<span><i class="fa fa-credit-card-alt" aria-hidden="true"></i> $$$$</span>
+								<span><i class="fa fa-shopping-bag" aria-hidden="true"></i> 15% OFF</span>
+								<span><i class="fa fa-stumbleupon-circle" aria-hidden="true"></i> 700P</span>
+								<span><i class="fa fa-binoculars" aria-hidden="true"></i> Distance 8.7Km</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row listing-grid">
+				<div class="col-md-3">
+					<img src="{{('frontend-assets/static-images/listing/casualDress.jpg')}}" style="width: 100%;height: 192px;">
+					<div class="picture-overlay">
+						<p>
+							<span>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+							</span>
+							<span> 3 votes</span>
+							<span class="pull-right" style="padding-right: 15px;">120k</span>
+						</p>					
+					</div>
+				</div>
+				<div class="col-md-9">
+					<div class="row">
+						<div class="col-md-9 grid-detail">
+							<h4>Casual Outfit</h4>
+							<p><i class="fa fa-phone" aria-hidden="true"></i> 031457922</p>
+							<p><i class="fa fa-map-marker" aria-hidden="true"></i> Lorem ipsum dolor sit amet</p>
+							<p><i class="fa fa-product-hunt" aria-hidden="true"></i> Jeans, Casual Shirts, Pants , Jumper, Shoes</p>
+							<ul class="list-inline">
+								<li style="padding-left: 7px;"><i class="fa fa-video-camera text-danger" aria-hidden="true"></i></li>
+								<li><i class="fa fa-comments text-info" aria-hidden="true"></i></li>
+								<li><i class="fa fa-money" aria-hidden="true"></i></li>
+								<li><i class="fa fa-truck" aria-hidden="true"></i></li>
+								<li style="border-right: 0;"><i class="fa fa-file-archive-o" aria-hidden="true"></i></li>
+								<span>100</span>
+							</ul>
+						</div>
+						<div class="col-md-3 table-btn">
+							<button type="button" class="btn btn-success">Book a Table<i class="fa fa-chevron-circle-right fa_arrow"></i></button>
+							<button type="button" class="btn btn-success">Order Online<i class="fa fa-chevron-circle-right fa_arrow"></i></button>
+						</div>
+					</div>
+					<div class="row bottom-row">
+						<div class="col-md-12" style="display: -webkit-box;">
+							<div class="bottom-row-btn">
+								<button type="button" class="btn btn-default btn-xs">Email</button>
+								<button type="button" class="btn btn-default btn-xs">Edit</button>
+								<button type="button" class="btn btn-default btn-xs">Own This</button>
+								<button type="button" class="btn btn-default btn-xs">Rate This</button>
+							</div>
+							<div class="paymnt-section">
+								<span><i class="fa fa-credit-card-alt" aria-hidden="true"></i> $$$$</span>
+								<span><i class="fa fa-shopping-bag" aria-hidden="true"></i> 15% OFF</span>
+								<span><i class="fa fa-stumbleupon-circle" aria-hidden="true"></i> 700P</span>
+								<span><i class="fa fa-binoculars" aria-hidden="true"></i> Distance 8.7Km</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row listing-grid">
+				<div class="col-md-3">
+					<img src="{{('frontend-assets/static-images/listing/casualDress.jpg')}}" style="width: 100%;height: 192px;">
+					<div class="picture-overlay">
+						<p>
+							<span>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+							</span>
+							<span> 3 votes</span>
+							<span class="pull-right" style="padding-right: 15px;">120k</span>
+						</p>					
+					</div>
+				</div>
+				<div class="col-md-9">
+					<div class="row">
+						<div class="col-md-9 grid-detail">
+							<h4>Casual Outfit</h4>
+							<p><i class="fa fa-phone" aria-hidden="true"></i> 031457922</p>
+							<p><i class="fa fa-map-marker" aria-hidden="true"></i> Lorem ipsum dolor sit amet</p>
+							<p><i class="fa fa-product-hunt" aria-hidden="true"></i> Jeans, Casual Shirts, Pants , Jumper, Shoes</p>
+							<ul class="list-inline">
+								<li style="padding-left: 7px;"><i class="fa fa-video-camera text-danger" aria-hidden="true"></i></li>
+								<li><i class="fa fa-comments text-info" aria-hidden="true"></i></li>
+								<li><i class="fa fa-money" aria-hidden="true"></i></li>
+								<li><i class="fa fa-truck" aria-hidden="true"></i></li>
+								<li style="border-right: 0;"><i class="fa fa-file-archive-o" aria-hidden="true"></i></li>
+								<span>100</span>
+							</ul>
+						</div>
+						<div class="col-md-3 table-btn">
+							<button type="button" class="btn btn-success">Book a Table<i class="fa fa-chevron-circle-right fa_arrow"></i></button>
+							<button type="button" class="btn btn-success">Order Online<i class="fa fa-chevron-circle-right fa_arrow"></i></button>
+						</div>
+					</div>
+					<div class="row bottom-row">
+						<div class="col-md-12" style="display: -webkit-box;">
+							<div class="bottom-row-btn">
+								<button type="button" class="btn btn-default btn-xs">Email</button>
+								<button type="button" class="btn btn-default btn-xs">Edit</button>
+								<button type="button" class="btn btn-default btn-xs">Own This</button>
+								<button type="button" class="btn btn-default btn-xs">Rate This</button>
+							</div>
+							<div class="paymnt-section">
+								<span><i class="fa fa-credit-card-alt" aria-hidden="true"></i> $$$$</span>
+								<span><i class="fa fa-shopping-bag" aria-hidden="true"></i> 15% OFF</span>
+								<span><i class="fa fa-stumbleupon-circle" aria-hidden="true"></i> 700P</span>
+								<span><i class="fa fa-binoculars" aria-hidden="true"></i> Distance 8.7Km</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row listing-grid">
+				<div class="col-md-3">
+					<img src="{{('frontend-assets/static-images/listing/casualDress.jpg')}}" style="width: 100%;height: 192px;">
+					<div class="picture-overlay">
+						<p>
+							<span>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+							</span>
+							<span> 3 votes</span>
+							<span class="pull-right" style="padding-right: 15px;">120k</span>
+						</p>					
+					</div>
+				</div>
+				<div class="col-md-9">
+					<div class="row">
+						<div class="col-md-9 grid-detail">
+							<h4>Casual Outfit</h4>
+							<p><i class="fa fa-phone" aria-hidden="true"></i> 031457922</p>
+							<p><i class="fa fa-map-marker" aria-hidden="true"></i> Lorem ipsum dolor sit amet</p>
+							<p><i class="fa fa-product-hunt" aria-hidden="true"></i> Jeans, Casual Shirts, Pants , Jumper, Shoes</p>
+							<ul class="list-inline">
+								<li style="padding-left: 7px;"><i class="fa fa-video-camera text-danger" aria-hidden="true"></i></li>
+								<li><i class="fa fa-comments text-info" aria-hidden="true"></i></li>
+								<li><i class="fa fa-money" aria-hidden="true"></i></li>
+								<li><i class="fa fa-truck" aria-hidden="true"></i></li>
+								<li style="border-right: 0;"><i class="fa fa-file-archive-o" aria-hidden="true"></i></li>
+								<span>100</span>
+							</ul>
+						</div>
+						<div class="col-md-3 table-btn">
+							<button type="button" class="btn btn-success">Book a Table<i class="fa fa-chevron-circle-right fa_arrow"></i></button>
+							<button type="button" class="btn btn-success">Order Online<i class="fa fa-chevron-circle-right fa_arrow"></i></button>
+						</div>
+					</div>
+					<div class="row bottom-row">
+						<div class="col-md-12" style="display: -webkit-box;">
+							<div class="bottom-row-btn">
+								<button type="button" class="btn btn-default btn-xs">Email</button>
+								<button type="button" class="btn btn-default btn-xs">Edit</button>
+								<button type="button" class="btn btn-default btn-xs">Own This</button>
+								<button type="button" class="btn btn-default btn-xs">Rate This</button>
+							</div>
+							<div class="paymnt-section">
+								<span><i class="fa fa-credit-card-alt" aria-hidden="true"></i> $$$$</span>
+								<span><i class="fa fa-shopping-bag" aria-hidden="true"></i> 15% OFF</span>
+								<span><i class="fa fa-stumbleupon-circle" aria-hidden="true"></i> 700P</span>
+								<span><i class="fa fa-binoculars" aria-hidden="true"></i> Distance 8.7Km</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
 	</div>
-	</div>
-</section>
+</div>
+
 
 @endsection

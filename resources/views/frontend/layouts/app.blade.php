@@ -88,7 +88,7 @@
     
           
 
-        @yield('page-footer')
+        
     </body>
 
     <script>
