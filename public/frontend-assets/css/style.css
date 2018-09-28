@@ -275,7 +275,127 @@
 	color: #222;
 }
 /*End Footer*/
-
+.category-img{
+	overflow: hidden;
+}
+.category-img img:hover{
+	transform: scale(1.1);
+	transition: all .2s linear; \
+	overflow: hidden;
+}
+/*Category Listing*/
+.col-md-2-5{
+	width: 21%;
+}
+.col-md-9-5{
+	width: 79%;
+}
+.left-sidebar{
+	padding: 0;
+	border: 1px solid black;
+	border-radius: 8px;
+	background: white;
+}
+.left-sidebar .title{
+	background: #696969;
+	border-radius: 8px;
+	margin-bottom: 8px;
+	margin-top: -1px;
+}
+.left-sidebar .title h4{
+	margin: 0;
+	padding: 10px;
+	color: white;
+	text-transform: uppercase;
+}
+.left-sidebar .title2{
+	background: #8C8C8C;
+	margin-bottom: 5px;
+	margin-top: -1px;
+}
+.left-sidebar .title2 h5{
+	margin: 0;
+	padding: 10px;
+	color: white;
+	font-weight: 600;
+}
+.section1 h5{
+	padding: 0 10px;
+	color: gray;
+    border-bottom: 1px solid;
+    padding-bottom: 10px;
+    margin-bottom: 0;
+}
+.section1 h5 .fa{
+	color: darkgray;
+}
+.coupon{
+	margin-bottom: 10px;
+}
+.coupon .btn{
+	margin: 0 10px;
+	width: 90%;
+	border: 2px solid #8C8C8C;
+	border-radius: 0;
+}
+.ads-section1 .row{
+	margin: 0;
+	padding: 15px 0;
+}
+.popular-area{
+	margin-bottom: 10px;
+}
+.popular-area .title2{
+	margin-bottom: 0;
+}
+.popular-area ul{
+	padding-left: 0;
+	list-style: none;
+}
+.popular-area ul li{
+	padding: 10px 10px;
+    color: #333333e3;
+    border-bottom: 1px solid;
+    margin-bottom: 0;
+}
+.popular-area ul li:last-Child{
+	border-bottom: 0;
+}
+.popular-area ul li .fa{
+	font-size: 9px;
+    padding: 0px 5px 0 0;
+}
+.popular-area .btn{
+	border: 2px solid #8C8C8C;
+	border-radius: 0;
+	margin-left: 10px;
+}
+.search-storesBtn{
+	width: 75%;
+    margin-left: 30px !important;
+}
+.relted-product{
+	border-bottom: 0 !important;
+	margin: 20px 0;
+}
+.favorite-store .title2{
+	margin-bottom: 0;
+}
+.favorite-store h5{
+	border-bottom: 0;
+}
+.favorite-store .row{
+	margin-bottom: 10px !important;
+}
+.favorite-store .row .col-md-8 p{
+	margin-bottom: 0;
+}
+.favorite-store .row .col-md-8 p b{
+	/*color: #222222c7;*/
+}
+.favorite-store .row .col-md-8 a{
+	color: #222;
+}
 /*Media Query*/
 @media  only screen and (max-width: 767px){
 	.col-md-2-1{

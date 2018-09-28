@@ -14,4 +14,7 @@
 Route::get('/', function () {
     return view('frontend.home');
 });
+Route::get('/category-list', function(){
+	return view('frontend.categoryListing');
+});
 

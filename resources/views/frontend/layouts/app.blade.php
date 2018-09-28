@@ -76,6 +76,9 @@
         });
     </script>
     <script>
-        
-    </script>
+    $('#showFooter').click(function(){
+        $('#bottom-footer').toggle();
+        $('#bottom-categry').toggle();
+    });
+</script>
 </html>

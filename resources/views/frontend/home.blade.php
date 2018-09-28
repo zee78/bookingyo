@@ -55,8 +55,8 @@
             	</div>
 			
 				<div class="col-md-5">
-					<div class="col-md-6" style="border:0px solid #EEEEEE;">
-						<a href=""><img src="{{'frontend-assets/static-images/home/resturants.jpg'}}" style="width: 100%">
+					<div class="col-md-6 category-img" style="border:0px solid #EEEEEE;">
+						<a href="" class=""><img src="{{'frontend-assets/static-images/home/resturants.jpg'}}" style="width: 100%">
 							<div class="overlay-text">
 								<h4>Resturants</h4>
 								<span>dining, lounge bar, pizza ...</span>
@@ -65,7 +65,7 @@
 
 					</div>
 
-					<div class="col-md-6" style="border:0px solid #EEEEEE;">
+					<div class="col-md-6 category-img" style="border:0px solid #EEEEEE;">
 						<a href="https://www.okjoa.com/seoul/284/grocery-2"><img src="{{'frontend-assets/static-images/home/movies.jpg'}}">
 							<div class="overlay-text" style="top: 83%;">
 								<h4>Movies</h4>
@@ -73,7 +73,7 @@
 						</a>
 					</div>
 
-					<div class="col-md-6" style="border:0px solid #EEEEEE;padding-top:5px;">
+					<div class="col-md-6 category-img" style="border:0px solid #EEEEEE;padding-top:5px;">
 						<a href="https://www.okjoa.com/seoul/337/hospital-clinic-3"><img src="{{'frontend-assets/static-images/home/medical.jpg'}}">
 							<div class="overlay-text">
 								<h4>Medical</h4>
@@ -82,7 +82,7 @@
 						</a>
 					</div>
 
-					<div class="col-md-6" style="border:0px solid #EEEEEE;padding-top:5px;">
+					<div class="col-md-6 category-img" style="border:0px solid #EEEEEE;padding-top:5px;">
 						<a href="https://www.okjoa.com/seoul/205/life-convenience-2"><img src="{{'frontend-assets/static-images/home/travel.jpg'}}">
 							<div class="overlay-text">
 								<h4>travel</h4>
@@ -96,7 +96,7 @@
 				
 
 				<div class="col-md-12">
-					<div class="col-md-2-1" style="border:0px solid #EEEEEE;padding-top:5px;">
+					<div class="col-md-2-1 category-img" style="border:0px solid #EEEEEE;padding-top:5px;">
 						<a href="https://www.okjoa.com/seoul/393/restaurant-2"><img src="{{'frontend-assets/static-images/home/flights.jpg'}}">
 							<div class="overlay-text" style="top: 83%;">
 								<h4>flights</h4>
@@ -104,7 +104,7 @@
 						</a>
 					</div>
 
-					<div class="col-md-2-1" style="border:0px solid #EEEEEE;padding-top:5px;">
+					<div class="col-md-2-1 category-img" style="border:0px solid #EEEEEE;padding-top:5px;">
 						<a href="https://www.okjoa.com/seoul/284/grocery-2"><img src="{{'frontend-assets/static-images/home/luxury.jpg'}}">
 							<div class="overlay-text" style="left: 21%;">
 								<h4>hotels</h4>
@@ -113,7 +113,7 @@
 						</a>
 					</div>
 
-					<div class="col-md-2-1" style="border:0px solid #EEEEEE;padding-top:5px;">
+					<div class="col-md-2-1 category-img" style="border:0px solid #EEEEEE;padding-top:5px;">
 						<a href="https://www.okjoa.com/seoul/337/hospital-clinic-3"><img src="{{'frontend-assets/static-images/home/taxi.jpg'}}">
 							<div class="overlay-text" style="top: 83%; left: 41%;">
 								<h4>taxi</h4>
@@ -121,7 +121,7 @@
 						</a>
 					</div>
 
-					<div class="col-md-2-1" style="border:0px solid #EEEEEE;padding-top:5px;">
+					<div class="col-md-2-1 category-img" style="border:0px solid #EEEEEE;padding-top:5px;">
 						<a href="https://www.okjoa.com/seoul/205/life-convenience-2"><img src="{{'frontend-assets/static-images/home/nightBars.jpg'}}">
 							<div class="overlay-text" style="left: 61%;">
 								<h4>night life</h4>
@@ -130,7 +130,7 @@
 						</a>
 					</div>
 
-					<div class="col-md-2-1" style="border:0px solid #EEEEEE;padding-top:5px;">
+					<div class="col-md-2-1 category-img" style="border:0px solid #EEEEEE;padding-top:5px;">
 						<a href="https://www.okjoa.com/seoul/205/life-convenience-2"><img src="{{'frontend-assets/static-images/home/deal.jpeg'}}">
 							<div class="overlay-text" style="left: 81%;">
 								<h4>Deal offers</h4>
@@ -141,7 +141,7 @@
 
 				</div>
 				<div class="col-md-12">
-					<div class="col-md-2-1" style="border:0px solid #EEEEEE;padding-top:5px;">
+					<div class="col-md-2-1 category-img" style="border:0px solid #EEEEEE;padding-top:5px;">
 						<a href="https://www.okjoa.com/seoul/393/restaurant-2"><img src="{{'frontend-assets/static-images/home/grocery.jpg'}}">
 							<div class="overlay-text">
 								<h4>Daily needs</h4>
@@ -150,7 +150,7 @@
 						</a>
 					</div>
 
-					<div class="col-md-2-1" style="border:0px solid #EEEEEE;padding-top:5px;">
+					<div class="col-md-2-1 category-img" style="border:0px solid #EEEEEE;padding-top:5px;">
 						<a href="https://www.okjoa.com/seoul/284/grocery-2"><img src="{{'frontend-assets/static-images/home/flowers.jpg'}}">
 							<div class="overlay-text" style="left: 21%;">
 								<h4>flowers</h4>
@@ -159,7 +159,7 @@
 						</a>
 					</div>
 
-					<div class="col-md-2-1" style="border:0px solid #EEEEEE;padding-top:5px;">
+					<div class="col-md-2-1 category-img" style="border:0px solid #EEEEEE;padding-top:5px;">
 						<a href="https://www.okjoa.com/seoul/337/hospital-clinic-3"><img src="{{'frontend-assets/static-images/home/coffee.jpg'}}">
 							<div class="overlay-text" style="left: 41%;">
 								<h4>coffee shops</h4>
@@ -168,7 +168,7 @@
 						</a>
 					</div>
 
-					<div class="col-md-2-1" style="border:0px solid #EEEEEE;padding-top:5px;">
+					<div class="col-md-2-1 category-img" style="border:0px solid #EEEEEE;padding-top:5px;">
 						<a href="https://www.okjoa.com/seoul/205/life-convenience-2"><img src="{{'frontend-assets/static-images/home/homeService.jpg'}}">
 							<div class="overlay-text" style="left: 61%;">
 								<h4>home service</h4>
@@ -177,7 +177,7 @@
 						</a>
 					</div>
 
-					<div class="col-md-2-1" style="border:0px solid #EEEEEE;padding-top:5px;">
+					<div class="col-md-2-1 category-img" style="border:0px solid #EEEEEE;padding-top:5px;">
 						<a href="https://www.okjoa.com/seoul/205/life-convenience-2"><img src="{{'frontend-assets/static-images/home/autoService.jpg'}}">
 							<div class="overlay-text"  style="left: 81%;">
 								<h4>auto services</h4>
@@ -189,7 +189,7 @@
 				</div>
 
 				<div class="col-md-12">
-					<div class="col-md-2-1" style="border:0px solid #EEEEEE;padding-top:5px;">
+					<div class="col-md-2-1 category-img" style="border:0px solid #EEEEEE;padding-top:5px;">
 						<a href="https://www.okjoa.com/seoul/393/restaurant-2"><img src="{{'frontend-assets/static-images/home/repair.jpg'}}">
 							<div class="overlay-text">
 								<h4>repairs</h4>
@@ -198,7 +198,7 @@
 						</a>
 					</div>
 
-					<div class="col-md-2-1" style="border:0px solid #EEEEEE;padding-top:5px;">
+					<div class="col-md-2-1 category-img" style="border:0px solid #EEEEEE;padding-top:5px;">
 						<a href="https://www.okjoa.com/seoul/284/grocery-2"><img src="{{'frontend-assets/static-images/home/beauty.jpg'}}">
 							<div class="overlay-text" style="left: 21%;">
 								<h4>beauty & spa</h4>
@@ -207,7 +207,7 @@
 						</a>
 					</div>
 
-					<div class="col-md-2-1" style="border:0px solid #EEEEEE;padding-top:5px;">
+					<div class="col-md-2-1 category-img" style="border:0px solid #EEEEEE;padding-top:5px;">
 						<a href="https://www.okjoa.com/seoul/337/hospital-clinic-3"><img src="{{'frontend-assets/static-images/home/homeDeco.jpg'}}">
 							<div class="overlay-text" style="left: 41%;">
 								<h4>home decoration</h4>
@@ -216,7 +216,7 @@
 						</a>
 					</div>
 
-					<div class="col-md-2-1" style="border:0px solid #EEEEEE;padding-top:5px;">
+					<div class="col-md-2-1 category-img" style="border:0px solid #EEEEEE;padding-top:5px;">
 						<a href="https://www.okjoa.com/seoul/205/life-convenience-2"><img src="{{'frontend-assets/static-images/home/homeImprove.jpeg'}}">
 							<div class="overlay-text" style="left: 61%;">
 								<h4>home improvement</h4>
@@ -225,7 +225,7 @@
 						</a>
 					</div>
 
-					<div class="col-md-2-1" style="border:0px solid #EEEEEE;padding-top:5px;">
+					<div class="col-md-2-1 category-img" style="border:0px solid #EEEEEE;padding-top:5px;">
 						<a href="https://www.okjoa.com/seoul/205/life-convenience-2"><img src="{{'frontend-assets/static-images/home/pets.jpeg'}}">
 							<div class="overlay-text" style="left: 81%;">
 								<h4>pets</h4>
@@ -244,7 +244,7 @@
 				</div>
 
 				<div class="col-md-12">
-					<div class="col-md-2-1" style="border:0px solid #EEEEEE;padding-top:5px;">
+					<div class="col-md-2-1 category-img" style="border:0px solid #EEEEEE;padding-top:5px;">
 						<a href="https://www.okjoa.com/seoul/393/restaurant-2"><img src="{{'frontend-assets/static-images/home/activeLife.jpg'}}">
 							<div class="overlay-text">
 								<h4>active life</h4>
@@ -253,7 +253,7 @@
 						</a>
 					</div>
 
-					<div class="col-md-2-1" style="border:0px solid #EEEEEE;padding-top:5px;">
+					<div class="col-md-2-1 category-img" style="border:0px solid #EEEEEE;padding-top:5px;">
 						<a href="https://www.okjoa.com/seoul/284/grocery-2"><img src="{{'frontend-assets/static-images/home/autoMobile.jpg'}}">
 							<div class="overlay-text" style="left: 21%;">
 								<h4>auto mobile</h4>
@@ -262,7 +262,7 @@
 						</a>
 					</div>
 
-					<div class="col-md-2-1" style="border:0px solid #EEEEEE;padding-top:5px;">
+					<div class="col-md-2-1 category-img" style="border:0px solid #EEEEEE;padding-top:5px;">
 						<a href="https://www.okjoa.com/seoul/337/hospital-clinic-3"><img src="{{'frontend-assets/static-images/home/babyCare.jpg'}}">
 							<div class="overlay-text" style="left: 41%;">
 								<h4>baby care</h4>
@@ -271,7 +271,7 @@
 						</a>
 					</div>
 
-					<div class="col-md-2-1" style="border:0px solid #EEEEEE;padding-top:5px;">
+					<div class="col-md-2-1 category-img" style="border:0px solid #EEEEEE;padding-top:5px;">
 						<a href="https://www.okjoa.com/seoul/205/life-convenience-2"><img src="{{'frontend-assets/static-images/home/books.jpg'}}">
 							<div class="overlay-text" style="left: 61%;">
 								<h4>books</h4>
@@ -280,7 +280,7 @@
 						</a>
 					</div>
 
-					<div class="col-md-2-1" style="border:0px solid #EEEEEE;padding-top:5px;">
+					<div class="col-md-2-1 category-img" style="border:0px solid #EEEEEE;padding-top:5px;">
 						<a href="https://www.okjoa.com/seoul/205/life-convenience-2"><img src="{{'frontend-assets/static-images/home/carRental.jpg'}}">
 							<div class="overlay-text" style="left: 81%; top: 88%;">
 								<!-- <h4>pets</h4> -->
@@ -292,7 +292,7 @@
 				</div>
 
 				<div class="col-md-12">
-					<div class="col-md-2-1" style="border:0px solid #EEEEEE;padding-top:5px;">
+					<div class="col-md-2-1 category-img" style="border:0px solid #EEEEEE;padding-top:5px;">
 						<a href="https://www.okjoa.com/seoul/393/restaurant-2"><img src="{{'frontend-assets/static-images/home/cateringService.jpg'}}">
 							<div class="overlay-text">
 								<h4>catering services</h4>
@@ -301,7 +301,7 @@
 						</a>
 					</div>
 
-					<div class="col-md-2-1" style="border:0px solid #EEEEEE;padding-top:5px;">
+					<div class="col-md-2-1 category-img" style="border:0px solid #EEEEEE;padding-top:5px;">
 						<a href="https://www.okjoa.com/seoul/284/grocery-2"><img src="{{'frontend-assets/static-images/home/cleaning.jpeg'}}">
 							<div class="overlay-text" style="left: 21%;">
 								<h4>cleaning services</h4>
@@ -310,7 +310,7 @@
 						</a>
 					</div>
 
-					<div class="col-md-2-1" style="border:0px solid #EEEEEE;padding-top:5px;">
+					<div class="col-md-2-1 category-img" style="border:0px solid #EEEEEE;padding-top:5px;">
 						<a href="https://www.okjoa.com/seoul/337/hospital-clinic-3"><img src="{{'frontend-assets/static-images/home/dayCare.jpeg'}}">
 							<div class="overlay-text" style="left: 41%;">
 								<h4>day care</h4>
@@ -319,7 +319,7 @@
 						</a>
 					</div>
 
-					<div class="col-md-2-1" style="border:0px solid #EEEEEE;padding-top:5px;">
+					<div class="col-md-2-1 category-img" style="border:0px solid #EEEEEE;padding-top:5px;">
 						<a href="https://www.okjoa.com/seoul/205/life-convenience-2"><img src="{{'frontend-assets/static-images/home/doctor.jpg'}}">
 							<div class="overlay-text" style="left: 61%;">
 								<h4>doctors</h4>
@@ -328,7 +328,7 @@
 						</a>
 					</div>
 
-					<div class="col-md-2-1" style="border:0px solid #EEEEEE;padding-top:5px;">
+					<div class="col-md-2-1 category-img" style="border:0px solid #EEEEEE;padding-top:5px;">
 						<a href="https://www.okjoa.com/seoul/205/life-convenience-2"><img src="{{'frontend-assets/static-images/home/education.jpg'}}">
 							<div class="overlay-text" style="left: 81%;">
 								<h4>education</h4>
@@ -340,7 +340,7 @@
 				</div>
 
 				<div class="col-md-12">
-					<div class="col-md-2-1" style="border:0px solid #EEEEEE;padding-top:5px;">
+					<div class="col-md-2-1 category-img" style="border:0px solid #EEEEEE;padding-top:5px;">
 						<a href="https://www.okjoa.com/seoul/393/restaurant-2"><img src="{{'frontend-assets/static-images/home/emergency.jpeg'}}">
 							<div class="overlay-text">
 								<h4>emergency</h4>
@@ -349,7 +349,7 @@
 						</a>
 					</div>
 
-					<div class="col-md-2-1" style="border:0px solid #EEEEEE;padding-top:5px;">
+					<div class="col-md-2-1 category-img" style="border:0px solid #EEEEEE;padding-top:5px;">
 						<a href="https://www.okjoa.com/seoul/284/grocery-2"><img src="{{'frontend-assets/static-images/home/eventsPlanning.jpg'}}">
 							<div class="overlay-text" style="left: 21%;">
 								<h4>events planning</h4>
@@ -358,7 +358,7 @@
 						</a>
 					</div>
 
-					<div class="col-md-2-1" style="border:0px solid #EEEEEE;padding-top:5px;">
+					<div class="col-md-2-1 category-img" style="border:0px solid #EEEEEE;padding-top:5px;">
 						<a href="https://www.okjoa.com/seoul/284/grocery-2"><img src="{{'frontend-assets/static-images/home/finance.jpg'}}">
 							<div class="overlay-text" style="left: 41%;">
 								<h4>finance</h4>
@@ -367,7 +367,7 @@
 						</a>
 					</div>
 
-					<div class="col-md-2-1" style="border:0px solid #EEEEEE;padding-top:5px;">
+					<div class="col-md-2-1 category-img" style="border:0px solid #EEEEEE;padding-top:5px;">
 						<a href="https://www.okjoa.com/seoul/337/hospital-clinic-3"><img src="{{'frontend-assets/static-images/home/fitness.jpeg'}}">
 							<div class="overlay-text" style="left: 61%;">
 								<h4>fitness</h4>
@@ -376,7 +376,7 @@
 						</a>
 					</div>
 
-					<div class="col-md-2-1" style="border:0px solid #EEEEEE;padding-top:5px;">
+					<div class="col-md-2-1 category-img" style="border:0px solid #EEEEEE;padding-top:5px;">
 						<a href="https://www.okjoa.com/seoul/205/life-convenience-2"><img src="{{'frontend-assets/static-images/home/hospital.jpg'}}">
 							<!-- <div class="overlay-text" style="left: 61%;">
 								<h4>doctors</h4>
@@ -389,7 +389,7 @@
 
 
 				<div class="col-md-12">
-					<div class="col-md-2-1" style="border:0px solid #EEEEEE;padding-top:5px;">
+					<div class="col-md-2-1 category-img" style="border:0px solid #EEEEEE;padding-top:5px;">
 						<a href="https://www.okjoa.com/seoul/393/restaurant-2"><img src="{{'frontend-assets/static-images/home/insurance.jpg'}}">
 							<div class="overlay-text">
 								<h4>risk insurance</h4>
@@ -398,7 +398,7 @@
 						</a>
 					</div>
 
-					<div class="col-md-2-1" style="border:0px solid #EEEEEE;padding-top:5px;">
+					<div class="col-md-2-1 category-img" style="border:0px solid #EEEEEE;padding-top:5px;">
 						<a href="https://www.okjoa.com/seoul/284/grocery-2"><img src="{{'frontend-assets/static-images/home/liqour.jpg'}}">
 							<div class="overlay-text" style="left: 21%; top: 86%;">
 								<h4>linqour store</h4>
@@ -407,7 +407,7 @@
 						</a>
 					</div>
 
-					<div class="col-md-2-1" style="border:0px solid #EEEEEE;padding-top:5px;">
+					<div class="col-md-2-1 category-img" style="border:0px solid #EEEEEE;padding-top:5px;">
 						<a href="https://www.okjoa.com/seoul/284/grocery-2"><img src="{{'frontend-assets/static-images/home/movingStorage.jpg'}}">
 							<div class="overlay-text" style="left: 41%;">
 								<h4>moving & storage</h4>
@@ -416,7 +416,7 @@
 						</a>
 					</div>
 
-					<div class="col-md-2-1" style="border:0px solid #EEEEEE;padding-top:5px;">
+					<div class="col-md-2-1 category-img" style="border:0px solid #EEEEEE;padding-top:5px;">
 						<a href="https://www.okjoa.com/seoul/337/hospital-clinic-3"><img src="{{'frontend-assets/static-images/home/party.jpg'}}">
 							<div class="overlay-text" style="left: 61%;">
 								<h4>party</h4>
@@ -425,7 +425,7 @@
 						</a>
 					</div>
 
-					<div class="col-md-2-1" style="border:0px solid #EEEEEE;padding-top:5px;">
+					<div class="col-md-2-1 category-img" style="border:0px solid #EEEEEE;padding-top:5px;">
 						<a href="https://www.okjoa.com/seoul/205/life-convenience-2"><img src="{{'frontend-assets/static-images/home/pest.jpeg'}}">
 							<div class="overlay-text" style="left: 81%;">
 								<h4>pest control</h4>
@@ -438,7 +438,7 @@
 
 
 				<div class="col-md-12">
-					<div class="col-md-2-1" style="border:0px solid #EEEEEE;padding-top:5px; width: 40%;">
+					<div class="col-md-2-1 category-img" style="border:0px solid #EEEEEE;padding-top:5px; width: 40%;">
 						<a href="https://www.okjoa.com/seoul/393/restaurant-2"><img src="{{'frontend-assets/static-images/home/professional.jpg'}}">
 							<div class="overlay-text">
 								<h4>professional svcs</h4>
@@ -447,7 +447,7 @@
 						</a>
 					</div>
 
-					<div class="col-md-2-1" style="border:0px solid #EEEEEE;padding-top:5px;">
+					<div class="col-md-2-1 category-img" style="border:0px solid #EEEEEE;padding-top:5px;">
 						<a href="https://www.okjoa.com/seoul/284/grocery-2"><img src="{{'frontend-assets/static-images/home/realEstate.jpeg'}}">
 							<div class="overlay-text" style="left: 41%;">
 								<h4>Real Estate</h4>
@@ -456,7 +456,7 @@
 						</a>
 					</div>
 
-					<div class="col-md-2-1" style="border:0px solid #EEEEEE;padding-top:5px;">
+					<div class="col-md-2-1 category-img" style="border:0px solid #EEEEEE;padding-top:5px;">
 						<a href="https://www.okjoa.com/seoul/284/grocery-2"><img src="{{'frontend-assets/static-images/home/shopping.jpg'}}">
 							<div class="overlay-text" style="left: 61%;">
 								<h4>shopping</h4>
@@ -465,7 +465,7 @@
 						</a>
 					</div>
 
-					<div class="col-md-2-1" style="border:0px solid #EEEEEE;padding-top:5px;">
+					<div class="col-md-2-1 category-img" style="border:0px solid #EEEEEE;padding-top:5px;">
 						<a href="https://www.okjoa.com/seoul/337/hospital-clinic-3"><img src="{{'frontend-assets/static-images/home/wedding.jpg'}}">
 							<div class="overlay-text" style="left: 81%;">
 								<h4>wedding</h4>
