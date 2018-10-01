@@ -29,7 +29,12 @@
     </div>
   </div>
 
-  <div class="container">
+ @if(Request::url() === 'http://localhost:8000/index')  
+
+ @else
+
+
+  <div class="container" id="hide_bar">
     <nav class="navbar navbar-inverse"> <!-- main-navbar -->
     
       <!-- <div class="navbar-header"> -->
@@ -97,4 +102,5 @@
       </div>
     </nav><!-- main-navbar -->
   </div>
+   @endif
 </header>

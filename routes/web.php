@@ -17,4 +17,10 @@ Route::get('/', function () {
 Route::get('/profile', function () {
     return view('frontend.hotel_profile');
 });
+Route::get('/index', function () {
+    return view('frontend.index');
+});
+Route::get('/table', function () {
+    return view('frontend.table_booking');
+});
 
