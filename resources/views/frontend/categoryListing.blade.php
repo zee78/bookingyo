@@ -288,8 +288,8 @@
 								</ul>
 							</div>
 							<div class="col-md-3 table-btn">
-								<button type="button" class="btn btn-success">Book a Table<i class="fa fa-chevron-circle-right fa_arrow"></i></button>
-								<button type="button" class="btn btn-success">Order Online<i class="fa fa-chevron-circle-right fa_arrow"></i></button>
+								<a class="btn btn-success" href="{{url('/hotel_profile')}}">Book a Table<i class="fa fa-chevron-circle-right fa_arrow"></i></a>
+								<a class="btn btn-success" href="{{url('/hotel_profile')}}">Order Online<i class="fa fa-chevron-circle-right fa_arrow"></i></a>
 							</div>
 						</div>
 						<div class="row bottom-row">
@@ -1133,8 +1133,8 @@
 									<p><i class="fa fa-product-hunt" aria-hidden="true"></i> Jeans, Casual Shirts, Pants , Jumper, Shoes</p>
 								</div>
 								<div class="col-md-4 table-btn" style="padding: 0">
-									<button type="button" class="btn btn-success">Book a Table<i class="fa fa-chevron-circle-right fa_arrow"></i></button>
-									<button type="button" class="btn btn-success">Order Online<i class="fa fa-chevron-circle-right fa_arrow"></i></button>
+									<a class="btn btn-success" href="{{url('/hotel_profile')}}">Book a Table<i class="fa fa-chevron-circle-right fa_arrow"></i></a>
+									<a class="btn btn-success" href="{{url('/hotel_profile')}}">Order Online<i class="fa fa-chevron-circle-right fa_arrow"></i></a>
 								</div>
 							</div>
 							<div class="row" style="margin: 0">

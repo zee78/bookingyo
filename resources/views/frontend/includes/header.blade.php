@@ -3,7 +3,7 @@
     <div class="container">
       <div class="">
         <ul class="top_nav_2 pull-left hidden-sm">
-          <li class="logo-list"><img src="{{'frontend-assets/static-images/header/logo_main.png'}}">
+          <li class="logo-list"><a href="{{url('/home')}}"><img src="{{'frontend-assets/static-images/header/logo_main.png'}}" style="width: 100%;"></a>
             <div class="dropdown country-dropdown">
             <button class="language btn btn-primary dropdown-toggle" style="background:transparent;" type="button" data-toggle="dropdown">Pakistan
             <span class="caret"></span></button>
@@ -23,7 +23,7 @@
           <li><a href="#"><i class="fa fa-bell" aria-hidden="true"></i><span class="badge"></span></a></li>
           <li><a href="#"><i class="fa fa-wifi" aria-hidden="true"></i></a></li>
           <li><a href="#"><i class="fa fa-th" aria-hidden="true"></i></a></li>
-          <li><a href="#"><img src="{{'frontend-assets/static-images/header/user-icon.png'}}"> Zeeshan</a></li>
+          <li><a href="{{url('/login')}}"><img src="{{'frontend-assets/static-images/header/user-icon.png'}}"> Zeeshan</a></li>
         </ul>
       </div>
     </div>
