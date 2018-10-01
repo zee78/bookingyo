@@ -812,7 +812,7 @@ label .fa {
     border-bottom: 19px solid transparent;
     border-left: 24px solid #dddddd;
     position: absolute;
-    top: 21.8%;
+    top: 20.7%;
     left: 33.3%
 }
 .list-dropdown .dropdown-menu{
@@ -905,6 +905,162 @@ label .fa {
 	margin-bottom: 5px;
 	margin-left: 10px;
 }
+/*Image View*/
+.image-view{
+	margin: 0 !important;
+}
+.image-view .listing-grid{
+	padding-left: 0;
+	padding-right: 0;
+    padding-bottom: 10px;
+    margin-left: -4px;
+    width: 49.6%;
+}
+.image-view .listing-grid:nth-Child(Odd){
+	margin-right: 15px;
+}
+.image-view .picture-overlay{
+	background: black;
+    position: absolute;
+    top: 0;
+    opacity: 0.7;
+    color: white;
+    height: auto;
+    width: 100%;
+    height: 252px;
+}
+.image-view .picture-overlay h3{
+	margin-top: 10px;
+	padding-left: 10px;
+}
+.image-view .picture-overlay ul{
+	text-align: left;
+	border: 0;
+	padding-left: 10px;
+	position: absolute;
+    bottom: 0;
+}
+.image-view .picture-overlay ul li{
+    padding: 0 15px;
+}
+.image-view .picture-overlay ul li .fa-comments{
+    color: #0368ff;
+}
+.image-view .picture-overlay ul li .fa-video-camera{
+    color: red;
+}
+.image-view .bottom-section{
+	padding: 10px 0;
+	margin: 0;
+}
+.bottom-section .table-btn .btn{
+	/*width: 100%;*/
+	padding: 6px 7px;
+}
+.like-circle{
+	background: green;
+    height: 31px;
+    width: 31px;
+    border-radius: 50%;
+    margin-right: 8px;
+}
+.like-circle .fa{
+	padding-left: 6px;
+    padding-top: 3px;
+}
+.rating_star i {
+    color: #ffaa10;
+}
+.btn-bottom-sec .paymnt-section{
+	width: 100%;
+	text-align: left;
+	padding-bottom: 10px;
+}
+.btn-bottom-sec .bottom-row-btn{
+	width: 100%;
+}
+.btn-bottom-sec .bottom-row-btn .btn{
+	margin-right: 10px;
+}
+.listing-dropdown{
+	top: 1.6% !important;
+    left: 79% !important;
+}
+select {
+  font-family: 'FontAwesome'
+}
+.listing-option{
+	border: 0;
+	background: transparent;
+}
+.listing-option:focus{
+	outline-offset: 0px !important;
+	outline: none !important;
+}
+/*End Category List/
+/*login page css*/
+#nvbr
+{
+	background-color: black;
+	padding: 7px 7px;
+	margin-top: 20px;
+}
+#cont
+{
+	background-color: white;
+}
+.rw
+{
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+#hd3
+{
+    margin-left:10px;
+    margin-top: 0px;
+}
+.frm
+{
+	background-color: light gray;
+	padding:10px;
+}
+.login
+{
+	margin-left: 10px;
+}
+.login a
+{
+	font-size: 16px;
+}
+.right-sec
+{
+	padding-top:50px;
+}
+.fa-lock, .fa-check-square-o, .fa-user-plus, .fa-heart
+{
+	padding-top: 8px;
+	color: gray;
+}
+.btnpdng
+{
+	margin: 20px 0px 15px;
+	padding: 7px 0px;
+}
+.rght
+{
+	margin-right: 10px;
+}
+#brdr
+{
+	border-right: 1px solid gray;
+	margin-top: 60px;
+
+}
+#lblpdng
+{
+	padding: 5px 0px;
+}
 /*Media Query*/
 @media  only screen and (max-width: 767px){
 	.col-md-2-1{
@@ -943,5 +1099,17 @@ label .fa {
 	}
 	.about_hotel_bottom .col{
 		height: 63px;
+	}
+	.catgry-list .col-xs-6{
+		text-align: justify;
+	}
+	.col-md-9-5{
+		width: 100%;
+	}
+	.listing-grid .table-btn{
+		text-align: center;
+	}
+	.col-md-9-5 ul{
+		text-align: left;
 	}
 }

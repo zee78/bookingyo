@@ -126,4 +126,17 @@
         $('#bottom-categry').toggle();
     });
 </script>
+<script>
+
+    $('select[name="dropdown"]').change(function(){
+  
+    if ($(this).val() == "2"){
+        $('#image-view').css('display', 'block');
+        $('#list-view').css('display', 'none');
+    }else{
+        $('#image-view').css('display', 'none');
+        $('#list-view').css('display', 'block');
+    }
+});
+</script>
 </html>

@@ -2,38 +2,38 @@
 	<div class="container">
 		<div class="top-footer-section">
 			<div class="row">
-				<div class="col-md-2">
+				<div class="col-md-2 col-xs-4">
 					<a href="">About Us</a>
 				</div>
-				<div class="col-md-2">
+				<div class="col-md-2 col-xs-4">
 					<a href="">Investor Relation</a>
 				</div>
-				<div class="col-md-2">
+				<div class="col-md-2 col-xs-4">
 					<a href="">We're hiring</a>
 				</div>
-				<div class="col-md-2">
+				<div class="col-md-2 col-xs-4">
 					<a href="">Customer Care</a>
 				</div>
-				<div class="col-md-2">
+				<div class="col-md-2 col-xs-4">
 					<a href="">Free Listing</a>
 				</div>
-				<div class="col-md-2">
+				<div class="col-md-2 col-xs-4">
 					<a href="">Advertise</a>
 				</div>
 
-				<div class="col-md-2">
+				<div class="col-md-2 col-xs-4">
 					<a href="">Media</a>
 				</div>
-				<div class="col-md-2">
+				<div class="col-md-2 col-xs-4">
 					<a href="">Testimonials</a>
 				</div>
-				<div class="col-md-2">
+				<div class="col-md-2 col-xs-4">
 					<a href="">Feedback</a>
 				</div>
-				<div class="col-md-2">
+				<div class="col-md-2 col-xs-4">
 					<a href="">Business Badge</a>
 				</div>
-				<div class="col-md-offset-2 col-md-2">
+				<div class="col-md-offset-2 col-md-2 col-xs-12">
 					<img src="{{'frontend-assets/static-images/footer/footer_sprite1.png'}}">
 					<p style="padding-top: 5px;" class="text-right">
 						<i class="fa fa-facebook-official fa-2x"></i>
@@ -294,9 +294,9 @@
 					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 				</div>
 			</div>
-			<div class="row">
+			<div class="row catgry-list">
 				<h5 style="padding-left: 15px;"><b>Some of Our service taht will prove useful to you on a day-to-day are:</b></h5>
-				<div class="col-md-4">
+				<div class="col-md-4 col-xs-6">
 					<div class="col-md-3" style="padding-top: 15px;">
 						<i class="fa fa-shopping-cart fa-4x"></i>
 					</div>
@@ -307,7 +307,7 @@
 						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
 					</div>
 				</div>
-				<div class="col-md-4">
+				<div class="col-md-4 col-xs-6">
 					<div class="col-md-3" style="padding-top: 15px;">
 						<i class="fa fa-book fa-4x"></i>
 					</div>
@@ -318,7 +318,7 @@
 						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
 					</div>
 				</div>
-				<div class="col-md-4">
+				<div class="col-md-4 col-xs-6">
 					<div class="col-md-3" style="padding-top: 15px;">
 						<i class="fa fa-book fa-4x"></i>
 					</div>
@@ -329,7 +329,7 @@
 						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
 					</div>
 				</div>
-				<div class="col-md-4">
+				<div class="col-md-4 col-xs-6">
 					<div class="col-md-3" style="padding-top: 15px;">
 						<i class="fa fa-building fa-4x"></i>
 					</div>
@@ -340,7 +340,7 @@
 						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
 					</div>
 				</div>
-				<div class="col-md-4">
+				<div class="col-md-4 col-xs-6">
 					<div class="col-md-3" style="padding-top: 15px;">
 						<i class="fa fa-film fa-4x"></i>
 					</div>
@@ -351,7 +351,7 @@
 						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
 					</div>
 				</div>
-				<div class="col-md-4">
+				<div class="col-md-4 col-xs-6">
 					<div class="col-md-3" style="padding-top: 15px;">
 						<i class="fa fa-film fa-4x"></i>
 					</div>
@@ -362,7 +362,7 @@
 						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
 					</div>
 				</div>
-				<div class="col-md-4">
+				<div class="col-md-4 col-xs-6">
 					<div class="col-md-3" style="padding-top: 15px;">
 						<i class="fa fa-film fa-4x"></i>
 					</div>
@@ -373,7 +373,7 @@
 						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
 					</div>
 				</div>
-				<div class="col-md-4">
+				<div class="col-md-4 col-xs-6">
 					<div class="col-md-3" style="padding-top: 15px;">
 						<i class="fa fa-film fa-4x"></i>
 					</div>
@@ -384,7 +384,7 @@
 						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
 					</div>
 				</div>
-				<div class="col-md-4">
+				<div class="col-md-4 col-xs-6">
 					<div class="col-md-3" style="padding-top: 15px;">
 						<i class="fa fa-film fa-4x"></i>
 					</div>
@@ -395,7 +395,7 @@
 						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
 					</div>
 				</div>
-				<div class="col-md-4">
+				<div class="col-md-4 col-xs-6">
 					<div class="col-md-3" style="padding-top: 15px;">
 						<i class="fa fa-film fa-4x"></i>
 					</div>
@@ -406,7 +406,7 @@
 						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
 					</div>
 				</div>
-				<div class="col-md-4">
+				<div class="col-md-4 col-xs-6">
 					<div class="col-md-3" style="padding-top: 15px;">
 						<i class="fa fa-film fa-4x"></i>
 					</div>
@@ -414,10 +414,10 @@
 						<h5><b>Online Recharge/Bill Payment</b></h5>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
+						quis nostrud exercitation</p>
 					</div>
 				</div>
-				<div class="col-md-4">
+				<div class="col-md-4 col-xs-6">
 					<div class="col-md-3" style="padding-top: 15px;">
 						<i class="fa fa-film fa-4x"></i>
 					</div>
@@ -428,7 +428,7 @@
 						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
 					</div>
 				</div>
-				<div class="col-md-4">
+				<div class="col-md-4 col-xs-6">
 					<div class="col-md-3" style="padding-top: 15px;">
 						<i class="fa fa-film fa-4x"></i>
 					</div>
@@ -439,7 +439,7 @@
 						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
 					</div>
 				</div>
-				<div class="col-md-4">
+				<div class="col-md-4 col-xs-6">
 					<div class="col-md-3" style="padding-top: 15px;">
 						<i class="fa fa-film fa-4x"></i>
 					</div>
@@ -450,7 +450,7 @@
 						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
 					</div>
 				</div>
-				<div class="col-md-4">
+				<div class="col-md-4 col-xs-6">
 					<div class="col-md-3" style="padding-top: 15px;">
 						<i class="fa fa-film fa-4x"></i>
 					</div>
@@ -458,10 +458,10 @@
 						<h5><b>International SIM cards</b></h5>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
+						quis nostrud exercitation ullamco laboris</p>
 					</div>
 				</div>
-				<div class="col-md-4">
+				<div class="col-md-4 col-xs-6">
 					<div class="col-md-3" style="padding-top: 15px;">
 						<i class="fa fa-film fa-4x"></i>
 					</div>
@@ -472,7 +472,7 @@
 						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
 					</div>
 				</div>
-				<div class="col-md-4">
+				<div class="col-md-4 col-xs-6">
 					<div class="col-md-3" style="padding-top: 15px;">
 						<i class="fa fa-film fa-4x"></i>
 					</div>
@@ -483,7 +483,7 @@
 						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
 					</div>
 				</div>
-				<div class="col-md-4">
+				<div class="col-md-4 col-xs-6">
 					<div class="col-md-3" style="padding-top: 15px;">
 						<i class="fa fa-film fa-4x"></i>
 					</div>
@@ -494,7 +494,7 @@
 						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
 					</div>
 				</div>
-				<div class="col-md-4">
+				<div class="col-md-4 col-xs-6">
 					<div class="col-md-3" style="padding-top: 15px;">
 						<i class="fa fa-film fa-4x"></i>
 					</div>
@@ -505,7 +505,7 @@
 						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
 					</div>
 				</div>
-				<div class="col-md-4">
+				<div class="col-md-4 col-xs-6">
 					<div class="col-md-3" style="padding-top: 15px;">
 						<i class="fa fa-film fa-4x"></i>
 					</div>
@@ -516,7 +516,7 @@
 						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
 					</div>
 				</div>
-				<div class="col-md-4">
+				<div class="col-md-4 col-xs-6">
 					<div class="col-md-3" style="padding-top: 15px;">
 						<i class="fa fa-film fa-4x"></i>
 					</div>
@@ -527,7 +527,7 @@
 						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
 					</div>
 				</div>
-				<div class="col-md-4">
+				<div class="col-md-4 col-xs-6">
 					<div class="col-md-3" style="padding-top: 15px;">
 						<i class="fa fa-film fa-4x"></i>
 					</div>
@@ -538,7 +538,7 @@
 						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
 					</div>
 				</div>
-				<div class="col-md-4">
+				<div class="col-md-4 col-xs-6">
 					<div class="col-md-3" style="padding-top: 15px;">
 						<i class="fa fa-film fa-4x"></i>
 					</div>
@@ -549,7 +549,7 @@
 						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
 					</div>
 				</div>
-				<div class="col-md-4">
+				<div class="col-md-4 col-xs-6">
 					<div class="col-md-3" style="padding-top: 15px;">
 						<i class="fa fa-film fa-4x"></i>
 					</div>

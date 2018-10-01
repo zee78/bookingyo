@@ -24,3 +24,7 @@ Route::get('/category-list', function(){
 Route::get('/category-detail', function(){
 	return view('frontend.category-detail');
 });
+
+Route::get('/login', function(){
+	return view('frontend.login');
+});
