@@ -896,7 +896,254 @@ background: #8C8C8C;
 	color: #222;
 }
 /*End Footer*/
-
+.category-img{
+	overflow: hidden;
+}
+.category-img img:hover{
+	transform: scale(1.1);
+	transition: all .2s linear; \
+	overflow: hidden;
+}
+/*Category Listing*/
+.col-md-2-5{
+	width: 21%;
+}
+.col-md-9-5{
+	width: 79%;
+	padding-left: 15px;
+	padding-right: 5px;
+}
+.left-sidebar{
+	padding: 0;
+    border: 2px solid #84848454;
+	border-radius: 8px;
+	background: white;
+}
+.left-sidebar .title{
+	background: #696969;
+	border-radius: 8px;
+	margin-bottom: 8px;
+	margin-top: -1px;
+	margin-right: -1px;
+}
+.left-sidebar .title h4{
+	margin: 0;
+	padding: 10px;
+	color: white;
+	text-transform: uppercase;
+}
+.left-sidebar .title2{
+	background: #8C8C8C;
+	margin-bottom: 5px;
+	margin-top: -1px;
+}
+.left-sidebar .title2 h5{
+	margin: 0;
+	padding: 10px;
+	color: white;
+	font-weight: 600;
+}
+.section1 h5{
+	padding: 0 10px;
+	color: gray;
+    border-bottom: 1px solid;
+    padding-bottom: 10px;
+    margin-bottom: 0;
+}
+.section1 h5 .fa{
+	color: darkgray;
+}
+.coupon{
+	margin-bottom: 10px;
+}
+.coupon .btn{
+	margin: 0 10px;
+	width: 90%;
+	border: 2px solid #8C8C8C;
+	border-radius: 0;
+}
+.ads-section1 .row{
+	margin: 0;
+	padding: 15px 0;
+}
+.popular-area{
+	margin-bottom: 10px;
+}
+.popular-area .title2{
+	margin-bottom: 0;
+}
+.popular-area ul{
+	padding-left: 0;
+	list-style: none;
+}
+.popular-area ul li{
+	padding: 10px 10px;
+    color: #333333e3;
+    border-bottom: 1px solid;
+    margin-bottom: 0;
+    display: block !important;
+}
+.popular-area ul li:last-Child{
+	border-bottom: 0;
+}
+.popular-area ul li .fa{
+	font-size: 9px;
+    padding: 0px 5px 0 0;
+}
+.popular-area .btn{
+	border: 2px solid #8C8C8C;
+	border-radius: 0;
+	margin-left: 10px;
+}
+.search-storesBtn{
+	width: 75%;
+    margin-left: 30px !important;
+}
+.relted-product{
+	border-bottom: 0 !important;
+	margin: 20px 0;
+}
+.favorite-store .title2{
+	margin-bottom: 0;
+}
+.favorite-store h5{
+	border-bottom: 0;
+}
+.favorite-store .row{
+	margin-bottom: 10px !important;
+}
+.favorite-store .row .col-md-8 p{
+	margin-bottom: 0;
+}
+.favorite-store .row .col-md-8 p b{
+	/*color: #222222c7;*/
+}
+.favorite-store .row .col-md-8 a{
+	color: #222;
+}
+.col-md-9-5 ul{
+	border: 1px solid black;
+	/*padding: 10px;*/
+	padding-left: 0;
+	text-align: right;
+}
+.col-md-9-5 ul li{
+	padding: 10px 18px;
+	border-right: 1px solid lightgray;
+}
+.col-md-9-5 ul li a{
+	color: #696868;
+}
+.curve {
+	background: #DADADA;
+	padding: 10px 15px 10px 2px;
+	text-transform: uppercase;
+	color: gray;	
+	font-size: 12px;	
+	float: left;
+	margin-top: 2px;																																																																												
+}
+.curve:after{
+    content: '';
+    width: 0;
+    height: 0;
+    border-top: 19px solid transparent;
+    border-bottom: 19px solid transparent;
+    border-left: 24px solid #dddddd;
+    position: absolute;
+    top: 21.8%;
+    left: 33.3%
+}
+.list-dropdown .dropdown-menu{
+	min-width: 75px;
+	box-shadow: none;
+	border-radius: 0;
+}
+.list-dropdown .dropdown-menu li{
+	display: block !important;
+	padding: 0;
+	border: 0;
+}
+.list-dropdown .dropdown-menu >li>a{
+	padding-left: 10px;
+}
+.listing-grid{
+	border: 1px solid #5d5b5b61;
+	margin: 0;
+	margin-bottom: 20px;
+}
+.listing-grid .col-md-3{
+	padding-left: 0;
+	padding-right: 0;
+}
+.listing-grid .col-md-9:nth-Child(1){
+	padding-left: 15px;
+}
+.grid-detail ul{
+	text-align: left;
+	border: 0;
+}
+.grid-detail ul li{
+	padding: 0 15px;
+	/*padding-left: 7px;*/
+}
+.grid-detail ul li:last-Child{
+	border-right: 0 !important;
+}
+.table-btn{
+	padding: 25px 0;
+}
+.table-btn .btn{
+	padding: 6px 20px;
+	width: 75%;
+	margin-bottom: 7px;
+}
+.table-btn .btn .fa{
+	padding-left: 22px;
+}
+.bottom-row{
+	background: #E9E9E9;
+	padding: 5px 0;
+}
+.bottom-row-btn{
+	width: 50%;
+}
+.bottom-row-btn .btn{
+	border: 1px solid;
+	border-radius: 0;
+	background: transparent;
+}
+.paymnt-section{
+	width: 50%;
+	text-align: right;
+}
+.paymnt-section span{
+	font-size: 11px;
+	padding-right: 10px;
+}
+.paymnt-section span:nth-Child(1){
+	color: orange;
+}
+.paymnt-section span:nth-Child(1) .fa{
+	color: #222;
+}
+.paymnt-section span .fa-stumbleupon-circle{
+    color: orange;
+}
+.picture-overlay{
+	background: black;
+    position: absolute;
+    top: 84%;
+    opacity: 0.7;
+    color: white;
+    height: 32px;
+    width: 100%;
+}
+.picture-overlay p{
+	margin-top:5px;
+	margin-bottom: 5px;
+	margin-left: 10px;
+}
 /*Media Query*/
 @media  only screen and (max-width: 767px){
 	.col-md-2-1{

@@ -44,8 +44,12 @@
 						<i class="fa fa-tumblr-square fa-2x" aria-hidden="true"></i>
 					</p>
 				</div>
+				<div class="col-md-12 text-center">
+					<button class="btn btn-default" id="showFooter">See More   <i class="fa fa-arrow-down"></i></button>
+				</div>
 			</div>
-			<div class="row">
+			
+			<div class="row" id="bottom-footer" style="display: none;">
 				<div class="footer-sec-2 col-md-12 hidden-xs">
 					<ul>
 						<li><a href="#">Shop Online </a> / </li>
@@ -261,7 +265,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="bottom-footer-section">
+		<div class="bottom-footer-section" id="bottom-categry" style="display: none;">
 			<div class="row">
 				<div class="col-md-12">
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -576,3 +580,4 @@
 		</div>
 	</div>
 </footer>
+
