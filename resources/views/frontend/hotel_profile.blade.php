@@ -48,7 +48,7 @@
 						<a href="#tab" aria-controls="tab" role="tab" data-toggle="tab">MENU</a>
 					</li>
 					<li role="presentation">
-						<a href="#tab" aria-controls="tab" role="tab" data-toggle="tab">BOOK TABLE</a>
+						<a href="{{url('/home')}}" aria-controls="tab" role="tab" data-toggle="tab">BOOK TABLE</a>
 					</li>
 					<li role="presentation">
 						<a href="#tab" aria-controls="tab" role="tab" data-toggle="tab">ORDER ONLINE</a>
@@ -123,15 +123,146 @@
 										<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
 											<div class="gallery_image">
 												<div class="add_new_img">
-													<span class="add_image_icon"><i class="fa fa-plus fa-plus-icon"></i></span><br>
-													<span class="add_image_text">Add New</span>
+													<label class="btn btn-file" for="g_image"><i class="fa fa-plus fa-plus-icon"></i><br> Add New
+								  			<input type="file" name="g_image" id="g_image">
+								  		</label>
 												</div>
 											</div>
 										</div>	
 									</div>
 								</div>
-								</div>
 								<!-- Gallery Section End -->
+
+								<!-- Info Section Start -->
+								<div class="info-section">
+								<div class="container-fluid">
+									<p><i class="fa fa-phone"></i><strong>&nbsp; &nbsp; +91 9152 356691</strong></p>
+									<div style="display: -webkit-box;"><div><i class="fa fa-home"></i></div>&nbsp; &nbsp;<div><span>9/A, Shop No 36/37, Tulsi Wadi, Shivdas Champsi Marg, Mazgoan, Mumbai-400010 (Map) </span></div></div>
+									<div style="display: -webkit-box;"><div><i class="fa fa-plus-circle"></i></div>&nbsp; &nbsp;<div><span>Tanduri Restaurant, Home delivery </span></div></div>
+									<p><i class="fa fa-gg-circle"></i>&nbsp; &nbsp; Inexpensive (Below 500)</p>
+									<p><i class="fa fa-envelope"></i>&nbsp; &nbsp; <a href="">Send Enquiry By Email</a></p>
+									<hr>
+									<p><strong>Hour of Operations <a href="">(View All)</a></strong></p>
+									<span class="text-muted">Today</span>
+									<span class="text-muted" style="padding-left: 20px;">11:00 am -01:00 am</span><span style="color: orange; padding-left: 20px;">Closed Now</span>
+									<hr>
+									<p><strong>Year Established</strong></p>
+									<p class="text-muted">1900</p>
+									<hr>
+									<p><strong>Modes of Payment</strong></p>
+									<p class="text-muted">Cash</p>
+									<p class="text-muted">Master Card</p>
+									<p class="text-muted">Visa Card</p>
+									<p class="text-muted">Debit Card</p>
+									<p class="text-muted">Credit Card</p>
+									<p class="text-muted">Booking yo pay <span class="bg-danger" style="margin-left: 15px;">10% Off</span></p>
+									<hr>
+									<hr>
+									<p><strong>Quick Information </strong></p>
+									<p class="text-muted"><i class="fa fa-check-circle"></i> &nbsp; &nbsp; Home Delivery</p><br>
+									<p><strong>Estimated Delivery Time </strong></p>
+									<p class="text-muted"><i class="fa fa-check-circle"></i> &nbsp; &nbsp; 40 ~ 50 Minutes</p><br>
+									<p><strong>Delivery Time Fee </strong></p>
+									<p class="text-muted"><i class="fa fa-check-circle"></i> &nbsp; &nbsp; 40 ~ 50 Minutes</p><br>
+									<p><strong>Minimum Order </strong></p>
+									<p class="text-muted"><i class="fa fa-check-circle"></i> &nbsp; &nbsp; ￦150,000    won or 2 EA</p>
+									<hr>
+									<p><strong>Favourite Menu </strong></p>
+									<div class="row">
+										<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+											<p class="text-muted">Cruch Chicken</p>
+											<p>16,000</p>
+										</div>
+										<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+											<img src="{{'frontend-assets/static-images/gallery/chicken.jpg'}}" class="img-responsive" alt="Image">
+										</div>
+									</div>
+									<hr>
+									<div class="row">
+										<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+											<p class="text-muted">Original Chicken</p>
+											<p>15,000</p>
+										</div>
+										<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+											<img src="{{'frontend-assets/static-images/gallery/chicken.jpg'}}" class="img-responsive" alt="Image">
+										</div>
+									</div>
+									<hr>
+									<div class="row">
+										<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+											<p class="text-muted">Spicy Chicken</p>
+											<p>17,000</p>
+										</div>
+										<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+											<img src="{{'frontend-assets/static-images/gallery/spicy.png'}}" class="img-responsive" alt="Image">
+										</div>
+									</div>
+									<hr>
+									<div class="row">
+										<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+											<p class="text-muted">BBQ Chicken</p>
+											<p>17,000</p>
+										</div>
+										<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+											<img src="{{'frontend-assets/static-images/gallery/bbq.png'}}" class="img-responsive" alt="Image">
+										</div>
+									</div>
+									<hr>
+									<div class="row">
+										<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+											<p class="text-muted">Half/Half A) Original <strong>+</strong> Spicy</p>
+											<p>17,000</p>
+										</div>
+										<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+											<img src="{{'frontend-assets/static-images/gallery/bbq_spicy.png'}}" class="img-responsive" alt="Image">
+										</div>
+									</div>
+									<hr>
+									<p><strong>Get Coupon </strong></p>
+									<img src="{{'frontend-assets/static-images/gallery/viewleft_coupon.png'}}" class="img-responsive" alt="Image">
+									<hr>
+									<p><strong>Get Points </strong></p>
+									<div class="row">
+									<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+										<a href="#"><span class="badge">R</span></a>
+									</div>
+									<div class="col-xs-10 col-sm-10 col-md-10 col-lg-10">
+										<span class="text-muted">Review</span> <span class="text-muted" style="padding-left: 10px;">50 Point</span>
+									</div>
+									</div>
+									<div class="row">
+									<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+										<a href="#"><span class="badge">O</span></a>
+									</div>
+									<div class="col-xs-10 col-sm-10 col-md-10 col-lg-10">
+										<span class="text-muted">1st Order</span> <span class="text-muted" style="padding-left: 10px;">100 Point</span>
+									</div>
+									</div>
+									<div class="row">
+									<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+										<a href="#"><span class="badge">F</span></a>
+									</div>
+									<div class="col-xs-10 col-sm-10 col-md-10 col-lg-10">
+										<span class="text-muted">Invite Friends</span> <span class="text-muted" style="padding-left: 10px;">200 Point</span>
+									</div>
+									</div>
+									<hr>
+									<p><strong>Also Listed in </strong></p>
+									<p class="text-muted">Tandoori Restaurants</p>
+									<p class="text-muted">Home Delivery Restaurants</p>
+									<p class="text-muted">Restaurants</p>
+									<p class="text-muted">Chineese Restaurants</p>
+									<p class="text-muted">Biryani Restaurants</p>
+									<p class="text-muted">Chinesse Delivery Restaurants</p>
+									<p class="text-muted">Sea Food Restaurants</p>
+									<p class="text-muted">Tandoori Delivery Restaurants</p>
+									<p class="text-muted">more...</p>
+									<hr>
+								</div>
+								</div>
+								<!-- Info Section Ends -->
+								</div>
+								<!-- col-md-div Ends -->
 
 								<!-- Review Section Start -->
 								<div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 review_section">
@@ -185,7 +316,7 @@
 											<button type="button" class="btn btn-success btn-block btn-lg">Menu <span class="pull-right btn_arrow"><i class="fa fa-chevron-circle-right fa_arrow fa-2x"></i></span></button>
 										</div>
 										<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
-											<button type="button" class="btn btn-success btn-lg btn-block">Book Table <span class="pull-right btn_arrow"><i class="fa fa-chevron-circle-right fa_arrow fa-2x"></i></span></button>
+											<a href="{{url('/table_booking')}}" class="btn btn-success btn-lg btn-block">Book Table <span class="pull-right btn_arrow"><i class="fa fa-chevron-circle-right fa_arrow fa-2x"></i></span></a>
 										</div>
 										<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
 											<button type="button" class="btn btn-success btn-lg btn-block">Order Online <span class="pull-right btn_arrow"><i class="fa fa-chevron-circle-right fa_arrow fa-2x"></i></span></button>
@@ -285,17 +416,249 @@
 
 														</div>
 													</div>
-													
-													
+													<!-- Rating Bars Ends -->
 												</section>
-												<hr>
-												<div class="row">
-													
+												<!-- Popular tab start -->
+													<div class="popular_section" style="background: white; margin-top: 30px; margin-left: 15px;">
+												    <ul class="nav nav-tabs popular_tabs">
+												      <li class="active"><a href="#popular" data-toggle="tab">Popular</a></li>
+												      <li><a href="#friend_rating" data-toggle="tab">Friends Rating</a></li>
+												      <li><a href="#friend_rating" data-toggle="tab">Recent</a></li>
+												      <li><a href="#friend_rating" data-toggle="tab">High to Low</a></li>
+												      <li><a href="#friend_rating" data-toggle="tab">Low to High</a></li>
+												      <li><a href="#friend_rating" data-toggle="tab">Number of Click</a></li>
+												    </ul>
+												    <div id="myTabContent" class="tab-content tabs_content_popular">
+												      <div class="tab-pane active in" id="popular">
+
+												        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 rating_col">
+												        <span class="rating_heading">Overall Ratings (1337)</span><span class="rating_star">&nbsp;<i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></span>
+
+												        <div class="row">
+																  <div class="side sd-rating">
+																    <div>Excellent</div>
+																  </div>
+																  <div class="middle md-rating">
+																    <div class="bar-container-rating">
+																      <div class="bar-5-rating"></div><span>&nbsp; 45.4%</span>
+																    </div>
+																  </div>
+																  <div class="side sd-rating">
+																    <div>Very Good</div>
+																  </div>
+																  <div class="middle md-rating">
+																    <div class="bar-container-rating">
+																      <div class="bar-4-rating"></div><span>&nbsp; 28.9%</span>
+																    </div>
+																  </div>
+																  <div class="side sd-rating">
+																    <div>Good</div>
+																  </div>
+																  <div class="middle md-rating">
+																    <div class="bar-container-rating">
+																      <div class="bar-3-rating"></div><span>&nbsp; 16.5%</span>
+																    </div>
+																  </div>
+																  <div class="side sd-rating">
+																    <div>Average</div>
+																  </div>
+																  <div class="middle md-rating">
+																    <div class="bar-container-rating">
+																      <div class="bar-2-rating"></div><span>&nbsp; 5.2%</span>
+																    </div>
+																  </div>
+																  <div class="side sd-rating">
+																    <div>Poor</div>
+																  </div>
+																  <div class="middle md-rating">
+																    <div class="bar-container-rating">
+																      <div class="bar-1-rating"></div><span>&nbsp; 4%</span>
+																    </div>
+																  </div>
+																</div>
+																<hr>
+												        </div>
+
+												        <!-- Comment Section Start -->
+																<div class="row ">
+																	<div class="col-xs-2 col-sm-2 col-md-1 col-lg-1">
+																		<div class="user_image">
+																		<img src="{{'frontend-assets/static-images/gallery/1.jpg'}}" class="img-circle" alt="Image" style="width: 100%;">
+																		</div>
+																	</div>
+																
+
+												        <div class="col-xs-8 col-sm-8 col-md-9 col-lg-9 user_comment">
+												        	
+												        	<p><span>Amit</span> <span><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></span></p>
+												        	<p class="text-muted">Excellent</p>
+												        	<p><span class="badge like_badge"><i class="fa fa-thumbs-up" style="color: white; font-size: 10px;"></i></span>&nbsp; 3 
+												        		<span class="badge like_badge2"><i class="fa fa-heart" style="font-size: 10px;"></i></span>&nbsp; 3
+												        		<span class="pull-right text-muted">1 Comment</span> </p>
+												        	
+												        	<div class="row like_row">
+												        		<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 like_col">
+												        			<a href=""><span class="text-muted"><i class="fa fa-thumbs-up fa-2x"></i></span> &nbsp; Like</a>
+												        		</div>
+												        		<div class="col-xs-4 col-sm-4 col-md-3 col-lg-4 like_col">
+												        			<a href=""><span class="text-muted"><i class="fa fa-comment fa-2x"></i></span> &nbsp; Comment</a>
+												        		</div>
+												        		<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 like_col">
+												        			<a href=""><span class="text-muted"><i class="fa fa-share fa-2x"></i></span> &nbsp; Share</a>
+												        		</div>
+												        		<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 like_col">
+												        			<a href="#"><span class="badge">P</span><span> &nbsp; 150</span></a>
+												        		</div>
+												        		
+												        	</div>	
+												        	
+												        </div>
+												        </div><br>
+
+																<div class="row ">
+																	<div class="col-xs-2 col-sm-2 col-md-1 col-lg-1">
+																		<div class="user_image">
+																		<img src="{{'frontend-assets/static-images/gallery/1.jpg'}}" class="img-circle" alt="Image" style="width: 100%;">
+																		</div>
+																	</div>
+												        <div class="col-xs-8 col-sm-8 col-md-9 col-lg-9 user_comment">
+												        	<p><span>Amit</span> <span><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></span></p>
+												        	<p class="text-muted">Excellent</p>
+												        	<p><span class="badge like_badge"><i class="fa fa-thumbs-up" style="color: white; font-size: 10px;"></i></span>&nbsp; 3 
+												        		<span class="badge like_badge2"><i class="fa fa-heart" style="font-size: 10px;"></i></span>&nbsp; 3
+												        		<span class="pull-right text-muted">1 Comment</span> </p>
+												        	
+												        	<div class="row like_row">
+												        		<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 like_col">
+												        			<a href=""><span class="text-muted"><i class="fa fa-thumbs-up fa-2x"></i></span> &nbsp; Like</a>
+												        		</div>
+												        		<div class="col-xs-4 col-sm-4 col-md-3 col-lg-4 like_col">
+												        			<a href=""><span class="text-muted"><i class="fa fa-comment fa-2x"></i></span> &nbsp; Comment</a>
+												        		</div>
+												        		<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 like_col">
+												        			<a href=""><span class="text-muted"><i class="fa fa-share fa-2x"></i></span> &nbsp; Share</a>
+												        		</div>
+												        		<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 like_col">
+												        			<a href="#"><span class="badge">P</span><span> &nbsp; 150</span></a>
+												        		</div>
+												        	</div>	
+												        </div>
+												        </div><br>
+
+												        <div class="row ">
+																	<div class="col-xs-2 col-sm-2 col-md-1 col-lg-1">
+																		<div class="user_image">
+																		<img src="{{'frontend-assets/static-images/gallery/1.jpg'}}" class="img-circle" alt="Image" style="width: 100%;">
+																		</div>
+																	</div>
+												        <div class="col-xs-8 col-sm-8 col-md-9 col-lg-9 user_comment">
+												        	<p><span>Amit</span> <span><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></span></p>
+												        	<p class="text-muted">Excellent</p>
+												        	<p><span class="badge like_badge"><i class="fa fa-thumbs-up" style="color: white; font-size: 10px;"></i></span>&nbsp; 3 
+												        		<span class="badge like_badge2"><i class="fa fa-heart" style="font-size: 10px;"></i></span>&nbsp; 3
+												        		<span class="pull-right text-muted">1 Comment</span> </p>
+												        	
+												        	<div class="row like_row">
+												        		<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 like_col">
+												        			<a href=""><span class="text-muted"><i class="fa fa-thumbs-up fa-2x"></i></span> &nbsp; Like</a>
+												        		</div>
+												        		<div class="col-xs-4 col-sm-4 col-md-3 col-lg-4 like_col">
+												        			<a href=""><span class="text-muted"><i class="fa fa-comment fa-2x"></i></span> &nbsp; Comment</a>
+												        		</div>
+												        		<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 like_col">
+												        			<a href=""><span class="text-muted"><i class="fa fa-share fa-2x"></i></span> &nbsp; Share</a>
+												        		</div>
+												        		<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 like_col">
+												        			<a href="#"><span class="badge">P</span><span> &nbsp; 150</span></a>
+												        		</div>
+												        	</div>	
+												        </div>
+												        </div>
+												        <!-- Comment Section End -->
+												      </div>
+												      <!-- Popular Tab End -->
+												      <div class="tab-pane fade" id="friend_rating">
+												    	
+												      </div>
+												  </div>
 												</div>
+													<!-- Popular Main Tabs Ends -->
+
+													<!-- Details Section Start-->
+												<div class="desctiption">
+													<h3>Business Information</h3>
+													<p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+													tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+													quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+													consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+													cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+													proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+													<p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+													tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+													quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+													consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+													cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+													proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+													<h3>History</h3>
+													<p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+													tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+													quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+													consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+													cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+													proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+
+													<h3>Crew Experience</h3>
+													<p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+													tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+													quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+													consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+													cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+													proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+													<p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+													tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+													quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+													consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+													cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+													proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+
+
+													<h3>Greeting</h3>
+													<p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+													tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+													quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+													consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+													cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+													proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+													<p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+													tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+													quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+													consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+													cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+													proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+
+													<h3>Event News</h3>
+													<p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+													tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+													quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+													consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+													cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+													proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+													<p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+													tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+													quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+													consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+													cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+													proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 												
+												</div>
+												<!-- Details Section Start-->
 											</div>
 										</div>
-									<!-- Review Tab Start -->
+									<!-- Review Tab Ends -->
 									</div>
 									<!-- Review Section Ends -->
 								</div>

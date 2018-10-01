@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="{{ app()->getLocale() }}">
     <head>
@@ -42,7 +43,7 @@
     </head>
     <body style="background: #C3C3C3;">
         @include('frontend.includes.header')
-
+       
         @yield('inner-header')
 
         @yield('content')
