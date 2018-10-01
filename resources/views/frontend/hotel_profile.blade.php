@@ -48,7 +48,7 @@
 						<a href="#tab" aria-controls="tab" role="tab" data-toggle="tab">MENU</a>
 					</li>
 					<li role="presentation">
-						<a href="#tab" aria-controls="tab" role="tab" data-toggle="tab">BOOK TABLE</a>
+						<a href="{{url('/home')}}" aria-controls="tab" role="tab" data-toggle="tab">BOOK TABLE</a>
 					</li>
 					<li role="presentation">
 						<a href="#tab" aria-controls="tab" role="tab" data-toggle="tab">ORDER ONLINE</a>
@@ -316,7 +316,7 @@
 											<button type="button" class="btn btn-success btn-block btn-lg">Menu <span class="pull-right btn_arrow"><i class="fa fa-chevron-circle-right fa_arrow fa-2x"></i></span></button>
 										</div>
 										<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
-											<button type="button" class="btn btn-success btn-lg btn-block">Book Table <span class="pull-right btn_arrow"><i class="fa fa-chevron-circle-right fa_arrow fa-2x"></i></span></button>
+											<a href="{{url('/table_booking')}}" class="btn btn-success btn-lg btn-block">Book Table <span class="pull-right btn_arrow"><i class="fa fa-chevron-circle-right fa_arrow fa-2x"></i></span></a>
 										</div>
 										<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
 											<button type="button" class="btn btn-success btn-lg btn-block">Order Online <span class="pull-right btn_arrow"><i class="fa fa-chevron-circle-right fa_arrow fa-2x"></i></span></button>

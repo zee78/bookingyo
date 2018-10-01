@@ -50,7 +50,7 @@
 					</ul>
 				</div>
 				<div class="col-xs-2 col-sm-2 col-md-1 col-lg-1 view_icon">
-					<a href=""><img src="{{'frontend-assets/static-images/gallery/main_imageview.png'}}" class="img-responsive" alt="Image"></a>
+					<a href="{{url('/home')}}"><img src="{{'frontend-assets/static-images/gallery/main_imageview.png'}}" class="img-responsive" alt="Image"></a>
 				</div>
 			</div>
 			<div class="row" style="    margin-bottom: 111px;">

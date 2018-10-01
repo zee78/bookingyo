@@ -854,6 +854,7 @@ background: #8C8C8C;
 	 font-size: 20px;
     margin-right: 10px;
 }
+
 /*Table Page css Ends*/
 
 
@@ -1206,4 +1207,10 @@ background: #8C8C8C;
 	.view_icon {
 		padding-left: 0;
 	}
+	.table_tabs li {
+	margin-right: 0px;
+	}
+	.overview .icon_col {
+		margin-left: 20px;
+	}	
 }

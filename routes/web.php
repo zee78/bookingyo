@@ -11,19 +11,17 @@
 |
 */
 
-Route::get('/', function () {
+Route::get('/home', function () {
     return view('frontend.home');
 });
-Route::get('/profile', function () {
+Route::get('/hotel_profile', function () {
     return view('frontend.hotel_profile');
 });
-Route::get('/index', function () {
+Route::get('/', function () {
     return view('frontend.index');
 });
-Route::get('/table', function () {
+Route::get('/table_booking', function () {
     return view('frontend.table_booking');
-});
-
 });
 Route::get('/category-list', function(){
 	return view('frontend.categoryListing');

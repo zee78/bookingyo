@@ -56,7 +56,7 @@
 			
 				<div class="col-md-5">
 					<div class="col-md-6 category-img" style="border:0px solid #EEEEEE;">
-						<a href="" class=""><img src="{{'frontend-assets/static-images/home/resturants.jpg'}}" style="width: 100%">
+						<a href="{{url('/hotel_profile')}}" class=""><img src="{{'frontend-assets/static-images/home/resturants.jpg'}}" style="width: 100%">
 							<div class="overlay-text">
 								<h4>Resturants</h4>
 								<span>dining, lounge bar, pizza ...</span>

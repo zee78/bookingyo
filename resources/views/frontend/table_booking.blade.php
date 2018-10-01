@@ -5,7 +5,7 @@
 
 <div class="row">
 	<div class="container">
-<div class="col-xs-7 col-sm-7 col-md-7 col-lg-7">
+<div class="col-xs-12 col-sm-12 col-md-7 col-lg-7">
 <h1 class="text-muted">Diadio Restaurant <span class="table_heading"><i class="fa fa-comments"></i>Video & chat</span></h1>
 	<div role="tabpanel" style="border: 1px solid #a8a8a8; border-radius: 4px;">
 		<!-- Nav tabs -->
@@ -26,7 +26,7 @@
 	
 		<!-- Tab panes -->
 		<div class="tab-content">
-			<div role="tabpanel" class="tab-pane active" id="overview">
+			<div role="tabpanel" class="tab-pane active overview" id="overview">
 				<p style="margin-left: 10px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -35,7 +35,7 @@
 				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 				<hr>
 				<div class="row">
-				<div class="col-xs-4 col-sm-4 col-md-3 col-lg-3 col-md-offset-1">
+				<div class="col-xs-4 col-sm-4 col-md-3 col-lg-3 col-md-offset-1 icon_col">
 					<span class="table_overview_icons"><i class="fa fa-cutlery" aria-hidden="true"></i>Dining Style</span>
 				</div>
 				<div class="col-xs-7 col-sm-7 col-md-7 col-lg- col-md-offset-1">
@@ -44,7 +44,7 @@
 				</div>
 				<hr>
 					<div class="row">
-				<div class="col-xs-4 col-sm-4 col-md-3 col-lg-3 col-md-offset-1">
+				<div class="col-xs-4 col-sm-4 col-md-3 col-lg-3 col-md-offset-1 icon_col">
 					<span class="table_overview_icons"><i class="fa fa-cutlery" aria-hidden="true"></i>Cuisines</span>
 				</div>
 				<div class="col-xs-7 col-sm-7 col-md-7 col-lg- col-md-offset-1">
@@ -53,7 +53,7 @@
 				</div>
 				<hr>
 				<div class="row">
-				<div class="col-xs-4 col-sm-4 col-md-3 col-lg-3 col-md-offset-1">
+				<div class="col-xs-4 col-sm-4 col-md-3 col-lg-3 col-md-offset-1 icon_col">
 					<span class="table_overview_icons"><i class="fa fa-clock-o" aria-hidden="true"></i>Hours of Operation</span>
 				</div>
 				<div class="col-xs-7 col-sm-7 col-md-7 col-lg- col-md-offset-1">
@@ -62,7 +62,7 @@
 				</div>
 				<hr>
 				<div class="row">
-				<div class="col-xs-4 col-sm-4 col-md-3 col-lg-3 col-md-offset-1">
+				<div class="col-xs-4 col-sm-4 col-md-3 col-lg-3 col-md-offset-1 icon_col">
 					<span class="table_overview_icons"><i class="fa fa-phone" aria-hidden="true"></i>Phone Number</span>
 				</div>
 				<div class="col-xs-7 col-sm-7 col-md-7 col-lg- col-md-offset-1">
@@ -71,7 +71,7 @@
 				</div>
 				<hr>
 				<div class="row">
-				<div class="col-xs-4 col-sm-4 col-md-3 col-lg-3 col-md-offset-1">
+				<div class="col-xs-4 col-sm-4 col-md-3 col-lg-3 col-md-offset-1 icon_col">
 					<span class="table_overview_icons"><i class="fa fa-external-link" aria-hidden="true"></i>Website</span>
 				</div>
 				<div class="col-xs-7 col-sm-7 col-md-7 col-lg- col-md-offset-1">
@@ -80,7 +80,7 @@
 				</div>
 				<hr>
 				<div class="row">
-				<div class="col-xs-4 col-sm-4 col-md-3 col-lg-3 col-md-offset-1">
+				<div class="col-xs-4 col-sm-4 col-md-3 col-lg-3 col-md-offset-1 icon_col">
 					<span class="table_overview_icons"><i class="fa fa-credit-card" aria-hidden="true"></i>Payment Options</span>
 				</div>
 				<div class="col-xs-7 col-sm-7 col-md-7 col-lg- col-md-offset-1">
@@ -89,16 +89,16 @@
 				</div>
 				<hr>
 				<div class="row">
-				<div class="col-xs-4 col-sm-4 col-md-3 col-lg-3 col-md-offset-1">
+				<div class="col-xs-4 col-sm-4 col-md-3 col-lg-3 col-md-offset-1 icon_col">
 					<span class="table_overview_icons"><i class="fa fa-shirtsinbulk" aria-hidden="true"></i>Dress Code</span>
 				</div>
-				<div class="col-xs-7 col-sm-7 col-md-7 col-lg- col-md-offset-1">
+				<div class="col-xs-7 col-sm-7 col-md-7 col-lg- col-md-offset-1 ">
 					Business Casual
 				</div>	
 				</div>
 				<hr>
 				<div class="row">
-				<div class="col-xs-4 col-sm-4 col-md-3 col-lg-3 col-md-offset-1">
+				<div class="col-xs-4 col-sm-4 col-md-3 col-lg-3 col-md-offset-1 icon_col">
 					<span class="table_overview_icons"><i class="fa fa-cutlery" aria-hidden="true"></i>Executive Chef</span>
 				</div>
 				<div class="col-xs-7 col-sm-7 col-md-7 col-lg- col-md-offset-1">
@@ -107,7 +107,7 @@
 				</div>
 				<hr>
 				<div class="row">
-				<div class="col-xs-4 col-sm-4 col-md-3 col-lg-3 col-md-offset-1">
+				<div class="col-xs-4 col-sm-4 col-md-3 col-lg-3 col-md-offset-1 icon_col">
 					<span class="table_overview_icons"><i class="fa fa-cutlery" aria-hidden="true"></i>Catering</span>
 				</div>
 				<div class="col-xs-7 col-sm-7 col-md-7 col-lg- col-md-offset-1">
@@ -116,7 +116,7 @@
 				</div>
 				<hr>
 				<div class="row">
-				<div class="col-xs-4 col-sm-4 col-md-3 col-lg-3 col-md-offset-1">
+				<div class="col-xs-4 col-sm-4 col-md-3 col-lg-3 col-md-offset-1 icon_col">
 					<span class="table_overview_icons"><i class="fa fa-users" aria-hidden="true"></i>Neighbour Hood</span>
 				</div>
 				<div class="col-xs-7 col-sm-7 col-md-7 col-lg- col-md-offset-1">
@@ -125,7 +125,7 @@
 				</div>
 				<hr>
 				<div class="row">
-				<div class="col-xs-4 col-sm-4 col-md-3 col-lg-3 col-md-offset-1">
+				<div class="col-xs-4 col-sm-4 col-md-3 col-lg-3 col-md-offset-1 icon_col">
 					<span class="table_overview_icons"><i class="fa fa-building-o" aria-hidden="true"></i>Cross Street</span>
 				</div>
 				<div class="col-xs-7 col-sm-7 col-md-7 col-lg- col-md-offset-1">
@@ -134,7 +134,7 @@
 				</div>
 				<hr>
 				<div class="row">
-				<div class="col-xs-4 col-sm-4 col-md-3 col-lg-3 col-md-offset-1">
+				<div class="col-xs-4 col-sm-4 col-md-3 col-lg-3 col-md-offset-1 icon_col">
 					<span class="table_overview_icons"><i class="fa fa-car" aria-hidden="true"></i>Parking Details</span>
 				</div>
 				<div class="col-xs-7 col-sm-7 col-md-7 col-lg- col-md-offset-1">
@@ -143,7 +143,7 @@
 				</div>
 				<hr>
 				<div class="row">
-				<div class="col-xs-4 col-sm-4 col-md-3 col-lg-3 col-md-offset-1">
+				<div class="col-xs-4 col-sm-4 col-md-3 col-lg-3 col-md-offset-1 icon_col">
 					<span class="table_overview_icons"><i class="fa fa-bus" aria-hidden="true"></i>Public Transit</span>
 				</div>
 				<div class="col-xs-7 col-sm-7 col-md-7 col-lg- col-md-offset-1">
@@ -152,7 +152,7 @@
 				</div>
 				<hr>
 				<div class="row">
-				<div class="col-xs-4 col-sm-4 col-md-3 col-lg-3 col-md-offset-1">
+				<div class="col-xs-4 col-sm-4 col-md-3 col-lg-3 col-md-offset-1 icon_col">
 					<span class="table_overview_icons"><i class="fa fa-music" aria-hidden="true"></i>Entertainment</span>
 				</div>
 				<div class="col-xs-7 col-sm-7 col-md-7 col-lg- col-md-offset-1">
@@ -161,7 +161,7 @@
 				</div>
 				<hr>
 				<div class="row">
-				<div class="col-xs-4 col-sm-4 col-md-3 col-lg-3 col-md-offset-1">
+				<div class="col-xs-4 col-sm-4 col-md-3 col-lg-3 col-md-offset-1 icon_col">
 					<span class="table_overview_icons"><i class="fa fa-calendar" aria-hidden="true"></i>Special Event & Promotions</span>
 				</div>
 				<div class="col-xs-7 col-sm-7 col-md-7 col-lg- col-md-offset-1">
@@ -170,7 +170,7 @@
 				</div>
 				<hr>
 				<div class="row">
-				<div class="col-xs-4 col-sm-4 col-md-3 col-lg-3 col-md-offset-1">
+				<div class="col-xs-4 col-sm-4 col-md-3 col-lg-3 col-md-offset-1 icon_col">
 					<span class="table_overview_icons"><i class="fa fa-plus-square-o" aria-hidden="true"></i>Additional</span>
 				</div>
 				<div class="col-xs-7 col-sm-7 col-md-7 col-lg- col-md-offset-1">
@@ -179,7 +179,7 @@
 				</div>
 				<hr>
 				<div class="row">
-				<div class="col-xs-4 col-sm-4 col-md-3 col-lg-3 col-md-offset-1">
+				<div class="col-xs-4 col-sm-4 col-md-3 col-lg-3 col-md-offset-1 icon_col">
 					<span class="table_overview_icons"><i class="fa fa-map-marker" aria-hidden="true"></i>Location</span>
 				</div>
 				<div class="col-xs-7 col-sm-7 col-md-7 col-lg- col-md-offset-1">
@@ -197,9 +197,37 @@
 		</div>
 	</div>
 </div>
-<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 col-md-offset-1">
+<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 col-md-offset-1">
 	<div class="reservation">
-		<h1>Make a Reservation</h1>
+		<h3>Make a Reservation</h3>
+		<p>Confirm you reservation with your phone</p>
+		<form action="" method="POST" role="form">
+			<div class="form-group">
+				<div class="row">
+				<label for="" class="col-xs-2 col-sm-2 col-md-2 col-lg-2">Name</label>
+				<div class="col-xs-10 col-sm-10 col-md-10 col-lg-10">
+				<input type="text" class="form-control" id="" name="name" placeholder="">
+				</div>
+			</div>
+		</div>
+			<div class="form-group">
+				<div class="row">
+				<label for="" class="col-xs-2 col-sm-2 col-md-2 col-lg-2">Mobile</label>
+				<div class="col-xs-10 col-sm-10 col-md-10 col-lg-10">
+				<div class="input-group">
+				  <span class="input-group-addon" id="basic-addon1">
+				  	<select name="" id="input" class="">
+				  		<option value="92">92</option>
+				      <option value="93">93</option>
+				  	</select>
+				  </span>
+				  <input type="text" class="form-control" placeholder="010-2519-2103" aria-describedby="basic-addon1">
+				</div>
+				</div>
+			</div>
+			</div>
+		
+		</form>
 	</div>
 </div>	
 </div>

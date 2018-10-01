@@ -29,7 +29,7 @@
     </div>
   </div>
 
- @if(Request::url() === 'http://localhost:8000/index')  
+ @if(Request::url() === 'http://localhost:8000')  
 
  @else
 
