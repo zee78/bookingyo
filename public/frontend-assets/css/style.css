@@ -1438,6 +1438,16 @@ select {
 	}
 	.overview .icon_col {
 		margin-left: 20px;
+	}
+	.photo img
+	{
+		height: 90px;
+	}
+	.slider-controls .left {
+		font-size: 20px
+	}
+	.slider-controls .right {
+		font-size: 20px
 	}	
 }
 
@@ -1446,7 +1456,7 @@ select {
 }
 #owl-demo .item{
   margin: 3px;
-}
+}    height: 90px;
 #owl-demo .item img{
   display: block;
   /*width: 100%;*/

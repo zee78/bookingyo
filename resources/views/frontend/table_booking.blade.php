@@ -333,7 +333,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 col-md-offset-1">
+		<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-md-offset-1">
 			<div class="reservation">
 				<div class="reservation_heading">
 					<span>Make a Reservation</span>
