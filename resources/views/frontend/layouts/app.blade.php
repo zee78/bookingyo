@@ -36,6 +36,8 @@
         }
         </style>
         <link href="{{('frontend-assets/css/owl.carousel.min.css')}}" rel="stylesheet">
+        <!-- <link href="{{('frontend-assets/css/owl.carousel.css')}}" rel="stylesheet"> -->
+        <link href="{{('frontend-assets/css/owl.theme.default.min.css')}}" rel="stylesheet">
         
     </head>
     <body style="background: #C3C3C3;">
@@ -43,6 +45,14 @@
         
         @yield('inner-header')
         @yield('content')
+
+        <div class="side-bar">
+          <a href="#" class="sns">Talk SNS</i></a> 
+          <a href="#" class="listingFree">Free Listing</a> 
+          <a href="#" class="customer">Customer Care</a> 
+          <a href="#" class="advertise">Advertise</a>
+          <a href="#" class="youtube">Coupon</a> 
+        </div>
         @include('frontend.includes.footer')
         <!-- <a href="#" class="job-notification">
             <i class="fa fa-bell"></i>
@@ -62,6 +72,10 @@
         <script type="{{('frontend-assets/js/owl.carousel.min.js')}}"></script>
         @yield('script')
         
+
+        <script src="{{('frontend-assets/js/owl.carousel.min.js')}}"></script>
+		
+
         <script type="text/javascript" charset="utf-8">
         $(document).ready(function(){
         $("area[rel^='prettyPhoto']").prettyPhoto();
@@ -121,6 +135,24 @@
     $('#image-view').css('display', 'none');
     $('#list-view').css('display', 'block');
     }
-    });
-    </script>
+});
+</script>
+
+<script>
+    var owl = $('.owl-carousel');
+owl.owlCarousel({
+    items:14,
+    loop:true,
+    margin:0,
+    autoplay:false,
+    autoplayTimeout:1000,
+    autoplayHoverPause:true
+});
+$('.play').on('click',function(){
+    owl.trigger('play.owl.autoplay',[1000])
+})
+$('.stop').on('click',function(){
+    owl.trigger('stop.owl.autoplay')
+})
+</script>
 </html>

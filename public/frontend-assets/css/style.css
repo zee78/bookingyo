@@ -1080,7 +1080,7 @@ background: #8C8C8C;
 	color: #222;
 }
 .col-md-9-5 ul{
-	border: 1px solid black;
+	border: 1px solid lightgray;
 	/*padding: 10px;*/
 	padding-left: 0;
 	text-align: right;
@@ -1109,8 +1109,8 @@ background: #8C8C8C;
     border-bottom: 19px solid transparent;
     border-left: 24px solid #dddddd;
     position: absolute;
-    top: 20.7%;
-    left: 33.3%
+    top: 0.1%;
+    left: 13.2%;
 }
 .list-dropdown .dropdown-menu{
 	min-width: 75px;
@@ -1129,6 +1129,7 @@ background: #8C8C8C;
 	border: 1px solid #5d5b5b61;
 	margin: 0;
 	margin-bottom: 20px;
+	margin-left: -5px;
 }
 .listing-grid .col-md-3{
 	padding-left: 0;
@@ -1438,4 +1439,150 @@ select {
 	.overview .icon_col {
 		margin-left: 20px;
 	}	
+}
+
+#owl-demo{
+	display: -webkit-box;
+}
+#owl-demo .item{
+  margin: 3px;
+}
+#owl-demo .item img{
+  display: block;
+  /*width: 100%;*/
+  height: auto;
+}
+
+
+/* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
+.side-bar {
+  	position: fixed;
+    top: 41%;
+    right: 0;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translatey(-49%);
+}
+
+/* Style the icon bar links */
+.side-bar a {
+  	transform: rotate(-90deg);
+    display: block;
+    text-align: center;
+    padding: 9px 5px;
+    transition: all 0.3s ease;
+    color: white;
+    transform-origin: 77% 38%;
+    font-size: 11px;
+    margin: 57px 0;
+}
+
+/* Style the social media icons with color, if you want */
+.side-bar a:hover {
+  	background-color: #000;
+  	cursor: pointer !important; 
+}
+
+.sns {
+  	background: #3B5998;
+  	color: white;
+}
+
+.listingFree {
+  	background: #FF6C00;
+  	color: white;
+}
+
+.customer {
+  	background: #1D79C2;
+  	color: white;
+}
+
+.advertise {
+  	background: #22B14C;
+  	color: white;
+}
+
+.youtube {
+  	background: #bb0000;
+  	color: white;
+}
+
+
+#menuSlider {
+  padding: 0;
+  background: white;
+}
+
+#menuSlider img {
+  max-width: 100%;
+  opacity: 1;
+  /*transition: 0.3s;*/
+  padding: 0;
+}
+
+#menuSlider img:hover {
+  opacity: 1;
+}
+
+#menuSlider .owl-nav, #menuSlider .owl-dots {
+  margin-top: 5px;
+  text-align: center;
+}
+
+#menuSlider .owl-dot {
+  display: none;
+  margin: 0 !important;
+  border-radius: 50%;
+  background-color: #ddd;
+
+}
+#menuSlider .owl-carousel .owl-stage{
+	padding-top: 15px;
+}
+#menuSlider .owl-dot.active {
+  background-color: #18d26e;
+}
+#menuSlider .owl-stage .owl-item{
+	width: 95px !important;
+	margin-left: 10px;
+}
+.listing-carousel .owl-nav{
+	display: block !important;
+	margin: 0 !important;
+}
+.listing-carousel .owl-nav .owl-prev{
+    position: absolute;
+    left: 0px;
+    top: 0%;
+    font-size: 32px !important;
+}
+.listing-carousel .owl-nav .owl-next{
+    position: absolute;
+    right: 0px;
+    top: 0%;
+    font-size: 32px !important;
+}
+.owl-stage-outer{
+	width: 97%;
+	margin-left: 20px;
+}
+#menuSlider .row{
+	border-bottom: 1px solid lightgray;
+	margin: 0;
+}
+#menuSlider .row .navbar-toggle{
+	display: block;
+}
+#menuSlider .row .navbar-toggle .icon-bar{
+    background: black;
+} 
+#menuSlider .row .col-md-11{
+	padding-left: 0;
+	height: 50px;
+    width: 94%;
+}
+#menuSlider .row .col-md-1{
+	width: 6%;
+	padding: 0 10px;
 }
