@@ -249,11 +249,11 @@ nav-tab-main li.active a:after {
 	position: relative;
 }
 
-input, section {
+/*input, section {
   clear: both;
   padding-top: 10px;
   display: none;
-}
+}*/
 
 .label_tabs {
   font-weight: 700;
@@ -1973,7 +1973,7 @@ select {
 	padding: 12px 5rem;
 }
 .detail-section{
-	width: 76%;
+	width: 75.8%;
 	border-top: 0;
 	padding: 0;
 	border: 1px solid lightgray;
@@ -1982,13 +1982,81 @@ select {
 .detail-section .grocery-tab{
 	border: 0;
 }
+.main-content{
+
+}
 .main-content .col-md-12{
 	display: -webkit-box;
     padding: 2px;
 }
+.main-content .col-md-12 .col-md-offset-5 .text-primary{
+	padding-right: 25px;
+}
 .main-content .col-md-12 .col-md-offset-5 .btn{
 	padding: 2px 13px;
-	margin-left: 15px;
+	margin-left: 25px;
+}
+.section-title{
+	border-bottom: 2px solid lightgray;
+}
+.section-title .col-md-2{
+	text-align: center;
+	padding: 4px 0 0;
+}
+.section-title .col-md-2 .fa{
+    color: darkgray;
+}
+.top-header-thumbnail{
+	padding: 0 15px;
+}
+.thumbnail-row .thumbnail{
+	border-top: 0;
+	border-bottom: 0;
+	border-left: 0;
+	margin-top: 5px;
+	margin-bottom: 15px;
+}
+.thumbnail-row .thumbnail >img{
+    height: 150px;
+}
+.thumbnail-row .thumbnail .caption{
+	padding: 9px 50px;
+}
+.thumbnail-row .thumbnail .caption label{
+	background: #B43CC8;
+    color: white;
+    font-weight: 500;
+    padding: 0px 5px;
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+.thumbnail-row .thumbnail .caption select{
+	background: transparent;
+    width: 57%;
+    border: 1px solid lightgray;
+    margin-bottom: 10px;
+}
+.thumbnail-row .thumbnail .price{
+	margin-bottom: 20px;
+}
+.thumbnail-row .thumbnail .add-btn{
+	padding: 1px 22px;
+}
+#featureItem{
+	border-bottom: 1px solid lightgray;
+	margin: 0;
+}
+#featureItem .col-md-3:last-Child .thumbnail{
+	border-right: 0;
+}
+#featureItem .thumbnail{
+	margin-bottom: 10px;
+}
+#featureItem .thumbnail .caption{
+	padding: 9px 28px;
+}
+#featureItem .thumbnail .caption select{
+    width: 43%;
 }
 /*.grocery-listLine li:nth-Child(2) >a .fa{
 	padding-right: 10px;
@@ -2324,3 +2392,68 @@ select {
 }
 /*Header Slider Ends*/
 
+
+/*Customize Inpute Number*/
+.number-input input[type="number"] {
+  -webkit-appearance: textfield;
+  -moz-appearance: textfield;
+  appearance: textfield;
+}
+
+.number-input input[type=number]::-webkit-inner-spin-button,
+.number-input input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+}
+
+.number-input {
+  border: 0;
+  display: inline-flex;
+}
+
+.number-input,
+.number-input * {
+  box-sizing: border-box;
+}
+
+.number-input button {
+  border-radius: 50%;
+  border: 1px solid #aba9a9 !important;
+  outline: none;
+  -webkit-appearance: none;
+  background-color: transparent;
+  border: none;
+  align-items: center;
+  justify-content: center;
+  width: 3rem;
+  height: 3rem;
+  cursor: pointer;
+  margin: 0;
+  position: relative;
+  background: #aba9a9;
+}
+
+.number-input button:before,
+.number-input button:after {
+  	display: inline-block;
+  	position: absolute;
+  	content: '';
+  	width: 1rem;
+  	height: 2px;
+  	background-color: #fff;
+  	transform: translate(-50%, -50%);
+}
+.number-input button.plus:after {
+  transform: translate(-50%, -50%) rotate(90deg);
+}
+
+.number-input input[type=number] {
+  	font-family: sans-serif;
+	max-width: 2rem;
+	padding: .5rem;
+	border: solid #ddd;
+	border-width: 0;
+	font-size: 1.4rem;
+	height: 3rem;
+	text-align: center;
+}
+/*End*/
