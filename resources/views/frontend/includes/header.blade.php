@@ -107,7 +107,6 @@
         </div>
       </div>
     </nav><!-- main-navbar -->
-
   </div>
    @endif
 </header>
