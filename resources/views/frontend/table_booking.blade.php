@@ -5,7 +5,7 @@
 	<div class="row" style="margin-bottom: 50px;">
 		<div class="container">
 			<div class="col-xs-12 col-sm-12 col-md-7 col-lg-7">
-				<h1 class="text-muted">Diadio Restaurant <span class="table_heading"><i class="fa fa-comments"></i>Video & chat</span></h1>
+				<h2 class="text-muted">Diadio Restaurant <span class="table_heading"><i class="fa fa-comments"></i>Video & chat</span></h2>
 				<div role="tabpanel" style="border: 1px solid #a8a8a8; border-radius: 4px;">
 					<!-- Nav tabs -->
 					<ul class="nav nav-tabs table_tabs" role="tablist">
@@ -428,37 +428,36 @@
 								</div>
 								<!-- Restaurat Offline div End -->
 								<div class="row">
-								<div id="menuSlider_booking" class="wow fadeInUp">
-									<div class="col-md-12">
-										<div id="myModal" class="modal-discount">
-														  <span class="close">&times;</span>
-														  <img class="modal-content-discount" id="img01">
-														  <div id="caption"></div>
-														</div>
-												<div role="tabpanel">
-										<div class="row">
-											<div class="col-md-9">
-												<div class="owl-carousel table-booking-carousel">
-													
-														<!-- Nav tabs -->
-														<span>
+									<div id="menuSlider_booking" class="wow fadeInUp">
+										<div class="col-md-12">
+											<div id="myModal" class="modal-discount">
+												<span class="close">&times;</span>
+												<img class="modal-content-discount" id="img01">
+												<div id="caption"></div>
+											</div>
+											<div role="tabpanel">
+												<div class="row">
+													<div class="col-md-9">
+														<div class="owl-carousel table-booking-carousel">
+															
+															<!-- Nav tabs -->
+															<span>
 																<a class="active" href="#bestseller" aria-controls="home" role="tab" data-toggle="tab">Main Menu</a>
 															</span>
 															<span>
 																<a href="#tab" aria-controls="tab" role="tab" data-toggle="tab">Deserts</a></span>
-															<span>
-																<a href="#tab" aria-controls="tab" role="tab" data-toggle="tab">Wine</a>
-													</span>
-														<span>
-														
-																<a href="#tab" aria-controls="tab" role="tab" data-toggle="tab">Cocktails</a>
-															</span>
-															
+																<span>
+																	<a href="#tab" aria-controls="tab" role="tab" data-toggle="tab">Wine</a>
+																</span>
+																<span>
+																	
+																	<a href="#tab" aria-controls="tab" role="tab" data-toggle="tab">Cocktails</a>
+																</span>
+																
 																<span>	<a href="#tab" aria-controls="tab" role="tab" data-toggle="tab">Single Bottle List</a>
 															</span>
-
 															<span>	<a href="#tab" aria-controls="tab" role="tab" data-toggle="tab">Lunch Menu</a>
-															</span>
+														</span>
 														
 														
 														<!-- Tab panes -->
@@ -471,301 +470,486 @@
 												
 											</div>
 											<div class="tab-content">
-															<div role="tabpanel" class="tab-pane active" id="bestseller">
-																<div class="seller_info">
-																<h4><strong>Bestsellers</strong></h4>
-																<p>Desert</p>
-															<div class="row">
-																<div class="col-xs-2 col-sm-2 col-md-1 col-lg-1">
+												<div role="tabpanel" class="tab-pane active" id="bestseller">
+													<div class="seller_info">
+														<h4><strong>Bestsellers</strong></h4>
+														<p>Desert</p>
+														<div class="row">
+															<div class="col-xs-2 col-sm-2 col-md-1 col-lg-1">
 																<span class="span_dot"><i class="fa fa-circle"></i></span>
-																</div>
-																<div class="col-xs-10 col-sm-10 col-md-11 col-lg-11">
-																	<p><strong> &nbsp;Mutton Seekh Kabab [8] Pieces</strong>
-																		<span class="img_zoom pull-right" id="span_img"><img src="{{'frontend-assets/static-images/table_booking/deal.png'}}"  class="img-responsive" id="myImg" alt="Image">
-																		<i class="fa fa-search-plus" aria-hidden="true"></i></span></p>
-																<p><i class="fa fa-krw" aria-hidden="true"></i>610.00</p>
-																<p><span class="text-muted">Ground Spiced minsed mutton cooked on metal skrewer</span></p>
+															</div>
+															<div class="col-xs-10 col-sm-10 col-md-11 col-lg-11">
+																<p><strong> &nbsp;Mutton Seekh Kabab [8] Pieces</strong>
+																	<span class="img_zoom pull-right" id="span_img"><img src="{{'frontend-assets/static-images/table_booking/deal.png'}}"  class="img-responsive" id="myImg" alt="Image">
+																	<i class="fa fa-search-plus" aria-hidden="true"></i></span></p>
+																	<p><i class="fa fa-krw" aria-hidden="true"></i>610.00</p>
+																	<p><span class="text-muted">Ground Spiced minsed mutton cooked on metal skrewer</span></p>
 																</div>
 															</div>
 															<hr>
 															<div class="row">
 																<div class="col-xs-2 col-sm-2 col-md-1 col-lg-1">
-																<span class="span_dot"><i class="fa fa-circle"></i></span>
+																	<span class="span_dot"><i class="fa fa-circle"></i></span>
 																</div>
 																<div class="col-xs-10 col-sm-10 col-md-11 col-lg-11">
 																	<p><strong> &nbsp;Mutton Seekh Kabab [8] Pieces</strong>
 																		<span class="img_zoom pull-right" id="span_img"><img src="{{'frontend-assets/static-images/table_booking/deal.png'}}"  class="img-responsive" id="myImg" alt="Image">
 																		<i class="fa fa-search-plus" aria-hidden="true"></i></span></p>
-																<p><i class="fa fa-krw" aria-hidden="true"></i>610.00</p>
-																<p><span class="text-muted">Ground Spiced minsed mutton cooked on metal skrewer</span></p>
+																		<p><i class="fa fa-krw" aria-hidden="true"></i>610.00</p>
+																		<p><span class="text-muted">Ground Spiced minsed mutton cooked on metal skrewer</span></p>
+																	</div>
+																</div>
+																<hr>
+																<div class="row">
+																	<div class="col-xs-2 col-sm-2 col-md-1 col-lg-1">
+																		<span class="span_dot"><i class="fa fa-circle"></i></span>
+																	</div>
+																	<div class="col-xs-10 col-sm-10 col-md-11 col-lg-11">
+																		<p><strong> &nbsp;Mutton Seekh Kabab [8] Pieces</strong>
+																			<span class="img_zoom pull-right" id="span_img"><img src="{{'frontend-assets/static-images/table_booking/deal.png'}}"  class="img-responsive" id="myImg" alt="Image">
+																			<i class="fa fa-search-plus" aria-hidden="true"></i></span></p>
+																			<p><i class="fa fa-krw" aria-hidden="true"></i>610.00</p>
+																			<p><span class="text-muted">Ground Spiced minsed mutton cooked on metal skrewer</span></p>
+																		</div>
+																	</div>
 																</div>
 															</div>
-															<hr>
-															<div class="row">
-																<div class="col-xs-2 col-sm-2 col-md-1 col-lg-1">
-																<span class="span_dot"><i class="fa fa-circle"></i></span>
-																</div>
-																<div class="col-xs-10 col-sm-10 col-md-11 col-lg-11">
-																	<p><strong> &nbsp;Mutton Seekh Kabab [8] Pieces</strong>
-																		<span class="img_zoom pull-right" id="span_img"><img src="{{'frontend-assets/static-images/table_booking/deal.png'}}"  class="img-responsive" id="myImg" alt="Image">
-																		<i class="fa fa-search-plus" aria-hidden="true"></i></span></p>
-																<p><i class="fa fa-krw" aria-hidden="true"></i>610.00</p>
-																<p><span class="text-muted">Ground Spiced minsed mutton cooked on metal skrewer</span></p>
-																</div>
-															</div>
-															</div>
-															</div>
-
-
 															<div role="tabpanel" class="tab-pane" id="tab">.dgdgs fsdf..</div>
 														</div>
+													</div>
+													
+												</div>
+											</div>
 										</div>
-														
-									</div>
-								</div>
-								</div>
-								
-							</div>
-							<!-- Restaurant Info End -->
-						</div>
-					</div>
-					<!-- Menu Tab End -->
-
-					<!-- Review Tab Start -->
-					<div role="tabpanel" class="tab-pane active" id="reviews">
-						<div class="review_container">
-							<h4>Over all Rating and Reviews</h4>
-							<div class="row" style="margin-left: 0px;">
-								<div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
-									<p>Review can only be made by dinners who have eaten at this restaurant</p>
-									<p><span class="review_star"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-o"></i> &nbsp; 4.7 based on recent ratings</span></p>
-									<ul class="list-group" style="display: -webkit-box;">
-										<li class="rating_list"><strong>4.7</strong><br>Food</li>
-										<li class="rating_list"><strong>4.7</strong><br>Service</li>
-										<li class="rating_list"><strong>4.3</strong><br>Value</li>
-										<li class="rating_list2"><strong>4.4</strong><br>Ambience</li>
 										
-									</ul>
-								</div>
-								<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-									
+									</div>
+									<!-- Restaurant Info End -->
 								</div>
 							</div>
-						</div>
-					</div>
-					<!-- Review Tab End -->
-					<div role="tabpanel" class="tab-pane" id="information">info</div>
-				</div>
-			</div>
-		</div>
-		<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-md-offset-1">
-			<div class="reservation">
-				<div class="reservation_heading">
-					<span>Make a Reservation</span>
-				</div>
-				<div class="reservation_info">
-					<p>Confirm you reservation with your phone</p>
-					<form action="" method="POST" role="form">
-						<div class="form-group">
-							<div class="row">
-								<label for="" class="col-xs-2 col-sm-2 col-md-2 col-lg-2">Name</label>
-								<div class="col-xs-10 col-sm-10 col-md-10 col-lg-10">
-									<input type="text" class="form-control" id="" name="name" placeholder="">
-								</div>
-							</div>
-						</div>
-						<div class="form-group">
-							<div class="row">
-								<label for="" class="col-xs-2 col-sm-2 col-md-2 col-lg-2">Mobile</label>
-								<div class="col-xs-10 col-sm-10 col-md-10 col-lg-10">
-									<div class="input-group">
-										<span class="input-group-addon" id="basic-addon1">
-											<select name="" id="input" class="">
-												<option value="92">92</option>
-												<option value="93">93</option>
+							<!-- Menu Tab End -->
+							<!-- Review Tab Start -->
+							<div role="tabpanel" class="tab-pane active" id="reviews">
+								<div class="review_container">
+									<h4>Over all Rating and Reviews</h4>
+									<div class="review_content">
+									<div class="row">
+										<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+											<p>Review can only be made by dinners who have eaten at this restaurant</p>
+											<p><span class="review_star"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-o"></i> &nbsp; 4.7 based on recent ratings</span></p>
+											<ul class="list-group review_rating_list" style="display: -webkit-box;">
+												<li class="list-group-item rating_list"><strong>4.7</strong><br>Food</li>
+												<li class="list-group-item rating_list"><strong>4.7</strong><br>Service</li>
+												<li class="list-group-item rating_list"><strong>4.3</strong><br>Value</li>
+												<li class="list-group-item"><strong>4.4</strong><br>Ambience</li>
+												
+											</ul>
+										</div>
+										<div class="col-xs-8 col-sm-8 col-md-4 col-lg-4 col-md-offset-1">
+											<div class="row review_table_row">
+												<div style="display: flow-root;">
+													<div class="side">
+														<div>5 star</div>
+													</div>
+													<div class="middle">
+														<div class="bar-container-table-review">
+															<div class="bar-5-table-review"></div>
+														</div>
+													</div>
+												</div>
+												<div style="display: flow-root;">
+													<div class="side">
+														<div>4 star</div>
+													</div>
+													<div class="middle">
+														<div class="bar-container-table-review">
+															<div class="bar-4-table-review"></div>
+														</div>
+													</div>
+												</div>
+												<div style="display: flow-root;">
+													<div class="side">
+														<div>3 star</div>
+													</div>
+													<div class="middle">
+														<div class="bar-container-table-review">
+															<div class="bar-3-table-review"></div>
+														</div>
+													</div>
+												</div>
+												<div style="display: flow-root;">
+													<div class="side">
+														<div>2 star</div>
+													</div>
+													<div class="middle">
+														<div class="bar-container-table-review">
+															<div class="bar-2-table-review"></div>
+														</div>
+													</div>
+												</div>
+												<div style="display: flow-root;">
+													<div class="side">
+														<div>1 star</div>
+													</div>
+													<div class="middle">
+														<div class="bar-container-table-review">
+															<div class="bar-1-table-review"></div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<br>
+									<p><span><strong><i class="fa fa-signal" aria-hidden="true"></i> Noise .</strong> Quite</span></p>
+									<p><span><strong><i class="fa fa-signal" aria-hidden="true"></i> 92 % of people</strong> would recommended it to a friend</span></p>
+									<p><span><strong>Loved For <i class="fa fa-info-circle" aria-hidden="true"></i></strong></span></p>
+			
+									<div class="row trophy">
+									<div class="col-xs-6 col-sm-6 col-md-4 col-lg-4">
+										<button type="button" class="btn btn-default btn-block"><i class="fa fa-trophy" aria-hidden="true"></i><strong> British</strong><br>London</button>
+									</div>
+									<div class="col-xs-6 col-sm-6 col-md-4 col-lg-4">
+										<button type="button" class="btn btn-default btn-block"><i class="fa fa-trophy" aria-hidden="true"></i><strong> Best Overall</strong><br>West End London</button>
+									</div>
+									<div class="col-xs-6 col-sm-6 col-md-4 col-lg-4">
+										<button type="button" class="btn btn-default btn-block"><i class="fa fa-trophy" aria-hidden="true"></i><strong> Best Food</strong><br>West End London</button>
+									</div>
+									<div class="col-xs-6 col-sm-6 col-md-4 col-lg-4">
+										<button type="button" class="btn btn-default btn-block"><i class="fa fa-trophy" aria-hidden="true"></i><strong> British</strong><br>West End London</button>
+									</div>	
+									</div><br>
+
+									<a href="" style="text-decoration: none;"><span style="color: #CB202D;"><strong>Best Restaurant in Marylebone ></strong></span></a>
+									<hr>
+
+									<div class="comment_section">
+									<div class="review_form">
+									<form action="" method="POST" role="form">
+										<div class="form-group">
+											<label for="">Sort By</label>
+											<select name="" id="input" class="form-control" required="required">
+												<option value="">Newest</option>
+												<option value="">Newest</option>
+												<option value="">Newest</option>
 											</select>
-										</span>
-										<input type="text" class="form-control" placeholder="010-2519-2103" aria-describedby="basic-addon1">
+										</div>
+									<div class="form-group">
+											<label for="">Filter</label>
+											<div class="row">
+												<div class="col-xs-6 col-sm-6 col-md-4 col-lg-4">
+											<button type="button" class="btn btn-default btn-block	"><input type="checkbox" name="" id="input" ><span>Good For Groups</span></button>
+												</div>
+												<div class="col-xs-6 col-sm-6 col-md-4 col-lg-4">
+													<button type="button" class="btn btn-default btn-block	"><input type="checkbox" name="" id="input" style="display: -webkit-inline-box;" ><span>Good For Groups</span></button>
+												</div>
+												<div class="col-xs-6 col-sm-6 col-md-4 col-lg-4">
+													<button type="button" class="btn btn-default btn-block	"><input type="checkbox" name="" id="input" style="display: -webkit-inline-box;" ><span>Good For Groups</span></button>
+												</div>
+												<div class="col-xs-6 col-sm-6 col-md-4 col-lg-4">
+													<button type="button" class="btn btn-default btn-block	"><input type="checkbox" name="" id="input" style="display: -webkit-inline-box;" ><span>Good For Groups</span></button>
+												</div>
+											</div>
+										</div>
+									</form>
+									</div><br>
+
+									
+									<div class="table_comments" style="margin-left: 30px;">
+									<div class="row review_comment">
+									<div class="col-xs-3 col-sm-3 col-md-2 col-lg-2">
+										<div class="user_image user_image_table">
+												<img src="{{'frontend-assets/static-images/table_booking/c.png'}}" class="img-circle" alt="Image" style="width: 100%;">
+											</div>
+											<p style="margin-left: 15px;">Curb</p>
+											<p><strong>New York Area</strong></p>
+											<p><i class="fa fa-comment-o"></i> 11 reviews</p>
+									</div>
+									<div class="col-xs-9 col-sm-9 col-md-8 col-lg-8 col-md-offset-1">
+										<p><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><strong> Dinned 3 days ago</strong></p>
+										<p><strong>Overall <span style="color: #CB202D;">5</span> . Food <span style="color: #CB202D;">5</span> . Service <span style="color: #CB202D;">5</span> . Ambience <span style="color: #CB202D;">5</span></strong></p>
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+										tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim ... </p>
+										<div class="row">
+										<div class="col-xs-5 col-sm-5 col-md-3 col-lg-3">
+											<a href="">+Read More</a>
+										</div>
+										<div class="col-xs-7 col-sm-7 col-md-5 col-lg-5 col-md-offset-4">
+											<a href=""><span><i class="fa fa-flag-o"></i> &nbsp;Report</span></a>
+											<a href=""><span class="span_help"><i class="fa fa-arrow-up"></i></span> Helpful</a>
+										</div>	
+										</div>
+									</div>	
+									</div>
+									<hr>
+
+									<div class="row review_comment col-md-offset-1">
+									<div class="col-xs-3 col-sm-3 col-md-2 col-lg-2">
+										<div class="user_image user_image_table">
+												<img src="{{'frontend-assets/static-images/table_booking/c.png'}}" class="img-circle" alt="Image" style="width: 100%;">
+											</div>
+											<p style="margin-left: 15px;">Curb</p>
+											<p><strong>New York Area</strong></p>
+											<p><i class="fa fa-comment-o"></i> 11 reviews</p>
+									</div>
+									<div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 col-md-offset-1">
+										<p><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><strong> Dinned 3 days ago</strong></p>
+										<p><strong>Overall <span style="color: #CB202D;">5</span> . Food <span style="color: #CB202D;">5</span> . Service <span style="color: #CB202D;">5</span> . Ambience <span style="color: #CB202D;">5</span></strong></p>
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+										tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim ... </p>
+										<div class="row">
+										<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+											<a href="">+Read More</a>
+										</div>
+										<div class="col-xs-5 col-sm-5 col-md-5 col-lg-5 col-md-offset-4">
+											<a href=""><span><i class="fa fa-flag-o"></i> &nbsp;Report</span></a>
+											<a href=""><span class="span_help"><i class="fa fa-arrow-up"></i></span> Helpful</a>
+										</div>	
+										</div>
+									</div>	
+									</div>
+									<hr>
+
+									<div class="row review_comment col-md-offset-1">
+									<div class="col-xs-3 col-sm-3 col-md-2 col-lg-2">
+										<div class="user_image user_image_table">
+												<img src="{{'frontend-assets/static-images/table_booking/c.png'}}" class="img-circle" alt="Image" style="width: 100%;">
+											</div>
+											<p style="margin-left: 15px;">Curb</p>
+											<p><strong>New York Area</strong></p>
+											<p><i class="fa fa-comment-o"></i> 11 reviews</p>
+									</div>
+									<div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 col-md-offset-1">
+										<p><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><strong> Dinned 3 days ago</strong></p>
+										<p><strong>Overall <span style="color: #CB202D;">5</span> . Food <span style="color: #CB202D;">5</span> . Service <span style="color: #CB202D;">5</span> . Ambience <span style="color: #CB202D;">5</span></strong></p>
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+										tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim ... </p>
+										<div class="row">
+										<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+											<a href="">+Read More</a>
+										</div>
+										<div class="col-xs-5 col-sm-5 col-md-5 col-lg-5 col-md-offset-4">
+											<a href=""><span><i class="fa fa-flag-o"></i> &nbsp;Report</span></a>
+											<a href=""><span class="span_help"><i class="fa fa-arrow-up"></i></span> Helpful</a>
+										</div>	
+										</div>
+									</div>	
+									</div>
+									<hr>
+									</div>
 									</div>
 								</div>
-							</div>
-						</div>
-						<div class="form-group">
-							<div class="row">
-								<label for="" class="col-xs-2 col-sm-2 col-md-2 col-lg-2">Email</label>
-								<div class="col-xs-10 col-sm-10 col-md-10 col-lg-10">
-									<input type="email" class="form-control" id="" name="name" placeholder="">
 								</div>
 							</div>
+							<!-- Review Tab End -->
+							<div role="tabpanel" class="tab-pane" id="information">info</div>
 						</div>
-						<div class="form-group">
-							<div class="row">
-								<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-									<label for="" class="">Date</label>
-									<input type="date" name="" class="form-control">
-								</div>
-								<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-									<label for="" class="">Time</label>
-									<input type="time" class="form-control" id="" name="name" placeholder="">
-								</div>
-							</div>
-						</div>
-						<div class="form-group">
-							<div class="row">
-								<label for="" class="col-xs-6 col-sm-6 col-md-6 col-lg-6">Number of Person</label>
-								<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-									<select name="" id="input" class="form-control">
-										<option value="1">1</option>
-										<option value="2">2</option>
-										<option value="3">3</option>
-										<option value="4">4</option>
-									</select>
-								</div>
-							</div>
-						</div>
-						<div class="form-group">
-							<div class="row">
-								<label for="" class="col-xs-6 col-sm-6 col-md-6 col-lg-6">Select Table Number</label>
-								<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-									<select name="" id="input" class="form-control">
-										<option value="1">1</option>
-										<option value="2">2</option>
-										<option value="3">3</option>
-										<option value="4">4</option>
-									</select>
-								</div>
-							</div>
-						</div>
-						<div class="form-group">
-							<div class="row" style="margin-left: 0px; margin-right: 0px;">
-								<label for="">Special Comments</label>
-								<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-									<textarea name="" id="input" class="form-control" rows="2" required="required">Write less 100 words</textarea>
-								</div>
-							</div>
-						</div>
-						<div class="form-group text-center">
-							<button type="button" class="btn btn-primary" onclick="show_table();">Reservation Now</button>
-						</div>
-						<div class="table_hidden_area">
-							<div class="form-group text-center">
-								<button type="button" class="btn btn-primary ">Available Reservation</button>
-							</div>
-							<div class="form-group text-center">
-								<button type="button" class="btn btn-danger">6:00 PM (Join Waitlist)</button>
-							</div>
-							<div class="form-group">
-								<ul class="list-group time_btn">
-									<li class="btn btn-primary btn-sm">6:30 PM</li>
-									<li class="btn btn-primary btn-sm">7:00 PM</li>
-									<li class="btn btn-primary btn-sm">7:30 PM</li>
-									<li class="btn btn-primary btn-sm">8:00 PM</li>
-									<li class="btn btn-primary btn-sm" style="margin-left: 35px;">8:30 PM</li>
-									<li class="btn btn-primary btn-sm">9:00 PM</li>
-									<li class="btn btn-primary btn-sm">9:30 PM</li>
-								</ul>
-							</div>
-						</div>
-						<div class="form-group">
-							<button type="button" class="btn btn-success btn-block btn-lg"><i class="fa fa-search" aria-hidden="true"></i> FIND A TABLE</button>
-						</div>
-						<span class="table_chart"><i class="fa fa-line-chart" aria-hidden="true"></i> Booked 42 times today</span>
-					</form>
-					<div class="table_reservation">
-						<img src="{{'frontend-assets/static-images/table_booking/tables.png'}}" class="img-responsive" alt="Image">
 					</div>
 				</div>
-			</div>
-			<img src="{{'frontend-assets/static-images/table_booking/qr_code.png'}}" class="img-responsive" alt="Image"><br>
-			<div class="text-center">
-				<a class="btn btn-warning" data-toggle="modal" href='#modal-id'>Get Your Code Now</a>
-				<div class="modal fade" id="modal-id">
-					<div class="modal-dialog">
-						<div class="modal-content">
-							<div class="modal-header">
-								<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-								<h4 class="modal-title">Get Discount Coupon Code</h4>
-							</div>
+				<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-md-offset-1">
+					<div class="reservation">
+						<div class="reservation_heading">
+							<span>Make a Reservation</span>
+						</div>
+						<div class="reservation_info">
+							<p>Confirm you reservation with your phone</p>
 							<form action="" method="POST" role="form">
-								<div class="modal-body">
-									<div class="form-group">
-										<div class="row">
-											<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-md-offset-3">
-												<label style="float: left;">Your Name</label>
-												<input type="text" class="form-control" id="" placeholder="">
-											</div>
+								<div class="form-group">
+									<div class="row">
+										<label for="" class="col-xs-2 col-sm-2 col-md-2 col-lg-2">Name</label>
+										<div class="col-xs-10 col-sm-10 col-md-10 col-lg-10">
+											<input type="text" class="form-control" id="" name="name" placeholder="">
 										</div>
 									</div>
-									<div class="form-group">
-										<div class="row">
-											<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-md-offset-3">
-												<label style="float: left;">Your Number</label>
-												<input type="text" class="form-control" id="" placeholder="">
+								</div>
+								<div class="form-group">
+									<div class="row">
+										<label for="" class="col-xs-2 col-sm-2 col-md-2 col-lg-2">Mobile</label>
+										<div class="col-xs-10 col-sm-10 col-md-10 col-lg-10">
+											<div class="input-group">
+												<span class="input-group-addon" id="basic-addon1">
+													<select name="" id="input" class="">
+														<option value="92">92</option>
+														<option value="93">93</option>
+													</select>
+												</span>
+												<input type="text" class="form-control" placeholder="010-2519-2103" aria-describedby="basic-addon1">
 											</div>
 										</div>
 									</div>
 								</div>
-								<div class="modal-footer">
-									<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-									<button type="button" class="btn btn-primary">Escape</button>
+								<div class="form-group">
+									<div class="row">
+										<label for="" class="col-xs-2 col-sm-2 col-md-2 col-lg-2">Email</label>
+										<div class="col-xs-10 col-sm-10 col-md-10 col-lg-10">
+											<input type="email" class="form-control" id="" name="name" placeholder="">
+										</div>
+									</div>
 								</div>
+								<div class="form-group">
+									<div class="row">
+										<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+											<label for="" class="">Date</label>
+											<input type="date" name="" class="form-control">
+										</div>
+										<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+											<label for="" class="">Time</label>
+											<input type="time" class="form-control" id="" name="name" placeholder="">
+										</div>
+									</div>
+								</div>
+								<div class="form-group">
+									<div class="row">
+										<label for="" class="col-xs-6 col-sm-6 col-md-6 col-lg-6">Number of Person</label>
+										<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+											<select name="" id="input" class="form-control">
+												<option value="1">1</option>
+												<option value="2">2</option>
+												<option value="3">3</option>
+												<option value="4">4</option>
+											</select>
+										</div>
+									</div>
+								</div>
+								<div class="form-group">
+									<div class="row">
+										<label for="" class="col-xs-6 col-sm-6 col-md-6 col-lg-6">Select Table Number</label>
+										<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+											<select name="" id="input" class="form-control">
+												<option value="1">1</option>
+												<option value="2">2</option>
+												<option value="3">3</option>
+												<option value="4">4</option>
+											</select>
+										</div>
+									</div>
+								</div>
+								<div class="form-group">
+									<div class="row" style="margin-left: 0px; margin-right: 0px;">
+										<label for="">Special Comments</label>
+										<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+											<textarea name="" id="input" class="form-control" rows="2" required="required">Write less 100 words</textarea>
+										</div>
+									</div>
+								</div>
+								<div class="form-group text-center">
+									<button type="button" class="btn btn-primary" onclick="show_table();">Reservation Now</button>
+								</div>
+								<div class="table_hidden_area">
+									<div class="form-group text-center">
+										<button type="button" class="btn btn-primary ">Available Reservation</button>
+									</div>
+									<div class="form-group text-center">
+										<button type="button" class="btn btn-danger">6:00 PM (Join Waitlist)</button>
+									</div>
+									<div class="form-group">
+										<ul class="list-group time_btn">
+											<li class="btn btn-primary btn-sm">6:30 PM</li>
+											<li class="btn btn-primary btn-sm">7:00 PM</li>
+											<li class="btn btn-primary btn-sm">7:30 PM</li>
+											<li class="btn btn-primary btn-sm">8:00 PM</li>
+											<li class="btn btn-primary btn-sm" style="margin-left: 35px;">8:30 PM</li>
+											<li class="btn btn-primary btn-sm">9:00 PM</li>
+											<li class="btn btn-primary btn-sm">9:30 PM</li>
+										</ul>
+									</div>
+								</div>
+								<div class="form-group">
+									<button type="button" class="btn btn-success btn-block btn-lg"><i class="fa fa-search" aria-hidden="true"></i> FIND A TABLE</button>
+								</div>
+								<span class="table_chart"><i class="fa fa-line-chart" aria-hidden="true"></i> Booked 42 times today</span>
 							</form>
+							<div class="table_reservation">
+								<img src="{{'frontend-assets/static-images/table_booking/tables.png'}}" class="img-responsive" alt="Image">
+							</div>
+						</div>
+					</div>
+					<img src="{{'frontend-assets/static-images/table_booking/qr_code.png'}}" class="img-responsive" alt="Image"><br>
+					<div class="text-center">
+						<a class="btn btn-warning" data-toggle="modal" href='#modal-id'>Get Your Code Now</a>
+						<div class="modal fade" id="modal-id">
+							<div class="modal-dialog">
+								<div class="modal-content">
+									<div class="modal-header">
+										<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+										<h4 class="modal-title">Get Discount Coupon Code</h4>
+									</div>
+									<form action="" method="POST" role="form">
+										<div class="modal-body">
+											<div class="form-group">
+												<div class="row">
+													<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-md-offset-3">
+														<label style="float: left;">Your Name</label>
+														<input type="text" class="form-control" id="" placeholder="">
+													</div>
+												</div>
+											</div>
+											<div class="form-group">
+												<div class="row">
+													<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-md-offset-3">
+														<label style="float: left;">Your Number</label>
+														<input type="text" class="form-control" id="" placeholder="">
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="modal-footer">
+											<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+											<button type="button" class="btn btn-primary">Escape</button>
+										</div>
+									</form>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-</div>
-</div>
-@section('script')
-<script>
-	$(document).ready(function() {
-		$('.table_hidden_area').hide();
+	@section('script')
+	<script>
+		$(document).ready(function() {
+			$('.table_hidden_area').hide();
+		});
+		function show_table() {
+			$('.table_hidden_area').show();
+		}
+	</script>
+	<script>
+	var owl = $('.table-booking-carousel');
+	owl.owlCarousel({
+	items:3,
+	loop:false,
+	margin:0,
+	autoplay:false,
+	autoplayTimeout:1000,
+	autoplayHoverPause:true
 	});
-	function show_table() {
-		$('.table_hidden_area').show();
+	$('.play').on('click',function(){
+	owl.trigger('play.owl.autoplay',[1000])
+	})
+	$('.stop').on('click',function(){
+	owl.trigger('stop.owl.autoplay')
+	})
+	</script>
+	<script>
+	// Get the modal
+	var modal = document.getElementById('myModal');
+	// Get the image and insert it inside the modal - use its "alt" text as a caption
+	var sp_img = document.getElementById('span_img');
+	var img = document.getElementById('myImg');
+	var modalImg = document.getElementById("img01");
+	var captionText = document.getElementById("caption");
+	sp_img.onclick = function(){
+	modal.style.display = "block";
+	modalImg.src = img.src;
+	captionText.innerHTML = img.alt;
 	}
-</script>
-<script>
-var owl = $('.table-booking-carousel');
-owl.owlCarousel({
-items:3,
-loop:false,
-margin:0,
-autoplay:false,
-autoplayTimeout:1000,
-autoplayHoverPause:true
-});
-$('.play').on('click',function(){
-owl.trigger('play.owl.autoplay',[1000])
-})
-$('.stop').on('click',function(){
-owl.trigger('stop.owl.autoplay')
-})
-</script>
-<script>
-// Get the modal
-var modal = document.getElementById('myModal');
-
-// Get the image and insert it inside the modal - use its "alt" text as a caption
-var sp_img = document.getElementById('span_img');
-var img = document.getElementById('myImg');
-var modalImg = document.getElementById("img01");
-var captionText = document.getElementById("caption");
-sp_img.onclick = function(){
-    modal.style.display = "block";
-    modalImg.src = img.src;
-    captionText.innerHTML = img.alt;
-}
-
-// Get the <span> element that closes the modal
-var span = document.getElementsByClassName("close")[0];
-
-// When the user clicks on <span> (x), close the modal
-span.onclick = function() { 
-    modal.style.display = "none";
-}
-</script>
-@endsection
-@endsection
+	// Get the <span> element that closes the modal
+		var span = document.getElementsByClassName("close")[0];
+		// When the user clicks on <span> (x), close the modal
+			span.onclick = function() {
+			modal.style.display = "none";
+			}
+			</script>
+			@endsection
+			@endsection
