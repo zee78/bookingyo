@@ -193,9 +193,11 @@
 						<!-- House hold -->
 						<div class="main-content">
 							<div class="col-md-12">
-								<span><strong>Order History & Hotlist</strong></span>
-								<div>
-									<input type="checkbox" name="">Select all
+								<div class="col-md-3">
+									<span><strong>Order History & Hotlist</strong></span>
+								</div>
+								<div class="col-md-offset-5 col-md-4">
+									<input type="checkbox" name="" class="" style="display: inline-block;"><span class="text-primary">Select all</span>
 									<button class="btn btn-primary btn-xs">Add all selected to <i class="fa fa-shopping-cart"></i></button>
 								</div>
 							</div>

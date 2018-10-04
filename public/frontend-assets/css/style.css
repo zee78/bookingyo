@@ -1984,6 +1984,11 @@ select {
 }
 .main-content .col-md-12{
 	display: -webkit-box;
+    padding: 2px;
+}
+.main-content .col-md-12 .col-md-offset-5 .btn{
+	padding: 2px 13px;
+	margin-left: 15px;
 }
 /*.grocery-listLine li:nth-Child(2) >a .fa{
 	padding-right: 10px;
