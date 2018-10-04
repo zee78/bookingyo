@@ -1895,16 +1895,6 @@
 	</div>
 </div>
 
-<!-- <script>
-	$('#listShow').click(function(){
-		$('#image-view').css('display', 'block');
-		$('list-view').css('display', 'none');
-	});
-	$('#imageShow').click(function(){
-		$('#image-view').css('display', 'none');
-		$('list-view').css('display', 'block');
-	});	
-</script> -->
 
 
 @endsection
