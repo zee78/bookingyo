@@ -36,19 +36,25 @@
 
   <div class="container" id="hide_bar">
     <nav class="navbar navbar-inverse"> <!-- main-navbar -->
-    
+      <div class="navbar-brand hidden-md hidden-lg mobile-view">
+        <a href="{{'/'}}"><i class="fa fa-home fa-2x"></i></a>
+        <a href="#"><i class="fa fa-heart-o fa-2x"></i></a> 
+        <a href="#"><i class="fa fa-random fa-2x"></i></a> 
+        <a href="#"><i class="fa fa-shopping-cart fa-2x" aria-hidden="true"></i> </a>
+      </div>
+      
       <!-- <div class="navbar-header"> -->
-         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-           <span class="sr-only">Toggle navigation</span>
-           <span class="icon-bar"></span>
-           <span class="icon-bar"></span>
-           <span class="icon-bar"></span>
-         </button>
+       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+         <span class="sr-only">Toggle navigation</span>
+         <span class="icon-bar"></span>
+         <span class="icon-bar"></span>
+         <span class="icon-bar"></span>
+       </button>
         
       <!-- </div> -->
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <div class="col-md-6">
-          <a class="navbar-brand" href="{{'/'}}"><i class="fa fa-home fa-2x"></i></a>
+          <a class="navbar-brand hidden-xs hidden-sm" href="{{'/'}}"><i class="fa fa-home fa-2x"></i></a>
           <ul class="nav navbar-nav">
             <li>
               <form>
@@ -89,9 +95,9 @@
               </ul>
               </div>
             </li>
-            <li><a href="#"><i class="fa fa-heart-o"></i></a> </li>
-            <li><a href="#"><i class="fa fa-random"></i></a> </li>
-            <li class="text-center">
+            <li class="hidden-xs hidden-sm"><a href="#"><i class="fa fa-heart-o"></i></a> </li>
+            <li class="hidden-xs hidden-sm"><a href="#"><i class="fa fa-random"></i></a> </li>
+            <li class="text-center hidden-xs hidden-sm">
               <a href="#"><i class="fa fa-shopping-cart" aria-hidden="true" style="color:#c3c3c3;font-size:20px;"></i><br><span style="color:#c3c3c3;">0 Items</span></a>
             </li>
             <li>
@@ -101,42 +107,6 @@
         </div>
       </div>
     </nav><!-- main-navbar -->
-
-      <div id="menuSlider" class="wow fadeInUp">
-        <div class="container">
-
-          <div class="row">
-            <div class="col-md-1">
-              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-            </div>
-            <div class="col-md-11">
-              <div class="owl-carousel listing-carousel">
-                <span><i class="fa fa-futbol-o" aria-hidden="true"></i> Social</span>
-                <span><i class="fa fa-plane" aria-hidden="true"></i> Air Ticket</span>
-                <span><i class="fa fa-money" aria-hidden="true"></i> O2O</span>
-                <span><i class="fa fa-car" aria-hidden="true"></i> Auto Mobile</span>
-                <span><i class="fa fa-file-archive-o" aria-hidden="true"></i> Order</span>
-                <span><i class="fa fa-calendar" aria-hidden="true"></i> Calender</span>
-                <span><i class="fa fa-address-card-o" aria-hidden="true"></i> Reservation</span>
-                <!-- <img src="{{'frontend-assets/static-images/header/user-icon.png'}}" alt="">
-                <img src="{{'frontend-assets/static-images/header/user-icon.png'}}" alt="">
-                <img src="{{'frontend-assets/static-images/header/user-icon.png'}}" alt="">
-                <img src="{{'frontend-assets/static-images/header/user-icon.png'}}" alt="">
-                <img src="{{'frontend-assets/static-images/header/user-icon.png'}}" alt="">
-                <img src="{{'frontend-assets/static-images/header/user-icon.png'}}" alt="">
-                <img src="{{'frontend-assets/static-images/header/user-icon.png'}}" alt="">
-                <img src="{{'frontend-assets/static-images/header/user-icon.png'}}" alt=""> -->
-              </div>
-            </div>
-          </div>
-
-        </div>
-      </div>
 
   </div>
    @endif

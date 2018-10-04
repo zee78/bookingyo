@@ -5,6 +5,33 @@
 @section('content')
 
 <div class="container" style="background: #fff;">
+	<div id="menuSlider" class="wow fadeInUp hidden-xs">
+        <div class="container">
+
+          <div class="row">
+            <div class="col-md-1">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#sideBar-collapse" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+            </div>
+            <div class="col-md-11">
+              <div class="owl-carousel listing-carousel">
+                <span><i class="fa fa-futbol-o" aria-hidden="true"></i> Social</span>
+                <span><i class="fa fa-plane" aria-hidden="true"></i> Air Ticket</span>
+                <span><i class="fa fa-money" aria-hidden="true"></i> O2O</span>
+                <span><i class="fa fa-car" aria-hidden="true"></i> Auto Mobile</span>
+                <span><i class="fa fa-file-archive-o" aria-hidden="true"></i> Order</span>
+                <span><i class="fa fa-calendar" aria-hidden="true"></i> Calender</span>
+                <span><i class="fa fa-address-card-o" aria-hidden="true"></i> Reservation</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
         <div class="content">
             <div class="contentblock">
 				

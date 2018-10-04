@@ -5,15 +5,86 @@
 @section('content')
 
 <div class="container" style="background: #fff; padding-bottom: 25px;">
-	<div>
-		Google Adds
+	<div class="top-header">
+		<div class="adsSection">
+			<img src="{{('frontend-assets/static-images/groceryOrder/banner.jpeg')}}">
+		</div>
+		<div class="banner">
+			<div class="row">
+				<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 logo-div">
+					<img src="{{('frontend-assets/static-images/groceryOrder/logo.png')}}">
+				</div>
+				<div class="col-xs-9 col-sm-9 col-md-9 col-lg-9 description-div">
+					<p class="pull-right text-center">Recent Order Rating Streak <br>
+						<span class="badge like_badge" style="background: #5BA829;">4</span>
+						<span class="badge like_badge" style="background: #305D02;">5</span>
+						<span class="badge like_badge" style="background: #5BA829;">4</span>
+						<span class="badge like_badge" style="background: #5BA829;">4</span>
+						<span class="badge like_badge" style="background: #305D02;">5</span>
+						<span class="badge like_badge" style="background: #CDD614;">3</span>
+						<span class="badge like_badge" style="background: #305D02;">5</span>
+						<span class="badge like_badge" style="background: #5BA829;">4</span>
+					</p>
+					<h3>Nurpur</h3>
+					<p>Islamabad, Pakistan</p>
+					<p><label class="hours-lbl">Opens 24 Hours , today</label>
+						&nbsp; <label style="opacity: 0.7;">24 Hours Convience Store</label>
+					</p>
+					<ul class="list-inline list-items">
+						<li><i class="fa fa-star"></i> <span> 4.5</span><br> <span class="text-muted">100+ Rating</span></li>
+						<li>20 Minutes<br> <span class="text-muted">Delivery </span></li>
+						<li><i class="fa fa-won"></i> <span> 20,000</span><br> <span class="text-muted">Minimum Order</span></li>
+						<li><i class="fa fa-won"></i> <span> 10,000</span><br> <span class="text-muted">Cost for two</span></li>
+						<li><i class="fa fa-won"></i> <span> 2,000</span><br> <span class="text-muted">Delivery Free</span></li>
+						<li><span>Over </span> <i class="fa fa-won"></i><span>30,000</span><br> <span class="text-muted">Free Delivery </span></li>
+						<li><i class="fa fa-video-camera fa-2x" style="color: red;"></i>&nbsp; <span class="fa fa-comments fa-2x" style="color:#0368ff;"></span><br> <span class="text-muted"> Video & Chat </span></li>
+					</ul>
+				</div>
+			</div>
+		</div>
 	</div>
+	<div class="row pager-section" style="margin: 0;">
+		<div class="col-md-12">
+			<span><i class="fa fa-home"></i></span>
+			<span> &nbsp; &nbsp; Korea</span>
+			<span> &nbsp; &nbsp;Seoul</span>
+			<span> &nbsp; &nbsp; Seocho-Gu</span>
+			<span> &nbsp;  &nbsp; Yangjae-Dong</span>
+			<span> &nbsp; &nbsp;  &nbsp; CU</span>
+			<span> &nbsp; &nbsp; Grocery</span>
+			<span style="background: transparent; color: black;"> &nbsp;  Order Grocery Online</span>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-12">
+			<div class="row">
+				<div class="col-md-3" style="width: 23%;border-right: 1px solid #b1afaf; padding-right: 0;">
+					<div class="select-sideBar">
+	                    <label><i class="fa fa-map-marker"></i> <span>Set Location</span></label>
+	                    
+                    	<select class="form-control">
+	                      <option>Islamabad</option>
+	                      <option>Karachi</option>
+	                      <option>Islamabad</option>
+	                      <option>Islamabad</option>
+	                    </select>                 
+	                  </div>
+					<div class="select-sideBar">
+	                    <label><i class="fa fa-map-marker text-muted"></i></label>
+                    	<span class="location-name">Islamabad Pakistan</span>               
+	                  </div>
+				</div>
+				<div class="col-md-9">
+					Tabss
+				</div>
+			</div>
+		</div>
+	</div>
+
 	<div class="row" style="margin: 0;display: -webkit-box;">
 		<!-- Left SideBar -->
-		<div class="col-md-2-5 left-sidebar hidden-xs">
-			<div class="title">
-				<h4>Listing Filter</h4>
-			</div>
+				<div class="col-md-2-5 left-sidebar hidden-xs">
+			
 			<div class="section1">
 				<div class="title2">
 					<h5>Available Interview</h5>

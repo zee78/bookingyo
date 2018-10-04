@@ -49,7 +49,7 @@
         @yield('inner-header')
 
         @yield('content')
-        <div class="side-bar">
+        <div class="side-bar hidden-xs hidden-sm">
           <a href="#" class="sns">Talk SNS</i></a> 
           <a href="#" class="listingFree">Free Listing</a> 
           <a href="#" class="customer">Customer Care</a> 
