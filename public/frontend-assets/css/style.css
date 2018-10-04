@@ -1848,8 +1848,13 @@ select {
     left: 43%;
     z-index: 999;
 }
-
+.grocery-sideBar{
+	width: 23%;
+	border-right: 0px solid #b1afaf; 
+	padding-right: 0;
+}
 .select-sideBar{
+	height: 45px;
 	display: -webkit-box;
 	border-bottom: 1px solid lightgray;
 }
@@ -1871,9 +1876,153 @@ select {
 	box-shadow: none;
 	border: 0;
 }
+.grocery-sideBar .left-sidebar{
+	margin: 10px;
+	border: 0;
+}
+.grocery-sideBar .left-sidebar h5{
+	background: #2264A1;
+	color: white;
+	text-transform: uppercase;
+	margin: 0;
+	padding: 10px;
+	font-weight: 600;
+}
+.grocery-sideBar .left-sidebar p{
+	background: #ECECEC;
+    padding: 6px 10px;
+    margin-bottom: 0;
+	margin-top: 2px;
+}
+.grocery-sideBar .left-sidebar p .badge{
+    background: #FF6C00;
+    padding: 4px 0 0 0;
+    margin-top: -2px;
+}
+.grocery-sideBar .left-sidebar ul{
+	list-style: none;
+	padding-left: 0;
+}
+.grocery-sideBar .left-sidebar ul li{
+	color: #90909A;
+	padding: 8px;
+    display: block;
+    border-bottom: 1px solid lightgray;
+}
+.grocery-sideBar .left-sidebar ul li .fa{
+	padding-top: 4px;
+    color: lightgray;
+}
+.grocery-sideBar .left-sidebar ul li ul li{
+	padding-left: 0;
+}
+.grocery-sideBar .left-sidebar ul li ul li:last-Child{
+	border-bottom: 0;
+	padding-bottom: 0;
+}
+.grocery-sideBar .left-sidebar ul li ul li ul li:last-Child{
+	border-bottom: 0;
+	padding-bottom: 0;
+}
 .location-name{
 	color: #719ef9;
 	font-weight: 600;
+}
+.txt-muted{
+    color: #dad4d4 !important;
+}
+.bg-lightgreen{
+	background: #5BA829;
+}
+.bg-darkgreen{
+	background: #305D02;
+}
+.grocery-tab{
+	padding: 1px 10rem;
+}
+.grocery-tab li{
+	margin-right: 40px;
+}
+.grocery-tab>li>a:hover {
+    color: white;
+    border: transparent;
+}
+.grocery-tab > .active > a, .grocery-tab > .active > a:hover, .grocery-tab > .active > a:focus{
+	border: 0 !important;
+}
+.grocery-tab li a {
+    color: #dad4d4;
+}
+.grocery-listLine{
+	margin-bottom: 0;
+    border-bottom: 1px solid lightgray;
+    margin-left: -1px;
+}
+.grocery-listLine li{
+	padding: 12px 18px;
+    border-right: 1px solid lightgray;
+}
+.grocery-listLine li a{
+	color: black;
+}
+.grocery-listLine li:nth-Child(1){
+	width: 54%;
+	padding: 5px 16rem;
+}
+.grocery-listLine li:nth-Child(2){
+	padding: 12px 5rem;
+}
+.detail-section{
+	width: 76%;
+	border-top: 0;
+	padding: 0;
+	border: 1px solid lightgray;
+	margin-top: 0px;
+}
+.detail-section .grocery-tab{
+	border: 0;
+}
+.main-content .col-md-12{
+	display: -webkit-box;
+}
+/*.grocery-listLine li:nth-Child(2) >a .fa{
+	padding-right: 10px;
+}*/
+.grocery-listLine li:nth-Child(3){
+	padding: 12px 2.5rem;
+}
+.grocery-listLine li >a .fa{
+	padding-right: 10px;
+}
+.grocery-listLine li:last-Child{
+	border-right: none;
+}
+.input-box {
+  display: flex;
+  width: 100%;
+  margin-bottom: 0;
+}
+
+/* Style the form icons */
+.icon {
+  padding: 10px;
+  background: transparent;
+  color: black;
+  min-width: 50px;
+  text-align: center;
+}
+
+/* Style the input fields */
+.input-field {
+  box-shadow: none;
+  border: 0;
+  outline: none;
+}
+
+.input-field:focus {
+  border: none;
+  outline: 0;
+  box-shadow: none;
 }
 /*End Grocery Order Page*/
 /*Media Query*/
