@@ -911,9 +911,270 @@ background: #8C8C8C;
 	text-align: center;
 
 }
-/*.service-heading {}*/
+.menu_container {
+	margin-left: 15px;
+    margin-right: 15px;
+}
+.menu_btn li{
+	margin-left: 10px;
+    margin-right: 15px;
+    border-radius: 0px;
+    margin-top: 15px;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+.restaurant_name label {
+	float: right;
+	margin-top: -45px;
+}
+.bdg5 {
+	background: green;
+	color: white;
+}
+.bdg4 {
+	background: #05d305;
+	color: white;
+}
+.bdg3 {
+	background: #becb00;
+	color: white;
+}
+.restaurant_offline {
+	border-radius: 4px;
+    border: 1px solid #CB202D;
+    background: #CB202D;
+    color: white;
+    margin: 15px;
+}
+.restaurant_offline p{
+	margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 30px;
+}
+.restaurant_offline span{
+	font-size: 17px;
+}.restaurant_offline a{
+	color: white;
+	border-bottom: 1px solid white;
+}
+.restaurant-menu-tabs {
+	display: -webkit-box;
+}
+.restaurant-menu-tabs li{
+	width: 116px;
+}
+.restaurant-menu-tabs li a{
+	padding: 0;
+	margin-right: 0 !important;
+}
+ul.nav.nav-tabs.restaurant-menu-tabs {
+    text-align: center;
+}
+/*.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+    color: #555;
+    cursor: default;
+    background-color: #fff;
+    border-bottom: 3px solid red;
+}*/
+.table-booking-carousel span a{
+	color: black;
+}
+.table-booking-carousel span a:active  {
+	border-bottom: 3px solid #CB202D;
+    padding: 1px;
+    font-weight: bold !important;
+}
+.table-booking-carousel span a:focus  {
+	border-bottom: 3px solid #CB202D;
+    padding: 1px;
+    font-weight: bold !important;
+    text-decoration: none;
+}
+.table-booking-carousel span a:hover {
+	border-bottom: 3px solid #CB202D;
+	text-decoration: none;
+	font-weight: bold;
+}
+.span_dot i {
+	color: red;
+	font-size: 7px;
+	
+}
+.span_dot  {
+	border: 1px solid red;
+	padding: 0px 5px 2px 5px;
+
+}
+.img_zoom {
+	position: relative;
+}
+.img_zoom i {
+	top: -8px;
+    position: absolute;
+    right: 6px;
+    font-size: 16px;
+}
+
+
+/* The Modal (background) */
+.modal-discount {
+display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 29px;
+    left: 43%;
+    top: 51px;
+    bottom: 0;
+    width: 13%;
+    height: 40%;
+    background-color: rgb(0,0,0);
+    background-color: rgb(133, 131, 131);
+}
+
+/* Modal Content (image) */
+.modal-content-discount {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+/* Caption of Modal Image */
+#caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+/* Add Animation */
+.modal-content-discount, #caption {    
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+	position: absolute;
+    top: 0px;
+    right: 7px;
+    color: #f1f1f1;
+    font-size: 27px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+.review_container {
+	margin: 15px;
+}
+.review_star i {
+	color: #CB202D;
+}
+.rating_list {
+	
+}
+
+
 /*Table Page css Ends*/
 
+/* Table Booking Slider Start*/
+#menuSlider_booking {
+  padding: 0;
+  background: white;
+}
+
+#menuSlider_booking img {
+  max-width: 71%;
+  opacity: 1;
+  /*transition: 0.3s;*/
+  padding: 0;
+}
+
+#menuSlider_booking img:hover {
+  opacity: 1;
+}
+
+#menuSlider_booking .owl-nav, #menuSlider_booking .owl-dots {
+  margin-top: 5px;
+  text-align: center;
+}
+
+#menuSlider_booking .owl-dot {
+  display: none;
+  margin: 0 !important;
+  border-radius: 50%;
+  background-color: #ddd;
+
+}
+#menuSlider_booking .table-booking-carousel .owl-stage{
+	padding-top: 15px;
+}
+#menuSlider_booking .owl-dot.active {
+  background-color: #18d26e;
+}
+#menuSlider_booking .owl-stage .owl-item{
+	width: 95px !important;
+	margin-left: 10px;
+}
+.table-booking-carousel .owl-nav{
+	display: block !important;
+	margin: 0 !important;
+}
+.table-booking-carousel .owl-nav .owl-prev{
+    position: absolute;
+    left: 0px;
+    top: 0%;
+    font-size: 32px !important;
+}
+.table-booking-carousel .owl-nav .owl-next{
+    position: absolute;
+    right: 0px;
+    top: 0%;
+    font-size: 32px !important;
+}
+.table-booking-carousel .owl-stage-outer{
+	width: 93%;
+	margin-left: 20px;
+}
+#menuSlider_booking .row{
+	border-bottom: 1px solid lightgray;
+	margin: 0;
+}
+#menuSlider_booking .row .navbar-toggle{
+	display: block;
+}
+#menuSlider_booking .row .navbar-toggle .icon-bar{
+    background: black;
+} 
+#menuSlider_booking .row .col-md-9{
+	padding-left: 0;
+    width: 70%;
+}
+/*Table Slider Ends*/
 
 /*Footer Css*/
 .top-footer-section{
@@ -1448,6 +1709,12 @@ select {
 	}
 	.slider-controls .right {
 		font-size: 20px
+	}
+	.menu_main_btn {
+		margin-left: 15px !important;
+	}
+	.menu_single_btn {
+		margin-left: 15px !important;
 	}	
 }
 
@@ -1518,7 +1785,7 @@ select {
   	color: white;
 }
 
-
+/* Header Slider Start*/
 #menuSlider {
   padding: 0;
   background: white;
@@ -1596,3 +1863,5 @@ select {
 	width: 6%;
 	padding: 0 10px;
 }
+/*Header Slider Ends*/
+

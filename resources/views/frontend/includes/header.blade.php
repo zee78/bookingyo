@@ -102,7 +102,7 @@
       </div>
     </nav><!-- main-navbar -->
 
-      <div id="menuSlider" class="wow fadeInUp">
+      <div id="menuSlider" class="wow fadeInUp hidden-xs hidden-sm">
         <div class="container">
 
           <div class="row">

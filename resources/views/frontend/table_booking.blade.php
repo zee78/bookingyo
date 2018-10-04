@@ -2,14 +2,14 @@
 @section('title', 'Booking Yo')
 @section('content')
 <div class="container" style="background: white;">
-	<div class="row">
+	<div class="row" style="margin-bottom: 50px;">
 		<div class="container">
 			<div class="col-xs-12 col-sm-12 col-md-7 col-lg-7">
 				<h1 class="text-muted">Diadio Restaurant <span class="table_heading"><i class="fa fa-comments"></i>Video & chat</span></h1>
 				<div role="tabpanel" style="border: 1px solid #a8a8a8; border-radius: 4px;">
 					<!-- Nav tabs -->
 					<ul class="nav nav-tabs table_tabs" role="tablist">
-						<li role="presentation" class="active">
+						<li role="presentation">
 							<a href="#overview" aria-controls="overview" role="tab" data-toggle="tab">Overview</a>
 						</li>
 						<li role="presentation">
@@ -17,7 +17,7 @@
 						</li><li role="presentation">
 						<a href="#menu" aria-controls="menu" role="tab" data-toggle="tab">Menu</a>
 					</li>
-					<li role="presentation">
+					<li role="presentation" class="active">
 						<a href="#reviews" aria-controls="reviews" role="tab" data-toggle="tab">Reviews</a>
 					</li>
 					<li role="presentation">
@@ -28,7 +28,7 @@
 				<!-- Tab panes -->
 				<div class="tab-content">
 					<!-- OverView Tab Start -->
-					<div role="tabpanel" class="tab-pane active overview" id="overview">
+					<div role="tabpanel" class="tab-pane  overview" id="overview">
 						<p style="margin-left: 10px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -184,7 +184,7 @@
 							<div class="col-xs-4 col-sm-4 col-md-3 col-lg-3 col-md-offset-1 icon_col">
 								<span class="table_overview_icons"><i class="fa fa-map-marker" aria-hidden="true"></i>Location</span>
 							</div>
-							<div class="col-xs-7 col-sm-7 col-md-7 col-lg- col-md-offset-1">
+							<div class="col-xs-7 col-sm-7 col-md-7 col-lg-7 col-md-offset-1">
 								1535 Broadway New York
 							</div>
 						</div>
@@ -321,14 +321,239 @@
 						</div>
 					</div>
 					<!-- Photo Tab End -->
-
 					<!-- Menu Tab Start -->
 					<div role="tabpanel" class="tab-pane" id="menu">
-						<h3><span><strong><i class="fa fa-menu"></i>Menu</strong></span></h3>
+						<div class="menu_container">
+							<h3><span><strong><i class="fa fa-calendar-o" aria-hidden="true"></i> &nbsp; Menu</strong></span></h3>
+							<ul class="list-group menu_btn">
+								<li class="btn btn-default btn-lg menu_main_btn" style="margin-left: 50px;">Main Menu</li>
+								<li class="btn btn-default btn-lg">Desert</li>
+								<li class="btn btn-default btn-lg">Wine</li>
+								<li class="btn btn-default btn-lg">Cocktails</li>
+								<li class="btn btn-default btn-lg menu_single_btn" style="margin-left: 180px;">Single Bottle List</li>
+								<li class="btn btn-default btn-lg">Luch Menu</li>
+							</ul>
+							<hr>
+							<p>$65 per person, $49 wine pairing</p>
+							<hr>
+							<h3><strong>A la Carte</strong></h3>
+							<hr>
+							<h4><strong>Snacks</strong></h4>
+							<div class="row" style="padding-bottom: 50px;">
+								<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+									<div class="row">
+										<div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+											<p>Pickled & Preserve Vegetable</p>
+										</div>
+										<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 col-md-offset-1">
+											<span><i class="fa fa-eur" aria-hidden="true"></i>4.00</span>
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+											<p>Calabrian black pig sausage</p>
+										</div>
+										<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 col-md-offset-1">
+											<span><i class="fa fa-eur" aria-hidden="true"></i>5.00</span>
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+											<p>Crispy chicken skins, liver parfait & candied walnuts</p>
+											<p>| each</p>
+										</div>
+										<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 col-md-offset-1" style="margin-top: 50px;">
+											<span><i class="fa fa-eur" aria-hidden="true"></i>2.50</span>
+										</div>
+									</div>
+								</div>
+								<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+									<div class="row">
+										<div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+											<p>Morecambe Bay oyster, lovage, rhubard mignonette</p>
+											<p>| each</p>
+										</div>
+										<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 col-md-offset-1" style="margin-top: 50px;">
+											<span><i class="fa fa-eur" aria-hidden="true"></i>3.00</span>
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+											<p>Steam Cornished squid buns</p>
+											<p>| each</p>
+										</div>
+										<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 col-md-offset-1" style="margin-top: 33px;">
+											<span><i class="fa fa-eur" aria-hidden="true"></i>4.00</span>
+										</div>
+									</div>
+								</div>
+							</div>
+							<hr>
+							<div class="row" style="margin-bottom: 20px;">
+								<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-md-offset-3">
+									<button type="button" class="btn btn-default btn-block" style="color: blue;">View full menu</button>
+								</div>
+							</div>
+							<hr>
+							<!-- Restaurant Info Start -->
+							<div class="restaurant_name">
+								<p class="text-muted">ORDER FOOD ONLINE FROM</p>
+								<p style="font-size: 20px;"><strong>Koyla</strong></p>
+								<span class="text-muted">Colaba, Mumbai.Cost <i class="fa fa-krw" aria-hidden="true"></i> 1600 for two</span>
+								<label class="btn btn-success">4.0</label>
+								<hr>
+								<div class="row">
+									<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+										<p>Delivery Time</p>
+										<span><strong>45 mins</strong></span>
+									</div>
+									<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+										<p>Minimun Order</p>
+										<span><strong><i class="fa fa-krw" aria-hidden="true"></i> 99.00</strong></span>
+									</div>
+									<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+										<p>Payment Methods</p>
+										<span><strong>Cash & Online</strong></span>
+									</div>
+									<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+										<p>Recent Order Rating Streaks</p>
+										<span class="badge bdg4">4</span><span class="badge bdg5">5</span><span class="badge bdg4">4</span><span class="badge bdg4">4</span><span class="badge bdg3">3</span><span class="badge bdg5">5</span>
+									</div>
+								</div>
+								<!-- Restaurat Offline div Start -->
+								<div class="row" style="background: #eaeaea; margin-top: 15px;">
+									<div class="restaurant_offline">
+										<p><span>Restaurant currently offline for Delivery. Please go back or visit the <a href="">restaurant page.</a></span></p>
+									</div>
+								</div>
+								<!-- Restaurat Offline div End -->
+								<div class="row">
+								<div id="menuSlider_booking" class="wow fadeInUp">
+									<div class="col-md-12">
+										<div id="myModal" class="modal-discount">
+														  <span class="close">&times;</span>
+														  <img class="modal-content-discount" id="img01">
+														  <div id="caption"></div>
+														</div>
+												<div role="tabpanel">
+										<div class="row">
+											<div class="col-md-9">
+												<div class="owl-carousel table-booking-carousel">
+													
+														<!-- Nav tabs -->
+														<span>
+																<a class="active" href="#bestseller" aria-controls="home" role="tab" data-toggle="tab">Main Menu</a>
+															</span>
+															<span>
+																<a href="#tab" aria-controls="tab" role="tab" data-toggle="tab">Deserts</a></span>
+															<span>
+																<a href="#tab" aria-controls="tab" role="tab" data-toggle="tab">Wine</a>
+													</span>
+														<span>
+														
+																<a href="#tab" aria-controls="tab" role="tab" data-toggle="tab">Cocktails</a>
+															</span>
+															
+																<span>	<a href="#tab" aria-controls="tab" role="tab" data-toggle="tab">Single Bottle List</a>
+															</span>
+
+															<span>	<a href="#tab" aria-controls="tab" role="tab" data-toggle="tab">Lunch Menu</a>
+															</span>
+														
+														
+														<!-- Tab panes -->
+														
+													</div>
+													
+												</div>
+											</div>
+											<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+												
+											</div>
+											<div class="tab-content">
+															<div role="tabpanel" class="tab-pane active" id="bestseller">
+																<div class="seller_info">
+																<h4><strong>Bestsellers</strong></h4>
+																<p>Desert</p>
+															<div class="row">
+																<div class="col-xs-2 col-sm-2 col-md-1 col-lg-1">
+																<span class="span_dot"><i class="fa fa-circle"></i></span>
+																</div>
+																<div class="col-xs-10 col-sm-10 col-md-11 col-lg-11">
+																	<p><strong> &nbsp;Mutton Seekh Kabab [8] Pieces</strong>
+																		<span class="img_zoom pull-right" id="span_img"><img src="{{'frontend-assets/static-images/table_booking/deal.png'}}"  class="img-responsive" id="myImg" alt="Image">
+																		<i class="fa fa-search-plus" aria-hidden="true"></i></span></p>
+																<p><i class="fa fa-krw" aria-hidden="true"></i>610.00</p>
+																<p><span class="text-muted">Ground Spiced minsed mutton cooked on metal skrewer</span></p>
+																</div>
+															</div>
+															<hr>
+															<div class="row">
+																<div class="col-xs-2 col-sm-2 col-md-1 col-lg-1">
+																<span class="span_dot"><i class="fa fa-circle"></i></span>
+																</div>
+																<div class="col-xs-10 col-sm-10 col-md-11 col-lg-11">
+																	<p><strong> &nbsp;Mutton Seekh Kabab [8] Pieces</strong>
+																		<span class="img_zoom pull-right" id="span_img"><img src="{{'frontend-assets/static-images/table_booking/deal.png'}}"  class="img-responsive" id="myImg" alt="Image">
+																		<i class="fa fa-search-plus" aria-hidden="true"></i></span></p>
+																<p><i class="fa fa-krw" aria-hidden="true"></i>610.00</p>
+																<p><span class="text-muted">Ground Spiced minsed mutton cooked on metal skrewer</span></p>
+																</div>
+															</div>
+															<hr>
+															<div class="row">
+																<div class="col-xs-2 col-sm-2 col-md-1 col-lg-1">
+																<span class="span_dot"><i class="fa fa-circle"></i></span>
+																</div>
+																<div class="col-xs-10 col-sm-10 col-md-11 col-lg-11">
+																	<p><strong> &nbsp;Mutton Seekh Kabab [8] Pieces</strong>
+																		<span class="img_zoom pull-right" id="span_img"><img src="{{'frontend-assets/static-images/table_booking/deal.png'}}"  class="img-responsive" id="myImg" alt="Image">
+																		<i class="fa fa-search-plus" aria-hidden="true"></i></span></p>
+																<p><i class="fa fa-krw" aria-hidden="true"></i>610.00</p>
+																<p><span class="text-muted">Ground Spiced minsed mutton cooked on metal skrewer</span></p>
+																</div>
+															</div>
+															</div>
+															</div>
+
+
+															<div role="tabpanel" class="tab-pane" id="tab">.dgdgs fsdf..</div>
+														</div>
+										</div>
+														
+									</div>
+								</div>
+								</div>
+								
+							</div>
+							<!-- Restaurant Info End -->
+						</div>
 					</div>
 					<!-- Menu Tab End -->
 
-					<div role="tabpanel" class="tab-pane" id="reviews">review</div>
+					<!-- Review Tab Start -->
+					<div role="tabpanel" class="tab-pane active" id="reviews">
+						<div class="review_container">
+							<h4>Over all Rating and Reviews</h4>
+							<div class="row" style="margin-left: 0px;">
+								<div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+									<p>Review can only be made by dinners who have eaten at this restaurant</p>
+									<p><span class="review_star"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-o"></i> &nbsp; 4.7 based on recent ratings</span></p>
+									<ul class="list-group" style="display: -webkit-box;">
+										<li class="rating_list"><strong>4.7</strong><br>Food</li>
+										<li class="rating_list"><strong>4.7</strong><br>Service</li>
+										<li class="rating_list"><strong>4.3</strong><br>Value</li>
+										<li class="rating_list2"><strong>4.4</strong><br>Ambience</li>
+										
+									</ul>
+								</div>
+								<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+									
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- Review Tab End -->
 					<div role="tabpanel" class="tab-pane" id="information">info</div>
 				</div>
 			</div>
@@ -501,6 +726,46 @@
 	function show_table() {
 		$('.table_hidden_area').show();
 	}
+</script>
+<script>
+var owl = $('.table-booking-carousel');
+owl.owlCarousel({
+items:3,
+loop:false,
+margin:0,
+autoplay:false,
+autoplayTimeout:1000,
+autoplayHoverPause:true
+});
+$('.play').on('click',function(){
+owl.trigger('play.owl.autoplay',[1000])
+})
+$('.stop').on('click',function(){
+owl.trigger('stop.owl.autoplay')
+})
+</script>
+<script>
+// Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var sp_img = document.getElementById('span_img');
+var img = document.getElementById('myImg');
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+sp_img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = img.src;
+    captionText.innerHTML = img.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+    modal.style.display = "none";
+}
 </script>
 @endsection
 @endsection

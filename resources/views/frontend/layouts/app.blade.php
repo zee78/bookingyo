@@ -70,10 +70,10 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-bar-rating/1.2.2/jquery.barrating.min.js"></script>
         <!-- Owl Carousel -->
         <script type="{{('frontend-assets/js/owl.carousel.min.js')}}"></script>
+        <script src="{{('frontend-assets/js/owl.carousel.min.js')}}"></script>
         @yield('script')
         
 
-        <script src="{{('frontend-assets/js/owl.carousel.min.js')}}"></script>
 		
 
         <script type="text/javascript" charset="utf-8">
@@ -155,4 +155,7 @@ $('.stop').on('click',function(){
     owl.trigger('stop.owl.autoplay')
 })
 </script>
+
+
+
 </html>
