@@ -9,7 +9,7 @@
 				<div role="tabpanel" style="border: 1px solid #a8a8a8; border-radius: 4px;">
 					<!-- Nav tabs -->
 					<ul class="nav nav-tabs table_tabs" role="tablist">
-						<li role="presentation">
+						<li role="presentation" class="active">
 							<a href="#overview" aria-controls="overview" role="tab" data-toggle="tab">Overview</a>
 						</li>
 						<li role="presentation">
@@ -17,7 +17,7 @@
 						</li><li role="presentation">
 						<a href="#menu" aria-controls="menu" role="tab" data-toggle="tab">Menu</a>
 					</li>
-					<li role="presentation" class="active">
+					<li role="presentation">
 						<a href="#reviews" aria-controls="reviews" role="tab" data-toggle="tab">Reviews</a>
 					</li>
 					<li role="presentation">
@@ -28,7 +28,7 @@
 				<!-- Tab panes -->
 				<div class="tab-content">
 					<!-- OverView Tab Start -->
-					<div role="tabpanel" class="tab-pane  overview" id="overview">
+					<div role="tabpanel" class="tab-pane active  overview" id="overview">
 						<p style="margin-left: 10px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -528,7 +528,7 @@
 							</div>
 							<!-- Menu Tab End -->
 							<!-- Review Tab Start -->
-							<div role="tabpanel" class="tab-pane active" id="reviews">
+							<div role="tabpanel" class="tab-pane" id="reviews">
 								<div class="review_container">
 									<h4>Over all Rating and Reviews</h4>
 									<div class="review_content">

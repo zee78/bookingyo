@@ -32,3 +32,6 @@ Route::get('/grocery-order', function(){
 Route::get('/login', function(){
 	return view('frontend.login');
 });
+Route::get('/food_order', function(){
+	return view('frontend.food_order');
+});
