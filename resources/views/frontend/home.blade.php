@@ -32,8 +32,6 @@
       </div>
         <div class="content">
             <div class="contentblock">
-			
-			
 			<div class="col-md-7">
 				<div class="slider-container">
 					<div id="myCarousel" class="carousel slide" data-ride="carousel">

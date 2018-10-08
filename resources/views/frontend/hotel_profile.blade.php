@@ -356,7 +356,7 @@
 																	<div class="middle">
 																		<div class="bar-container">
 																			<div class="bar_div">
-																				<div class="bar-5"></div><div class="bar-5 bar_space"></div><div class="bar-40 bar_space"></div><div class="bar-end"></div><div class="bar-end"></div>
+																				<div class="bar-5-review"></div><div class="bar-5-review bar_space-review"></div><div class="bar-40-review bar_space-review"></div><div class="bar-end-review"></div><div class="bar-end-review"></div>
 																			</div>
 																		</div>
 																	</div>
@@ -369,7 +369,7 @@
 																	<div class="middle">
 																		<div class="bar-container">
 																			<div class="bar_div">
-																				<div class="bar-5"></div><div class="bar-5 bar_space"></div><div class="bar-5 bar_space"></div><div class="bar-10 bar_space"></div><div class="bar-end"></div><div class="bar-end"></div>
+																				<div class="bar-5-review"></div><div class="bar-5-review bar_space-review"></div><div class="bar-5-review bar_space-review"></div><div class="bar-10-review bar_space-review"></div><div class="bar-end-review"></div>
 																			</div>
 																		</div>
 																	</div>
@@ -384,7 +384,7 @@
 																	<div class="middle">
 																		<div class="bar-container">
 																			<div class="bar_div">
-																				<div class="bar-5"></div><div class="bar-5 bar_space"></div><div class="bar-5 bar_space"></div><div class="bar-5 bar_space"></div><div class="bar-end"></div>
+																				<div class="bar-5-review"></div><div class="bar-5-review bar_space-review"></div><div class="bar-5-review bar_space-review"></div><div class="bar-5-review bar_space-review"></div><div class="bar-end-review"></div>
 																			</div>
 																		</div>
 																	</div>
@@ -397,7 +397,7 @@
 																	<div class="middle">
 																		<div class="bar-container">
 																			<div class="bar_div">
-																				<div class="bar-5"></div><div class="bar-5 bar_space"></div><div class="bar-5 bar_space"></div><div class="bar-5 bar_space"></div><div class="bar-10 bar_space"></div><div class="bar-end"></div>
+																				<div class="bar-5-review"></div><div class="bar-5-review bar_space-review"></div><div class="bar-5-review bar_space-review"></div><div class="bar-5-review bar_space-review"></div><div class="bar-10-review bar_space-review"></div><div class="bar-end-review"></div>
 																			</div>
 																		</div>
 																	</div>
