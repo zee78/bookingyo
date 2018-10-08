@@ -38,7 +38,7 @@
         <link href="{{('frontend-assets/css/owl.carousel.min.css')}}" rel="stylesheet">
         <!-- <link href="{{('frontend-assets/css/owl.carousel.css')}}" rel="stylesheet"> -->
         <link href="{{('frontend-assets/css/owl.theme.default.min.css')}}" rel="stylesheet">
-        
+        @yield('styling')
     </head>
     <body style="background: #C3C3C3;">
         @include('frontend.includes.header')

@@ -2,6 +2,10 @@
 
 @section('title', 'Booking Yo')
 
+@section('styling')
+<link rel="stylesheet" type="text/css" href="{{ asset('frontend-assets/css/grocery-order.css') }}">
+
+@endsection
 @section('content')
 
 <div class="container" style="background: #fff; padding-bottom: 25px;">
@@ -27,7 +31,7 @@
 					</p>
 					<h3>Nurpur</h3>
 					<p>Islamabad, Pakistan</p>
-					<p><label class="hours-lbl">Opens 24 Hours , today</label>
+					<p class="opens-lbl"><label class="hours-lbl">Opens 24 Hours , today</label>
 						&nbsp; <label style="opacity: 0.7;">24 Hours Convience Store</label>
 					</p>
 					<ul class="list-inline list-items">
@@ -57,21 +61,21 @@
 			</div>
 		</div>
 	</div>
-	<div class="row pager-section" style="margin: 0;">
-		<div class="col-md-12">
-			<span><i class="fa fa-home"></i></span>
-			<span> &nbsp; &nbsp; Korea</span>
-			<span> &nbsp; &nbsp;Seoul</span>
-			<span> &nbsp; &nbsp; Seocho-Gu</span>
-			<span> &nbsp;  &nbsp; Yangjae-Dong</span>
-			<span> &nbsp; &nbsp;  &nbsp; CU</span>
-			<span> &nbsp; &nbsp; Grocery</span>
-			<span style="background: transparent; color: black;"> &nbsp;  Order Grocery Online</span>
-		</div>
+	<div class="row pager-section">
+    <div class="btn-group btn-breadcrumb">
+        <a href="#" class="btn btn-default"><i class="glyphicon glyphicon-home"></i></a>
+        <a href="#" class="btn btn-default">Korea</a>
+        <a href="#" class="btn btn-default">Seoul</a>
+        <a href="#" class="btn btn-default">Seocho-Gu</a>
+        <a href="#" class="btn btn-default">Yangjae-Dong</a>
+        <a href="#" class="btn btn-default">CU</a>
+        <a href="#" class="btn btn-default">Grocery</a>
+        <a href="#" class="btn btn-default">Order Grocery Online</a>
+    </div>
 	</div>
 	<div class="row">
 		<div class="col-md-12">
-			<div class="row">
+			<div class="row main-row">
 				<div class="col-md-3 grocery-sideBar">
 					<div class="select-sideBar">
             <label><i class="fa fa-map-marker"></i> <span>Set Location</span></label>
@@ -151,10 +155,10 @@
 							<li role="presentation">
 								<a href="#photos" aria-controls="photos" role="tab" data-toggle="tab">Photos</a>
 							</li>
-							<li role="presentation">
-								<a href="#menu" aria-controls="menu" role="tab" data-toggle="tab">Grocery Menu</a>
-							</li>
 							<li role="presentation" class="active">
+								<a href="#groceryMenu" aria-controls="menu" role="tab" data-toggle="tab">Grocery Menu</a>
+							</li>
+							<li role="presentation">
 								<a href="#reviews" aria-controls="reviews" role="tab" data-toggle="tab">Reviews</a>
 							</li>
 							<li role="presentation">
@@ -191,9 +195,9 @@
 						<!-- End -->
 
 						<!-- House hold -->
-						<div class="main-content">
+						<div class="main-content" style="display: none;">
 							<div class="col-md-12">
-								<div class="col-md-3">
+								<div class="col-md-3 hidden-xs">
 									<span><strong>Order History & Hotlist</strong></span>
 								</div>
 								<div class="col-md-offset-5 col-md-4">
@@ -212,7 +216,8 @@
 							</div>
 							<!-- Items Detail -->
 							<div class="row thumbnail-row" id="addedItem">
-								<div class="col-xs-12 col-sm-6 col-md-3">
+								<a href="{{ url('add-product')}}">
+									<div class="col-xs-12 col-sm-6 col-md-3">
 				          <div class="thumbnail">
 				          	<div class="top-header-thumbnail"><input type="checkbox" name=""> <span class="pull-right"><i class="fa fa-thumbs-up text-primary"></i></span></div>
 				            <img src="{{('frontend-assets/static-images/groceryOrder/yought.jpeg')}}" alt="">
@@ -237,31 +242,8 @@
 				            </div>
 				          </div>
 				        </div>
-								<div class="col-xs-12 col-sm-6 col-md-3">
-				          <div class="thumbnail">
-				          	<div class="top-header-thumbnail"><input type="checkbox" name=""> <span class="pull-right"><i class="fa fa-thumbs-up text-primary"></i></span></div>
-				            <img src="{{('frontend-assets/static-images/groceryOrder/yought.jpeg')}}" alt="">
-				              <div class="caption">
-				                <h5 class="text-center">Nestle Yogurt</h5>
-				                <p class="text-center">100 RS</p>
-				                <label>2 + 1</label><br>
-				                <div class="text-center">
-				                	<select>
-				                		<option>80gm</option>
-				                		<option>100gm</option>
-				                		<option>200gm</option>
-				                	</select>
-				                </div>
-				                <div class="text-center">
-				                	<div class="number-input">
-													  <button onclick="this.parentNode.querySelector('input[type=number]').stepDown()" ></button>
-													  <input class="quantity" min="0" name="quantity" value="1" type="number">
-													  <button onclick="this.parentNode.querySelector('input[type=number]').stepUp()" class="plus"></button>
-													</div>
-				                </div>
-				            </div>
-				          </div>
-				        </div>
+								</a>
+								
 							</div>
 							<!-- End -->
 							<!-- Section 2 Start -->
@@ -344,7 +326,7 @@
 							<div class="row thumbnail-row" id="featureItem">
 								<div class="col-xs-12 col-sm-6 col-md-3">
 				          <div class="thumbnail">
-				          	<div class="top-header-thumbnail-thumbnail"><span class="pull-right"><i class="fa fa-thumbs-up txt-muted"></i></span></div>
+				          	<div class="top-header-thumbnail"><span class="pull-right"><i class="fa fa-thumbs-up txt-muted"></i></span></div>
 				            <img src="{{('frontend-assets/static-images/groceryOrder/strawberry.jpeg')}}" alt="">
 				              <div class="caption">
 				                <h5>Strawberry</h5>
@@ -370,7 +352,7 @@
 				        </div>
 								<div class="col-xs-12 col-sm-6 col-md-3">
 				          <div class="thumbnail">
-				          	<div class="top-header-thumbnail-thumbnail"><span class="pull-right"><i class="fa fa-thumbs-up txt-muted"></i></span></div>
+				          	<div class="top-header-thumbnail"><span class="pull-right"><i class="fa fa-thumbs-up txt-muted"></i></span></div>
 				            <img src="{{('frontend-assets/static-images/groceryOrder/strawberry.jpeg')}}" alt="">
 				              <div class="caption">
 				                <h5>Strawberry</h5>
@@ -396,7 +378,7 @@
 				        </div>
 								<div class="col-xs-12 col-sm-6 col-md-3">
 				          <div class="thumbnail">
-				          	<div class="top-header-thumbnail-thumbnail"><span class="pull-right"><i class="fa fa-thumbs-up txt-muted"></i></span></div>
+				          	<div class="top-header-thumbnail"><span class="pull-right"><i class="fa fa-thumbs-up txt-muted"></i></span></div>
 				            <img src="{{('frontend-assets/static-images/groceryOrder/strawberry.jpeg')}}" alt="">
 				              <div class="caption">
 				                <h5>Strawberry</h5>
@@ -422,7 +404,7 @@
 				        </div>
 								<div class="col-xs-12 col-sm-6 col-md-3">
 				          <div class="thumbnail">
-				          	<div class="top-header-thumbnail-thumbnail"><span class="pull-right"><i class="fa fa-thumbs-up txt-muted"></i></span></div>
+				          	<div class="top-header-thumbnail"><span class="pull-right"><i class="fa fa-thumbs-up txt-muted"></i></span></div>
 				            <img src="{{('frontend-assets/static-images/groceryOrder/strawberry.jpeg')}}" alt="">
 				              <div class="caption">
 				                <h5>Strawberry</h5>
@@ -451,58 +433,6 @@
 							<div class="row thumbnail-row" id="featureItem">
 								<div class="col-xs-12 col-sm-6 col-md-3">
 				          <div class="thumbnail">
-				          	<div class="top-header-thumbnail-thumbnail"><span class="pull-right"><i class="fa fa-thumbs-up txt-muted"></i></span></div>
-				            <img src="{{('frontend-assets/static-images/groceryOrder/strawberry.jpeg')}}" alt="">
-				              <div class="caption">
-				                <h5>Strawberry</h5>
-				                <p class="price">900 RS</p>
-				                <label>2 + 1</label><br>
-				                <div class="text-center">
-				                	<select>
-				                		<option>80gm</option>
-				                		<option>100gm</option>
-				                		<option>200gm</option>
-				                	</select>
-				                </div>
-				                <div class="text-center">
-				                	<button class="btn btn-success btn-xs add-btn">ADD</button>
-				                	<!-- <div class="number-input">
-													  <button onclick="this.parentNode.querySelector('input[type=number]').stepDown()" ></button>
-													  <input class="quantity" min="0" name="quantity" value="1" type="number">
-													  <button onclick="this.parentNode.querySelector('input[type=number]').stepUp()" class="plus"></button>
-													</div> -->
-				                </div>
-				            </div>
-				          </div>
-				        </div>
-								<div class="col-xs-12 col-sm-6 col-md-3">
-				          <div class="thumbnail">
-				          	<div class="top-header-thumbnail-thumbnail"><span class="pull-right"><i class="fa fa-thumbs-up txt-muted"></i></span></div>
-				            <img src="{{('frontend-assets/static-images/groceryOrder/strawberry.jpeg')}}" alt="">
-				              <div class="caption">
-				                <h5>Strawberry</h5>
-				                <p class="price">900 RS</p>
-				                <label>2 + 1</label><br>
-				                <div class="text-center">
-				                	<select>
-				                		<option>80gm</option>
-				                		<option>100gm</option>
-				                		<option>200gm</option>
-				                	</select>
-				                </div>
-				                <div class="text-center">
-				                	<button class="btn btn-success btn-xs add-btn">ADD</button>
-				                	<!-- <div class="number-input">
-													  <button onclick="this.parentNode.querySelector('input[type=number]').stepDown()" ></button>
-													  <input class="quantity" min="0" name="quantity" value="1" type="number">
-													  <button onclick="this.parentNode.querySelector('input[type=number]').stepUp()" class="plus"></button>
-													</div> -->
-				                </div>
-				            </div>
-				          </div>
-				        </div>
-								<div class="col-xs-12 col-sm-6 col-md-3">
-				          <div class="thumbnail">
 				          	<div class="top-header-thumbnail"><span class="pull-right"><i class="fa fa-thumbs-up txt-muted"></i></span></div>
 				            <img src="{{('frontend-assets/static-images/groceryOrder/strawberry.jpeg')}}" alt="">
 				              <div class="caption">
@@ -530,6 +460,58 @@
 								<div class="col-xs-12 col-sm-6 col-md-3">
 				          <div class="thumbnail">
 				          	<div class="top-header-thumbnail"><span class="pull-right"><i class="fa fa-thumbs-up txt-muted"></i></span></div>
+				            <img src="{{('frontend-assets/static-images/groceryOrder/strawberry.jpeg')}}" alt="">
+				              <div class="caption">
+				                <h5>Strawberry</h5>
+				                <p class="price">900 RS</p>
+				                <label>2 + 1</label><br>
+				                <div class="text-center">
+				                	<select>
+				                		<option>80gm</option>
+				                		<option>100gm</option>
+				                		<option>200gm</option>
+				                	</select>
+				                </div>
+				                <div class="text-center">
+				                	<button class="btn btn-success btn-xs add-btn">ADD</button>
+				                	<!-- <div class="number-input">
+													  <button onclick="this.parentNode.querySelector('input[type=number]').stepDown()" ></button>
+													  <input class="quantity" min="0" name="quantity" value="1" type="number">
+													  <button onclick="this.parentNode.querySelector('input[type=number]').stepUp()" class="plus"></button>
+													</div> -->
+				                </div>
+				            </div>
+				          </div>
+				        </div>
+								<div class="col-xs-12 col-sm-6 col-md-3">
+				          <div class="thumbnail">
+				          	<div class="top-header-thumbnail"><span class="pull-right"><i class="fa fa-thumbs-up txt-primary"></i></span></div>
+				            <img src="{{('frontend-assets/static-images/groceryOrder/strawberry.jpeg')}}" alt="">
+				              <div class="caption">
+				                <h5>Strawberry</h5>
+				                <p class="price">900 RS</p>
+				                <label>2 + 1</label><br>
+				                <div class="text-center">
+				                	<select>
+				                		<option>80gm</option>
+				                		<option>100gm</option>
+				                		<option>200gm</option>
+				                	</select>
+				                </div>
+				                <div class="text-center">
+				                	<button class="btn btn-success btn-xs add-btn">ADD</button>
+				                	<!-- <div class="number-input">
+													  <button onclick="this.parentNode.querySelector('input[type=number]').stepDown()" ></button>
+													  <input class="quantity" min="0" name="quantity" value="1" type="number">
+													  <button onclick="this.parentNode.querySelector('input[type=number]').stepUp()" class="plus"></button>
+													</div> -->
+				                </div>
+				            </div>
+				          </div>
+				        </div>
+								<div class="col-xs-12 col-sm-6 col-md-3">
+				          <div class="thumbnail">
+				          	<div class="top-header-thumbnail"><span class="pull-right"><i class="fa fa-thumbs-up text-primary"></i></span></div>
 				            <img src="{{('frontend-assets/static-images/groceryOrder/strawberry.jpeg')}}" alt="">
 				              <div class="caption">
 				                <h5>Strawberry</h5>
@@ -554,6 +536,9 @@
 				          </div>
 				        </div>
 							</div>
+							<div class="view-more-btn">
+			      		<button class="btn btn-default btn-block">View More <i class="fa fa-chevron-down"></i></button>
+			      	</div>
 							<!-- End Section 3 -->
 						</div>
 						<!-- End -->
@@ -566,8 +551,449 @@
 							<div role="tabpanel" class="tab-pane  overview" id="overview">
 								hsjhsjdhjshdsja
 							</div>
-							<div role="tabpanel" class="tab-pane  overview" id="overview">
-								hsjhsjdhjshdsja
+							<div role="tabpanel" class="tab-pane  overview active" id="groceryMenu">
+								<div class="row">
+									<div class="col-md-11" style="">
+										<div class="row thumbnail-row" id="featureItem">
+											<a href="{{ url('add-product')}}">
+												<div class="col-xs-12 col-sm-6 col-md-3">
+								          <div class="thumbnail">
+								          	<div class="top-header-thumbnail"><span class="pull-right"><i class="fa fa-thumbs-up txt-muted"></i></span></div>
+								            <img src="{{('frontend-assets/static-images/groceryOrder/peach.jpeg')}}" alt="">
+								              <div class="caption">
+								                <h5>Peach</h5>
+								                <p class="price">900 RS</p>
+								                <label>2 + 1</label><br>
+								                <div class="text-center">
+								                	<select>
+								                		<option>80gm</option>
+								                		<option>100gm</option>
+								                		<option>200gm</option>
+								                	</select>
+								                </div>
+								                <div class="text-center">
+								                	<button class="btn btn-success btn-xs add-btn">ADD</button>
+								                	<!-- <div class="number-input">
+																	  <button onclick="this.parentNode.querySelector('input[type=number]').stepDown()" ></button>
+																	  <input class="quantity" min="0" name="quantity" value="1" type="number">
+																	  <button onclick="this.parentNode.querySelector('input[type=number]').stepUp()" class="plus"></button>
+																	</div> -->
+								                </div>
+								            </div>
+								          </div>
+								        </div>
+								      </a>  
+											<div class="col-xs-12 col-sm-6 col-md-3">
+							          <div class="thumbnail">
+							          	<div class="top-header-thumbnail"><span class="pull-right"><i class="fa fa-thumbs-up text-primary"></i></span></div>
+							            <img src="{{('frontend-assets/static-images/groceryOrder/yought.jpeg')}}" alt="">
+							              <div class="caption">
+							                <h5>Strawberry</h5>
+							                <p class="price">900 RS</p>
+							                <label>2 + 1</label><br>
+							                <div class="text-center">
+							                	<select>
+							                		<option>80gm</option>
+							                		<option>100gm</option>
+							                		<option>200gm</option>
+							                	</select>
+							                </div>
+							                <div class="text-center">
+							                	<button class="btn btn-success btn-xs add-btn">ADD</button>
+							                	<!-- <div class="number-input">
+																  <button onclick="this.parentNode.querySelector('input[type=number]').stepDown()" ></button>
+																  <input class="quantity" min="0" name="quantity" value="1" type="number">
+																  <button onclick="this.parentNode.querySelector('input[type=number]').stepUp()" class="plus"></button>
+																</div> -->
+							                </div>
+							            </div>
+							          </div>
+							        </div>
+											<div class="col-xs-12 col-sm-6 col-md-3">
+							          <div class="thumbnail">
+							          	<div class="top-header-thumbnail"><span class="pull-right"><i class="fa fa-thumbs-up text-primary"></i></span></div>
+							            <img src="{{('frontend-assets/static-images/groceryOrder/jellyday.jpeg')}}" alt="">
+							              <div class="caption">
+							                <h5>Strawberry</h5>
+							                <p class="price">900 RS</p>
+							                <label>2 + 1</label><br>
+							                <div class="text-center">
+							                	<select>
+							                		<option>80gm</option>
+							                		<option>100gm</option>
+							                		<option>200gm</option>
+							                	</select>
+							                </div>
+							                <div class="text-center">
+							                	<button class="btn btn-success btn-xs add-btn">ADD</button>
+							                	<!-- <div class="number-input">
+																  <button onclick="this.parentNode.querySelector('input[type=number]').stepDown()" ></button>
+																  <input class="quantity" min="0" name="quantity" value="1" type="number">
+																  <button onclick="this.parentNode.querySelector('input[type=number]').stepUp()" class="plus"></button>
+																</div> -->
+							                </div>
+							            </div>
+							          </div>
+							        </div>
+											<div class="col-xs-12 col-sm-6 col-md-3">
+							          <div class="thumbnail">
+							          	<div class="top-header-thumbnail"><span class="pull-right"><i class="fa fa-thumbs-up txt-muted"></i></span></div>
+							            <img src="{{('frontend-assets/static-images/groceryOrder/strawberry.jpeg')}}" alt="">
+							              <div class="caption">
+							                <h5>Strawberry</h5>
+							                <p class="price">900 RS</p>
+							                <label>2 + 1</label><br>
+							                <div class="text-center">
+							                	<select>
+							                		<option>80gm</option>
+							                		<option>100gm</option>
+							                		<option>200gm</option>
+							                	</select>
+							                </div>
+							                <div class="text-center">
+							                	<button class="btn btn-success btn-xs add-btn">ADD</button>
+							                	<!-- <div class="number-input">
+																  <button onclick="this.parentNode.querySelector('input[type=number]').stepDown()" ></button>
+																  <input class="quantity" min="0" name="quantity" value="1" type="number">
+																  <button onclick="this.parentNode.querySelector('input[type=number]').stepUp()" class="plus"></button>
+																</div> -->
+							                </div>
+							            </div>
+							          </div>
+							        </div>
+							      </div>
+
+							      
+										<div class="row thumbnail-row" id="featureItem">
+											<div class="col-xs-12 col-sm-6 col-md-3">
+							          <div class="thumbnail">
+							          	<div class="top-header-thumbnail"><span class="pull-right"><i class="fa fa-thumbs-up txt-muted"></i></span></div>
+							            <img src="{{('frontend-assets/static-images/groceryOrder/peach.jpeg')}}" alt="">
+							              <div class="caption">
+							                <h5>Strawberry</h5>
+							                <p class="price">900 RS</p>
+							                <label>2 + 1</label><br>
+							                <div class="text-center">
+							                	<select>
+							                		<option>80gm</option>
+							                		<option>100gm</option>
+							                		<option>200gm</option>
+							                	</select>
+							                </div>
+							                <div class="text-center">
+							                	<button class="btn btn-success btn-xs add-btn">ADD</button>
+							                	<!-- <div class="number-input">
+																  <button onclick="this.parentNode.querySelector('input[type=number]').stepDown()" ></button>
+																  <input class="quantity" min="0" name="quantity" value="1" type="number">
+																  <button onclick="this.parentNode.querySelector('input[type=number]').stepUp()" class="plus"></button>
+																</div> -->
+							                </div>
+							            </div>
+							          </div>
+							        </div>
+											<div class="col-xs-12 col-sm-6 col-md-3">
+							          <div class="thumbnail">
+							          	<div class="top-header-thumbnail"><span class="pull-right"><i class="fa fa-thumbs-up txt-muted"></i></span></div>
+							            <img src="{{('frontend-assets/static-images/groceryOrder/yought.jpeg')}}" alt="">
+							              <div class="caption">
+							                <h5>Strawberry</h5>
+							                <p class="price">900 RS</p>
+							                <label>2 + 1</label><br>
+							                <div class="text-center">
+							                	<select>
+							                		<option>80gm</option>
+							                		<option>100gm</option>
+							                		<option>200gm</option>
+							                	</select>
+							                </div>
+							                <div class="text-center">
+							                	<button class="btn btn-success btn-xs add-btn">ADD</button>
+							                	<!-- <div class="number-input">
+																  <button onclick="this.parentNode.querySelector('input[type=number]').stepDown()" ></button>
+																  <input class="quantity" min="0" name="quantity" value="1" type="number">
+																  <button onclick="this.parentNode.querySelector('input[type=number]').stepUp()" class="plus"></button>
+																</div> -->
+							                </div>
+							            </div>
+							          </div>
+							        </div>
+											<div class="col-xs-12 col-sm-6 col-md-3">
+							          <div class="thumbnail">
+							          	<div class="top-header-thumbnail"><span class="pull-right"><i class="fa fa-thumbs-up txt-muted"></i></span></div>
+							            <img src="{{('frontend-assets/static-images/groceryOrder/jellyday.jpeg')}}" alt="">
+							              <div class="caption">
+							                <h5>Strawberry</h5>
+							                <p class="price">900 RS</p>
+							                <label>2 + 1</label><br>
+							                <div class="text-center">
+							                	<select>
+							                		<option>80gm</option>
+							                		<option>100gm</option>
+							                		<option>200gm</option>
+							                	</select>
+							                </div>
+							                <div class="text-center">
+							                	<button class="btn btn-success btn-xs add-btn">ADD</button>
+							                	<!-- <div class="number-input">
+																  <button onclick="this.parentNode.querySelector('input[type=number]').stepDown()" ></button>
+																  <input class="quantity" min="0" name="quantity" value="1" type="number">
+																  <button onclick="this.parentNode.querySelector('input[type=number]').stepUp()" class="plus"></button>
+																</div> -->
+							                </div>
+							            </div>
+							          </div>
+							        </div>
+											<div class="col-xs-12 col-sm-6 col-md-3">
+							          <div class="thumbnail">
+							          	<div class="top-header-thumbnail"><span class="pull-right"><i class="fa fa-thumbs-up txt-muted"></i></span></div>
+							            <img src="{{('frontend-assets/static-images/groceryOrder/strawberry.jpeg')}}" alt="">
+							              <div class="caption">
+							                <h5>Strawberry</h5>
+							                <p class="price">900 RS</p>
+							                <label>2 + 1</label><br>
+							                <div class="text-center">
+							                	<select>
+							                		<option>80gm</option>
+							                		<option>100gm</option>
+							                		<option>200gm</option>
+							                	</select>
+							                </div>
+							                <div class="text-center">
+							                	<button class="btn btn-success btn-xs add-btn">ADD</button>
+							                	<!-- <div class="number-input">
+																  <button onclick="this.parentNode.querySelector('input[type=number]').stepDown()" ></button>
+																  <input class="quantity" min="0" name="quantity" value="1" type="number">
+																  <button onclick="this.parentNode.querySelector('input[type=number]').stepUp()" class="plus"></button>
+																</div> -->
+							                </div>
+							            </div>
+							          </div>
+							        </div>
+							      </div>
+
+							      
+										<div class="row thumbnail-row" id="featureItem">
+											<div class="col-xs-12 col-sm-6 col-md-3">
+							          <div class="thumbnail">
+							          	<div class="top-header-thumbnail"><span class="pull-right"><i class="fa fa-thumbs-up txt-muted"></i></span></div>
+							            <img src="{{('frontend-assets/static-images/groceryOrder/peach.jpeg')}}" alt="">
+							              <div class="caption">
+							                <h5>Strawberry</h5>
+							                <p class="price">900 RS</p>
+							                <label>2 + 1</label><br>
+							                <div class="text-center">
+							                	<select>
+							                		<option>80gm</option>
+							                		<option>100gm</option>
+							                		<option>200gm</option>
+							                	</select>
+							                </div>
+							                <div class="text-center">
+							                	<button class="btn btn-success btn-xs add-btn">ADD</button>
+							                	<!-- <div class="number-input">
+																  <button onclick="this.parentNode.querySelector('input[type=number]').stepDown()" ></button>
+																  <input class="quantity" min="0" name="quantity" value="1" type="number">
+																  <button onclick="this.parentNode.querySelector('input[type=number]').stepUp()" class="plus"></button>
+																</div> -->
+							                </div>
+							            </div>
+							          </div>
+							        </div>
+											<div class="col-xs-12 col-sm-6 col-md-3">
+							          <div class="thumbnail">
+							          	<div class="top-header-thumbnail"><span class="pull-right"><i class="fa fa-thumbs-up txt-muted"></i></span></div>
+							            <img src="{{('frontend-assets/static-images/groceryOrder/yought.jpeg')}}" alt="">
+							              <div class="caption">
+							                <h5>Strawberry</h5>
+							                <p class="price">900 RS</p>
+							                <label>2 + 1</label><br>
+							                <div class="text-center">
+							                	<select>
+							                		<option>80gm</option>
+							                		<option>100gm</option>
+							                		<option>200gm</option>
+							                	</select>
+							                </div>
+							                <div class="text-center">
+							                	<button class="btn btn-success btn-xs add-btn">ADD</button>
+							                	<!-- <div class="number-input">
+																  <button onclick="this.parentNode.querySelector('input[type=number]').stepDown()" ></button>
+																  <input class="quantity" min="0" name="quantity" value="1" type="number">
+																  <button onclick="this.parentNode.querySelector('input[type=number]').stepUp()" class="plus"></button>
+																</div> -->
+							                </div>
+							            </div>
+							          </div>
+							        </div>
+											<div class="col-xs-12 col-sm-6 col-md-3">
+							          <div class="thumbnail">
+							          	<div class="top-header-thumbnail"><span class="pull-right"><i class="fa fa-thumbs-up txt-muted"></i></span></div>
+							            <img src="{{('frontend-assets/static-images/groceryOrder/jellyday.jpeg')}}" alt="">
+							              <div class="caption">
+							                <h5>Strawberry</h5>
+							                <p class="price">900 RS</p>
+							                <label>2 + 1</label><br>
+							                <div class="text-center">
+							                	<select>
+							                		<option>80gm</option>
+							                		<option>100gm</option>
+							                		<option>200gm</option>
+							                	</select>
+							                </div>
+							                <div class="text-center">
+							                	<button class="btn btn-success btn-xs add-btn">ADD</button>
+							                	<!-- <div class="number-input">
+																  <button onclick="this.parentNode.querySelector('input[type=number]').stepDown()" ></button>
+																  <input class="quantity" min="0" name="quantity" value="1" type="number">
+																  <button onclick="this.parentNode.querySelector('input[type=number]').stepUp()" class="plus"></button>
+																</div> -->
+							                </div>
+							            </div>
+							          </div>
+							        </div>
+											<div class="col-xs-12 col-sm-6 col-md-3">
+							          <div class="thumbnail">
+							          	<div class="top-header-thumbnail"><span class="pull-right"><i class="fa fa-thumbs-up txt-muted"></i></span></div>
+							            <img src="{{('frontend-assets/static-images/groceryOrder/strawberry.jpeg')}}" alt="">
+							              <div class="caption">
+							                <h5>Strawberry</h5>
+							                <p class="price">900 RS</p>
+							                <label>2 + 1</label><br>
+							                <div class="text-center">
+							                	<select>
+							                		<option>80gm</option>
+							                		<option>100gm</option>
+							                		<option>200gm</option>
+							                	</select>
+							                </div>
+							                <div class="text-center">
+							                	<button class="btn btn-success btn-xs add-btn">ADD</button>
+							                	<!-- <div class="number-input">
+																  <button onclick="this.parentNode.querySelector('input[type=number]').stepDown()" ></button>
+																  <input class="quantity" min="0" name="quantity" value="1" type="number">
+																  <button onclick="this.parentNode.querySelector('input[type=number]').stepUp()" class="plus"></button>
+																</div> -->
+							                </div>
+							            </div>
+							          </div>
+							        </div>
+							      </div>
+
+
+										<div class="row thumbnail-row" id="featureItem">
+											<div class="col-xs-12 col-sm-6 col-md-3">
+							          <div class="thumbnail">
+							          	<div class="top-header-thumbnail"><span class="pull-right"><i class="fa fa-thumbs-up txt-muted"></i></span></div>
+							            <img src="{{('frontend-assets/static-images/groceryOrder/peach.jpeg')}}" alt="">
+							              <div class="caption">
+							                <h5>Strawberry</h5>
+							                <p class="price">900 RS</p>
+							                <label>2 + 1</label><br>
+							                <div class="text-center">
+							                	<select>
+							                		<option>80gm</option>
+							                		<option>100gm</option>
+							                		<option>200gm</option>
+							                	</select>
+							                </div>
+							                <div class="text-center">
+							                	<button class="btn btn-success btn-xs add-btn">ADD</button>
+							                	<!-- <div class="number-input">
+																  <button onclick="this.parentNode.querySelector('input[type=number]').stepDown()" ></button>
+																  <input class="quantity" min="0" name="quantity" value="1" type="number">
+																  <button onclick="this.parentNode.querySelector('input[type=number]').stepUp()" class="plus"></button>
+																</div> -->
+							                </div>
+							            </div>
+							          </div>
+							        </div>
+											<div class="col-xs-12 col-sm-6 col-md-3">
+							          <div class="thumbnail">
+							          	<div class="top-header-thumbnail"><span class="pull-right"><i class="fa fa-thumbs-up txt-muted"></i></span></div>
+							            <img src="{{('frontend-assets/static-images/groceryOrder/yought.jpeg')}}" alt="">
+							              <div class="caption">
+							                <h5>Strawberry</h5>
+							                <p class="price">900 RS</p>
+							                <label>2 + 1</label><br>
+							                <div class="text-center">
+							                	<select>
+							                		<option>80gm</option>
+							                		<option>100gm</option>
+							                		<option>200gm</option>
+							                	</select>
+							                </div>
+							                <div class="text-center">
+							                	<button class="btn btn-success btn-xs add-btn">ADD</button>
+							                	<!-- <div class="number-input">
+																  <button onclick="this.parentNode.querySelector('input[type=number]').stepDown()" ></button>
+																  <input class="quantity" min="0" name="quantity" value="1" type="number">
+																  <button onclick="this.parentNode.querySelector('input[type=number]').stepUp()" class="plus"></button>
+																</div> -->
+							                </div>
+							            </div>
+							          </div>
+							        </div>
+											<div class="col-xs-12 col-sm-6 col-md-3">
+							          <div class="thumbnail">
+							          	<div class="top-header-thumbnail"><span class="pull-right"><i class="fa fa-thumbs-up txt-muted"></i></span></div>
+							            <img src="{{('frontend-assets/static-images/groceryOrder/jellyday.jpeg')}}" alt="">
+							              <div class="caption">
+							                <h5>Strawberry</h5>
+							                <p class="price">900 RS</p>
+							                <label>2 + 1</label><br>
+							                <div class="text-center">
+							                	<select>
+							                		<option>80gm</option>
+							                		<option>100gm</option>
+							                		<option>200gm</option>
+							                	</select>
+							                </div>
+							                <div class="text-center">
+							                	<button class="btn btn-success btn-xs add-btn">ADD</button>
+							                	<!-- <div class="number-input">
+																  <button onclick="this.parentNode.querySelector('input[type=number]').stepDown()" ></button>
+																  <input class="quantity" min="0" name="quantity" value="1" type="number">
+																  <button onclick="this.parentNode.querySelector('input[type=number]').stepUp()" class="plus"></button>
+																</div> -->
+							                </div>
+							            </div>
+							          </div>
+							        </div>
+											<div class="col-xs-12 col-sm-6 col-md-3">
+							          <div class="thumbnail">
+							          	<div class="top-header-thumbnail"><span class="pull-right"><i class="fa fa-thumbs-up txt-muted"></i></span></div>
+							            <img src="{{('frontend-assets/static-images/groceryOrder/strawberry.jpeg')}}" alt="">
+							              <div class="caption">
+							                <h5>Strawberry</h5>
+							                <p class="price">900 RS</p>
+							                <label>2 + 1</label><br>
+							                <div class="text-center">
+							                	<select>
+							                		<option>80gm</option>
+							                		<option>100gm</option>
+							                		<option>200gm</option>
+							                	</select>
+							                </div>
+							                <div class="text-center">
+							                	<button class="btn btn-success btn-xs add-btn">ADD</button>
+							                	<!-- <div class="number-input">
+																  <button onclick="this.parentNode.querySelector('input[type=number]').stepDown()" ></button>
+																  <input class="quantity" min="0" name="quantity" value="1" type="number">
+																  <button onclick="this.parentNode.querySelector('input[type=number]').stepUp()" class="plus"></button>
+																</div> -->
+							                </div>
+							            </div>
+							          </div>
+							        </div>
+							        <div class="view-more-btn">
+							      		<button class="btn btn-default btn-block">View More <i class="fa fa-chevron-down"></i></button>
+							      	</div>
+							      </div>
+									</div>
+									<div class="col-md-1">
+										<img src="{{'frontend-assets/static-images/groceryOrder/ads.jpg'}}" class="img-responsive" alt="Image">
+									</div>
+								</div>
 							</div>
 							<div role="tabpanel" class="tab-pane  overview" id="overview">
 								hsjhsjdhjshdsja

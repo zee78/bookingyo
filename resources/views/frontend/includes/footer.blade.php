@@ -34,8 +34,8 @@
 					<a href="">Business Badge</a>
 				</div>
 				<div class="col-md-offset-2 col-md-2 col-xs-12">
-					<img src="{{'frontend-assets/static-images/footer/footer_sprite1.png'}}">
-					<p style="padding-top: 5px;" class="text-right">
+					<img src="{{'frontend-assets/static-images/footer/countries.png'}}" style="width: 100%;">
+					<p style="padding-top: 5px;margin-right: 7px;" class="text-right">
 						<i class="fa fa-facebook-official fa-2x"></i>
 						<i class="fa fa-youtube-square fa-2x" aria-hidden="true"></i>
 						<i class="fa fa-google-plus-square fa-2x" aria-hidden="true"></i>
