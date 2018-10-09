@@ -44,3 +44,18 @@ Route::get('/dashboard', function(){
 Route::get('/listing', function(){
 	return view('frontend.listing');
 });
+Route::get('/glocerlycategory', function () {
+    return view('frontend.glocerlycategory');
+});
+Route::get('/hospital-reservation', function () {
+    return view('frontend.hospital_reservation');
+});
+Route::get('/profile', function () {
+    return view('frontend.profile');
+});
+Route::get('/password', function () {
+    return view('frontend.password');
+});
+Route::get('/coupons', function () {
+    return view('frontend.coupons');
+});

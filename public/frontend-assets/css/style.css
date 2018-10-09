@@ -1686,6 +1686,205 @@ select {
 {
 	padding: 5px 0px;
 }
+
+
+
+
+/*Nabeel Pages*/
+/*   Glocerly Catagary Section & Hospital Reservation Section CSS	*/
+
+.imgsctn img{
+	width:100%;}
+
+hr{
+	margin-top: 18px;
+	margin-bottom: 18px;}
+
+.glyphicon-chevron-right{
+	float: right;}
+
+.listitem{
+	padding:0px;
+	margin:0px;}
+
+.listitem a:hover{
+	color: orange;	
+	list-style: none;}
+
+.srchbar-row-setting{
+	margin:0px;
+	padding-top: 20px;}
+
+.srch_nav .input-group input{
+	background: #EFEFEF;}
+
+.bg_clr{
+	background-color: white;}
+
+#stylng{
+    padding: 11px;
+    margin-right: -2px;
+    background-color: #efefef;
+    border: 1px solid #d5d5d5;
+	color:#a5a4a4;}
+
+.liststyling li a{
+    padding: 9px 20px;
+    width: 250px;
+	border-bottom: 1px solid #79729f;}
+
+.liststyling li a:hover{
+    color: orange;}
+
+
+@media (max-width: 575px)
+{
+	.navbar-nav .open .animation-durationpdown-menu {
+    position: absolute;
+    float: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;}
+
+   #stylng{
+   	padding:11px 0px;
+   	width: 100px;}
+
+   #fc-sm-pdng{
+   	width: 140px;}
+
+   .search-bar {
+    left: 73% !important;;}
+}
+
+@media (min-width: 576px) and (max-width: 767px)
+{
+	.navbar-nav .open .dropdown-menu {
+    position: absolute;
+    float: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;}
+
+    #stylng{
+   	padding:11px 5px;
+   	width: 150px;}
+   
+   #fc-sm-pdng{
+   	width: 300px;}
+
+   .search-bar {
+    left: 75% !important;}
+}
+
+@media (min-width: 768px) and (max-width: 991px)
+{
+	.navbar-nav .open .dropdown-menu {
+    position: absolute;
+    float: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;}
+}
+
+@media (min-width: 992px) and (max-width: 1199px)
+{
+	.navbar-nav .open .dropdown-menu {
+    position: absolute;
+    float: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;}
+
+   #stylng{
+   	padding:11px 5px;
+   	width: 180px;}
+
+   #fc-sm-pdng={
+   	width: 375px;}
+
+   .search-bar {
+    left: 85% !important;}
+}
+@media (min-width: 1200px)
+{
+   .navbar-nav .open .dropdown-menu {position: absolute; float: none; -webkit-box-shadow: none; box-shadow: none;}
+
+   #stylng{	padding:11px 7px; width: 180px;}
+
+   #fc-sm-pdng{
+   	width: 450px;}
+
+   .search-bar {
+    left: 85% !important;}
+}
+
+
+/*profile page css*/
+
+#row_pdng{
+	padding:50px 0px 30px 0px;
+}
+#row_pdng label
+{
+	padding: 0px;
+}
+.radio_bttn{
+	margin-right: 5px;
+}
+
+@media (max-width: 575px)
+{
+	#row_pdng label{
+	padding:0px 15px;}
+
+	.btn_styl{
+	 padding: 7px 40px;}
+
+	 .radio_bttn label{
+	 font-size: 13px;}
+
+}
+
+@media (min-width: 576px) and (max-width: 767px)
+{
+	#row_pdng label{
+	padding:0px 15px;}
+
+	.btn_styl{
+	 padding: 7px 50px;}
+}
+@media (min-width: 768px) and (max-width: 991px)
+{
+	#row_pdng label{
+	padding:0px 15px;}
+
+	.btn_styl{
+	 padding: 7px 60px;}
+}
+
+@media (min-width: 992px) and (max-width: 1199px)
+{
+	#row_pdng label{
+	padding:0px 15px;}
+
+	.btn_styl{
+	 padding: 8px 60px;}
+}
+
+
+@media (min-width: 1200px)
+{
+	#row_pdng label{
+	padding:0px 15px;}
+
+	.btn_styl{
+	 padding: 8px 60px;}
+}
+
+
+/* Coupans Page CSS */
+
+
+.panel>.table-bordered, .panel>.table-responsive>.table-bordered{
+	border: 2px solid #ddd !important;
+}
 /*Media Query*/
 @media  only screen and (max-width: 767px){
 	.col-md-2-1{

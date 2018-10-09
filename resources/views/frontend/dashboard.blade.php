@@ -13,7 +13,7 @@
 		<div class="col-md-12 dashboard-menu">
 			<ul>
 				<li>
-					<a href="">
+					<a href="{{ url('/profile')}}">
 						<div class="profile-icon">
 							<i class="fa fa-user"></i>
 						</div>
@@ -21,7 +21,7 @@
 					</a>
 				</li>
 				<li>
-					<a href="">
+					<a href="{{ url('/password')}}">
 						<div class="profile-icon">
 							<i class="fa fa-lock" aria-hidden="true" style="color: #333333"></i>
 						</div>

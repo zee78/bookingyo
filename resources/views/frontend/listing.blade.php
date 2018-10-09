@@ -10,7 +10,7 @@
 <div class="container margin-50" style="background: white;">
 	<div class="row" style="margin: 0">
 		<div class="col-md-12">
-			<div class="table-container">
+			<div class="table-responsive">
 				<table class="table table-stripped defaulttb">
 					<thead>
 						<tr>
@@ -63,7 +63,7 @@
 								<a href="" class="cstbtn color_blue" data-toggle="tooltip" title="" data-original-title="Forms"><i class="fa fa-file-word-o"></i></a>
 								<a href="" class="cstbtn color_darkblue" data-toggle="tooltip" title="" data-original-title="Enquiry"><i class="fa fa-sticky-note"></i></a>
 								<a href="" class="cstbtn color_lightnlue" data-toggle="tooltip" title="" data-original-title="Doctor Appointment"><i class="fa fa-stethoscope"></i></a>
-								<a href="" class="cstbtn color_darkred" data-toggle="tooltip" title="" data-original-title="음식 메뉴 표시"><i class="fa fa-cutlery"></i></a>
+								<a href="" class="cstbtn color_darkred" data-toggle="tooltip" title="" data-original-title="Show Food Menu"><i class="fa fa-cutlery"></i></a>
 								<a href="" class="cstbtn color_lemon" data-toggle="tooltip" title="" data-original-title="Online-Food Order"><i class="fa fa-lemon-o"></i></a>	
 							</td>
 						</tr>
