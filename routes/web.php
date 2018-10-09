@@ -38,3 +38,9 @@ Route::get('/login', function(){
 Route::get('/food_order', function(){
 	return view('frontend.food_order');
 });
+Route::get('/dashboard', function(){
+	return view('frontend.dashboard');
+});
+Route::get('/listing', function(){
+	return view('frontend.listing');
+});
