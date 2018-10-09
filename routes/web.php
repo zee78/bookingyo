@@ -59,3 +59,6 @@ Route::get('/password', function () {
 Route::get('/coupons', function () {
     return view('frontend.coupons');
 });
+Route::get('/food_checkout', function(){
+	return view('frontend.food_checkout');
+});
