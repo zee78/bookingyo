@@ -35,3 +35,6 @@ Route::get('/login', function(){
 Route::get('/food_order', function(){
 	return view('frontend.food_order');
 });
+Route::get('/food_checkout', function(){
+	return view('frontend.food_checkout');
+});

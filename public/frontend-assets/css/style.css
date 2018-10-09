@@ -2317,7 +2317,11 @@ select {
 	}
 	.review_form button span {
 		font-size: 12px;
-	}	
+	}
+	.rating_list {
+		margin-left: 0;
+	}
+
 }
 
 #owl-demo{
