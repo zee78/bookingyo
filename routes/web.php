@@ -29,6 +29,9 @@ Route::get('/category-list', function(){
 Route::get('/grocery-order', function(){
 	return view('frontend.grocery-order');
 });
+Route::get('/add-product', function(){
+	return view('frontend.add-product');
+});
 Route::get('/login', function(){
 	return view('frontend.login');
 });
