@@ -2,6 +2,7 @@
 @section('title', 'Booking Yo')
 @section('styling')
 <link href="{{ asset('frontend-assets/css/food_order.css') }}" rel="stylesheet">
+<link href="{{ asset('frontend-assets/css/grocery-order.css') }}" rel="stylesheet">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js" type="text/javascript"></script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
 <link href='https://fonts.googleapis.com/css?family=Lato:100,400,700' rel='stylesheet' type='text/css'>
@@ -519,7 +520,7 @@
 										<span style="margin-left: 145px;"><strong><i class="fa fa-won"></i>170</strong></span><br>
 										<span class="text-muted" style="font-size: 12px;">Extra charges may apply</span>
 										</div>
-										<a href="" class="btn btn-success btn-block checkout_btn"><strong>Check Out </strong></a>
+										<a href="{{url('/food_checkout')}}" class="btn btn-success btn-block checkout_btn"><strong>Check Out </strong></a>
 			</div>
 						<div style="margin-top: 30px; margin-right: 30px;">
 							<img src="frontend-assets/static-images/table_booking/qr_code.png" class="img-responsive" alt="Image">

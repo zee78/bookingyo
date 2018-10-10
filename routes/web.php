@@ -41,3 +41,6 @@ Route::get('/food_order', function(){
 Route::get('/food_checkout', function(){
 	return view('frontend.food_checkout');
 });
+Route::get('/free-listing', function(){
+	return view('frontend.free-listing');
+});

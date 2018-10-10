@@ -1,0 +1,208 @@
+.form_div h4 {
+	margin-left: 15px;
+}
+.form_div label{
+	font-weight: 500;
+}
+.main_div {
+	margin: 50px 30px;
+	  padding-bottom: 30px; 
+	  border: 1px solid #cccc; 
+	  border-radius: 4px;
+}
+.form_div h5 {
+	margin-left: 20px;
+}
+
+
+
+.main-login {
+    width: 100%;
+    display: block;
+    margin-bottom: 30px;
+    -webkit-box-shadow: 0px 0px 3px 0px rgba(201,201,201,1);
+    -moz-box-shadow: 0px 0px 3px 0px rgba(201,201,201,1);
+    box-shadow: 0px 0px 3px 0px rgba(201,201,201,1);
+}
+.main-login h5 {
+    margin: 0;
+    padding: 0;
+    border-bottom: 1px solid #EEEEEE;
+    padding: 12px 20px;
+    font-weight: 600;
+    font-size: 15px;
+}
+.formbody {
+    padding: 10px 20px;
+}
+.formbody .form-group {
+    width: 100%;
+    display: block;
+    float: left;
+    margin: 10px auto;
+}
+.formbody .form-group label {
+    font-weight: 500;
+}
+.form-group .form-control {
+    width: 100%;
+}
+.hoursofoperation {
+    display: none;
+}
+.hummingbird-base {
+    width: 100%;
+    float: left;
+    list-style: none;
+}
+.hummingbird-base li {
+    width: 100%;
+    float: left;
+}
+.loading {
+    background: url(https://www.okjoa.com/theme/img/loader.gif);
+    width: 15px;
+    height: 15px;
+    float: left;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: 15px 15px;
+    z-index: 100;
+    margin-left: -15px;
+    left: 0;
+    display: none;
+}
+.hummingbird-base .fa {
+    font-style: normal;
+    font-size: 18px;
+    cursor: pointer;
+    float: left;
+    width: 25px;
+    height: 25px;
+}
+.hummingbird-base label {
+    cursor: pointer;
+    float: left;
+}
+.clear {
+    clear: both;
+}
+.jFiler {
+    font-family: sans-serif;
+    font-size: 14px;
+    color: #494949;
+}
+.jFiler-input-dragDrop {
+    display: block;
+    width: 343px;
+    margin: 0 auto 25px auto;
+    padding: 25px;
+    color: #97A1A8;
+    background: #F9FBFE;
+    border: 2px dashed #C8CBCE;
+    text-align: center;
+    -webkit-transition: box-shadow 0.3s, border-color 0.3s;
+    -moz-transition: box-shadow 0.3s, border-color 0.3s;
+    transition: box-shadow 0.3s, border-color 0.3s;
+}
+.jFiler-input-dragDrop .jFiler-input-icon {
+    font-size: 48px;
+    margin-top: -10px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+.jFiler-input-choose-btn.blue {
+    color: #48A0DC;
+    border: 1px solid #48A0DC;
+}
+.jFiler-input-choose-btn {
+    display: inline-block;
+    padding: 8px 14px;
+    outline: none;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    white-space: nowrap;
+    font-size: 12px;
+    font-weight: bold;
+    color: #8d9496;
+    border-radius: 3px;
+    border: 1px solid #c6c6c6;
+    vertical-align: middle;
+    *background-color: #fff;
+    box-shadow: 0px 1px 5px rgba(0,0,0,0.05);
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    transition: all 0.2s;
+}
+.defaultSkin table.mceLayout tr.mceLast td {
+    border-bottom: 1px solid #CCC;
+}
+.defaultSkin .mceStatusbar {
+    background: #F0F0EE;
+    font-family: 'MS Sans Serif',sans-serif,Verdana,Arial;
+    font-size: 9pt;
+    line-height: 16px;
+    overflow: visible;
+    color: #000;
+    display: block;
+    height: 20px;
+}
+.margin-50 {
+    display: block;
+    padding: 50px 0;
+}
+.defaultSkin table.mceLayout {
+    border: 0;
+    border-left: 1px solid #CCC;
+    border-right: 1px solid #CCC;
+}
+.defaultSkin table {
+    direction: ltr;
+    background: transparent;
+}
+.defaultSkin table, .defaultSkin tbody, .defaultSkin a, .defaultSkin img, .defaultSkin tr, .defaultSkin div, .defaultSkin td, .defaultSkin iframe, .defaultSkin span, .defaultSkin *, .defaultSkin .mceText {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    background: transparent;
+    white-space: nowrap;
+    text-decoration: none;
+    font-weight: normal;
+    cursor: default;
+    color: #000;
+    vertical-align: baseline;
+    width: auto;
+    border-collapse: separate;
+    text-align: left;
+}
+.selectallcheck .row {
+    margin-bottom: 10px;
+    margin-left: 1px;
+}
+.main_col {
+		padding: 0 50px;
+	}
+.btn_row {
+	margin-left: 30px;
+}
+
+@media  only screen and (max-width: 767px){ 
+	.main-login h5 {
+		padding: 12px 5px;
+	}
+	.main_col {
+		padding-left: 20px;	
+	}
+	.btn_row {
+		margin-left: 0;
+		padding: 0 3px;
+	}
+	.jFiler-input-dragDrop {
+	    width: 100%;
+	}
+	.btn_col{
+		margin-left: -13px;
+	}
+}

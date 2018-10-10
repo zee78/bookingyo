@@ -51,6 +51,9 @@ h1 {
 .thm_card {
   border: 0;
 }
+.thm_card:hover {
+  border: 0 !important;
+}
 /*Customize Inpute Number*/
 .number-input-food input[type="number"] {
   -webkit-appearance: textfield;
