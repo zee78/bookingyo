@@ -44,7 +44,7 @@
 						<!-- Wrapper for slides -->
 						<div class="carousel-inner">
 							<div class="item active">
-								<img src="{{'frontend-assets/static-images/home/hotels.jpg'}}" alt="School" style="height: 450px; width: 100%;">
+								<img src="{{'frontend-assets/static-images/home/hotels_1.jpg'}}" alt="School" style="height: 450px; width: 100%;">
 							</div>
 							<div class="item">
 								<img src="{{'frontend-assets/static-images/home/hotels1.jpg'}}" alt="School" style="height: 450px; width: 100%;">
@@ -74,7 +74,7 @@
 			
 			<div class="col-md-5">
 				<div class="col-md-6 category-img" style="border:0px solid #EEEEEE;">
-					<a href="{{url('/category-list')}}" class=""><img src="{{'frontend-assets/static-images/home/resturants.jpg'}}" style="width: 100%">
+					<a href="{{url('/restaurant-list')}}" class=""><img src="{{'frontend-assets/static-images/home/resturants.jpg'}}" style="width: 100%">
 						<div class="overlay-text">
 							<h4>Resturants</h4>
 							<span>dining, lounge bar, pizza ...</span>

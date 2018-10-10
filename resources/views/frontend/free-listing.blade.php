@@ -98,7 +98,7 @@
 							<h5><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Opening hours</font></font></h5>
 						</div>
 						<div class="form-group">
-							<label class="col-sm-offset-1 control-label col-sm-2"></label>
+							<label class="col-md-offset-3 control-label"></label>
 							<label class="radio-inline">
 								<input type="radio" name="display_time" class="radio_hours" value="1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Show business hours
 							</font></font></label>
@@ -106,137 +106,217 @@
 								<input type="radio" name="display_time" class="radio_hours" value="2" checked=""><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Do not show business hours
 							</font></font></label>
 						</div>
-						<div class="hoursofoperation">
-							<div class="form-group">
-								<label class="col-sm-offset-1 control-label col-sm-2" for="mondayfrom">Monday:</label>
-								<div class="col-sm-2">
-									<input type="text" name="mondayfrom" class="form-control timepicker ui-timepicker-input" id="mondayfrom" value="" autocomplete="off" disabled="disabled">
+						<div class="time_slot" id="time_slot">
+					<div class="row">
+						<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 col-md-offset-1">
+							<label for="">Monday:</label>
+						</div>
+						<div class="col-xs-10 col-sm-10 col-md-7 col-lg-7">
+							<div class="row">
+								<div class="col-xs-5 col-sm-5 col-md-3 col-lg-3">
+									<div class="form-timing">
+										<input type="time" class="form-control" id="">
+									</div>
 								</div>
-								<label class="control-label col-sm-1" for="mondayto">~</label>
-								<div class="col-sm-2">
-									<input type="text" name="mondayto" class="form-control timepicker ui-timepicker-input" id="mondayto" value="" autocomplete="off" disabled="disabled">
+								<div class="col-xs-1 col-sm-1 col-md-2 col-lg-2">
+									<label><strong>TO</strong></label>
 								</div>
-							</div>
-							<div class="form-group">
-								<label class="col-sm-offset-1 control-label col-sm-2" for="Tuesdayfrom">Tuesday:</label>
-								<div class="col-sm-2">
-									<input type="text" name="Tuesdayfrom" class="form-control timepicker ui-timepicker-input" id="Tuesdayfrom" value="" autocomplete="off" disabled="disabled">
+								<div class="col-xs-5 col-sm-5 col-md-3 col-lg-3">
+									<div class="form-timing">
+									<input type="time" class="form-control" id="">
 								</div>
-								<label class="control-label col-sm-1" for="Tuesdayto">~</label>
-								<div class="col-sm-2">
-									<input type="text" name="Tuesdayto" class="form-control timepicker ui-timepicker-input" id="Tuesdayto" value="" autocomplete="off" disabled="disabled">
-								</div>
-							</div>
-							<div class="form-group">
-								<label class="col-sm-offset-1 control-label col-sm-2" for="Wednesdayfrom">Wednesday:</label>
-								<div class="col-sm-2">
-									<input type="text" name="Wednesdayfrom" class="form-control timepicker ui-timepicker-input" id="Wednesdayfrom" value="" autocomplete="off" disabled="disabled">
-								</div>
-								<label class="control-label col-sm-1" for="Wednesdayto">~</label>
-								<div class="col-sm-2">
-									<input type="text" name="Wednesdayto" class="form-control timepicker ui-timepicker-input" id="Wednesdayto" value="" autocomplete="off" disabled="disabled">
-								</div>
-							</div>
-							<div class="form-group">
-								<label class="col-sm-offset-1 control-label col-sm-2" for="Thursdayfrom">Thursday :</label>
-								<div class="col-sm-2">
-									<input type="text" name="Thursdayfrom" class="form-control timepicker ui-timepicker-input" id="Thursdayfrom" value="" autocomplete="off" disabled="disabled">
-								</div>
-								<label class="control-label col-sm-1" for="Thursdayto">~</label>
-								<div class="col-sm-2">
-									<input type="text" name="Thursdayto" class="form-control timepicker ui-timepicker-input" id="Thursdayto" value="" autocomplete="off" disabled="disabled">
-								</div>
-							</div>
-							<div class="form-group">
-								<label class="col-sm-offset-1 control-label col-sm-2" for="Fridayfrom">Friday:</label>
-								<div class="col-sm-2">
-									<input type="text" name="Fridayfrom" class="form-control timepicker ui-timepicker-input" id="Fridayfrom" value="" autocomplete="off" disabled="disabled">
-								</div>
-								<label class="control-label col-sm-1" for="Fridayto">~</label>
-								<div class="col-sm-2">
-									<input type="text" name="Fridayto" class="form-control timepicker ui-timepicker-input" id="Fridayto" value="" autocomplete="off" disabled="disabled">
-								</div>
-							</div>
-							<div class="form-group">
-								<label class="col-sm-offset-1 control-label col-sm-2" for="Saturdayfrom">Saturday:</label>
-								<div class="col-sm-2">
-									<input type="text" name="Saturdayfrom" class="form-control timepicker ui-timepicker-input" id="Saturdayfrom" value="" autocomplete="off" disabled="disabled">
-								</div>
-								<label class="control-label col-sm-1" for="Saturdayto">~</label>
-								<div class="col-sm-2">
-									<input type="text" name="Saturdayto" class="form-control timepicker ui-timepicker-input" id="Saturdayto" value="" autocomplete="off" disabled="disabled">
-								</div>
-							</div>
-							<div class="form-group">
-								<label class="col-sm-offset-1 control-label col-sm-2" for="Sundayfrom">Sunday:</label>
-								<div class="col-sm-2">
-									<input type="text" name="Sundayfrom" class="form-control timepicker ui-timepicker-input" id="Sundayfrom" value="" autocomplete="off" disabled="disabled">
-								</div>
-								<label class="control-label col-sm-1" for="Sundayto">~</label>
-								<div class="col-sm-2">
-									<input type="text" name="Sundayto" class="form-control timepicker ui-timepicker-input" id="Sundayto" value="" autocomplete="off" disabled="disabled">
 								</div>
 							</div>
 						</div>
+					</div>
+					<div class="row">
+						<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 col-md-offset-1">
+							<label for="">Tuesday:</label>
+						</div>
+						<div class="col-xs-7 col-sm-7 col-md-7 col-lg-7">
+							<div class="row">
+								<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+									<div class="form-timing">
+										<input type="time" class="form-control" id="">
+									</div>
+								</div>
+								<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+									<label><strong>TO</strong></label>
+								</div>
+								<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+									<div class="form-timing">
+									<input type="time" class="form-control" id="">
+								</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 col-md-offset-1">
+							<label for="">Wednesday:</label>
+						</div>
+						<div class="col-xs-7 col-sm-7 col-md-7 col-lg-7">
+							<div class="row">
+								<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+									<div class="form-timing">
+										<input type="time" class="form-control" id="">
+									</div>
+								</div>
+								<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+									<label><strong>TO</strong></label>
+								</div>
+								<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+									<div class="form-timing">
+									<input type="time" class="form-control" id="">
+								</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 col-md-offset-1">
+							<label for="">Thursday:</label>
+						</div>
+						<div class="col-xs-7 col-sm-7 col-md-7 col-lg-7">
+							<div class="row">
+								<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+									<div class="form-timing">
+										<input type="time" class="form-control" id="">
+									</div>
+								</div>
+								<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+									<label><strong>TO</strong></label>
+								</div>
+								<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+									<div class="form-timing">
+									<input type="time" class="form-control" id="">
+								</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 col-md-offset-1">
+							<label for="">Friday:</label>
+						</div>
+						<div class="col-xs-7 col-sm-7 col-md-7 col-lg-7">
+							<div class="row">
+								<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+									<div class="form-timing">
+										<input type="time" class="form-control" id="">
+									</div>
+								</div>
+								<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+									<label><strong>TO</strong></label>
+								</div>
+								<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+									<div class="form-timing">
+									<input type="time" class="form-control" id="">
+								</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 col-md-offset-1">
+							<label for="">Saturday:</label>
+						</div>
+						<div class="col-xs-7 col-sm-7 col-md-7 col-lg-7">
+							<div class="row">
+								<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+									<div class="form-timing">
+										<input type="time" class="form-control" id="">
+									</div>
+								</div>
+								<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+									<label><strong>TO</strong></label>
+								</div>
+								<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+									<div class="form-timing">
+									<input type="time" class="form-control" id="">
+								</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 col-md-offset-1">
+							<label for="">Sunday:</label>
+						</div>
+						<div class="col-xs-7 col-sm-7 col-md-7 col-lg-7">
+							<div class="row">
+								<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+									<div class="form-timing">
+										<input type="time" class="form-control" id="">
+									</div>
+								</div>
+								<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+									<label><strong>TO</strong></label>
+								</div>
+								<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+									<div class="form-timing">
+									<input type="time" class="form-control" id="">
+								</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					</div>
 						<div class="form-group">
 							<h5><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Workplace payment method</font></font></h5>
 						</div>
 						<div class="form-group">
-							<label class="col-sm-offset-1 control-label col-sm-2"></label>
-							<div class="col-sm-9 selectallcheck">
+							<label class="col-sm-offset-1 col-md-offset-1  control-label col-md-2"></label>
+							<div class="col-sm-9 col-xs-12 selectallcheck">
 								<div class="row">
-									<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-											<label class="checkbox-inline">
+											<label class="checkbox-inline col-sm-4">
 										<input type="checkbox" name="sel_all_modes" id="checkAll" value="모두 선택"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Select all
 									</font></font></label>
-									</div>
-								<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-									<label class="checkbox-inline">
+									<label class="checkbox-inline col-sm-4">
 										<input type="checkbox" name="payments[]" value="현금"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">cash
 									</font></font></label>
-								</div>
-									<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-										<label class="checkbox-inline">
+							
+										<label class="checkbox-inline col-sm-4">
 										<input type="checkbox" name="payments[]" value="신한 카드"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Shinhan Card
 									</font></font></label>
-									</div>
+		
 									
 								</div>
 								<div class="row">
-									<label class="checkbox-inline col-sm-3">
+									<label class="checkbox-inline col-sm-4">
 										<input type="checkbox" name="payments[]" value="KB 국민 카드"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">KB Kookmin Card
 									</font></font></label>
-									<label class="checkbox-inline col-sm-3">
+									<label class="checkbox-inline col-sm-4">
 										<input type="checkbox" name="payments[]" value="우리 카드"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Our card
 									</font></font></label>
-									<label class="checkbox-inline col-sm-3">
+									<label class="checkbox-inline col-sm-4">
 										<input type="checkbox" name="payments[]" value="BC 카드"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">BC card
 									</font></font></label>
 								</div>
 								<div class="row">
-									<label class="checkbox-inline col-sm-3">
+									<label class="checkbox-inline col-sm-4">
 										<input type="checkbox" name="payments[]" value="롯데 카드"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Lotte Card
 									</font></font></label>
-									<label class="checkbox-inline col-sm-3">
+									<label class="checkbox-inline col-sm-4">
 										<input type="checkbox" name="payments[]" value="시티 뱅크"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">City Bank
 									</font></font></label>
-									<label class="checkbox-inline col-sm-3">
+									<label class="checkbox-inline col-sm-4">
 										<input type="checkbox" name="payments[]" value="농협 카드"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Nonghyup Card
 									</font></font></label>
 								</div>
 								<div class="row">
-									<label class="checkbox-inline col-sm-3">
+									<label class="checkbox-inline col-sm-4">
 										<input type="checkbox" name="payments[]" value="삼성 카드"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Samsung Card
 									</font></font></label>
-									<label class="checkbox-inline col-sm-3">
+									<label class="checkbox-inline col-sm-4">
 										<input type="checkbox" name="payments[]" value="현대 카드"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Hyundai Card
 									</font></font></label>
-									<label class="checkbox-inline col-sm-3">
+									<label class="checkbox-inline col-sm-4">
 										<input type="checkbox" name="payments[]" value="하나 카드"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">One Card
 									</font></font></label>
 								</div>
 								<div class="row">
-									<label class="checkbox-inline col-sm-3">
+									<label class="checkbox-inline col-sm-4">
 										<input type="checkbox" name="payments[]" value="SC 카드"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">SC card
 									</font></font></label>
 									<label class="checkbox-inline col-sm-3">
@@ -250,10 +330,10 @@
 						</div>
 						<div class="form-group">
 							<label class="col-sm-offset-1 control-label col-sm-2"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Year Established:</font></font></label>
-							<div class="col-sm-2">
+							<div class="col-sm-2 col-establish">
 								<input type="text" name="company_year" placeholder="0000" minlength="4" maxlength="4" class="form-control" id="company_year" value="">
 							</div>
-							<div class="col-sm-3">
+							<div class="col-sm-3 col-establish">
 								<input type="text" name="company_turnover" placeholder="연간 매출" class="form-control" id="company_turnover" value="">
 							</div>
 							<div class="col-sm-2">
@@ -357,7 +437,7 @@
 									<li class="appendli_158">
 										<span class="loading loading_158"></span>
 										<i onclick="accord_cat(158);" class="fa fa-plus icon-queue lisub_158"></i>
-										<label> <input type="checkbox" class="hummingbirdNoParent" name="Category_id[]" value="158"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> Comprehensive wholesale and retail</font></font></label>
+										<label> <input type="checkbox" class="hummingbirdNoParent" name="Category_id[]" value="158"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> Comprehensive wholesale</font></font></label>
 									</li>
 									<li class="appendli_160">
 										<span class="loading loading_160"></span>
@@ -536,6 +616,7 @@
 									</li>
 									<li>
 										<span class="noicon lisub_458"></span>
+										<i onclick="accord_cat(1794);" class="fa fa-plus icon-queue lisub_1794"></i>
 										<label> <input type="checkbox" class="hummingbirdNoParent" name="Category_id[]" value="458"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> Theme Cafe</font></font></label>
 									</li>
 									<li class="appendli_480">
@@ -636,7 +717,7 @@
 									<li class="appendli_731">
 										<span class="loading loading_731"></span>
 										<i onclick="accord_cat(731);" class="fa fa-plus icon-queue lisub_731"></i>
-										<label> <input type="checkbox" class="hummingbirdNoParent" name="Category_id[]" value="731"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> Transportation, transportation service</font></font></label>
+										<label> <input type="checkbox" class="hummingbirdNoParent" name="Category_id[]" value="731"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> Transportation</font></font></label>
 									</li>
 									<li class="appendli_733">
 										<span class="loading loading_733"></span>
@@ -671,7 +752,7 @@
 									<li class="appendli_797">
 										<span class="loading loading_797"></span>
 										<i onclick="accord_cat(797);" class="fa fa-plus icon-queue lisub_797"></i>
-										<label> <input type="checkbox" class="hummingbirdNoParent" name="Category_id[]" value="797"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> Computer Programming, Information Service</font></font></label>
+										<label> <input type="checkbox" class="hummingbirdNoParent" name="Category_id[]" value="797"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> Computer Programming</font></font></label>
 									</li>
 									<li class="appendli_802">
 										<span class="loading loading_802"></span>
@@ -755,6 +836,7 @@
 									</li>
 									<li>
 										<span class="noicon lisub_947"></span>
+										<i onclick="accord_cat(1794);" class="fa fa-plus icon-queue lisub_1794"></i>
 										<label> <input type="checkbox" class="hummingbirdNoParent" name="Category_id[]" value="947"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> Car sharing</font></font></label>
 									</li>
 									<li class="appendli_949">
@@ -849,6 +931,7 @@
 									</li>
 									<li>
 										<span class="noicon lisub_1220"></span>
+										<i onclick="accord_cat(1794);" class="fa fa-plus icon-queue lisub_1794"></i>
 										<label> <input type="checkbox" class="hummingbirdNoParent" name="Category_id[]" value="1220"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> Gallery Cafe</font></font></label>
 									</li>
 									<li class="appendli_1227">
@@ -883,6 +966,7 @@
 									</li>
 									<li>
 										<span class="noicon lisub_1402"></span>
+										<i onclick="accord_cat(1794);" class="fa fa-plus icon-queue lisub_1794"></i>
 										<label> <input type="checkbox" class="hummingbirdNoParent" name="Category_id[]" value="1402"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> Kids Cafe, Indoor Playground</font></font></label>
 									</li>
 									<li class="appendli_1412">
@@ -893,7 +977,7 @@
 									<li class="appendli_1414">
 										<span class="loading loading_1414"></span>
 										<i onclick="accord_cat(1414);" class="fa fa-plus icon-queue lisub_1414"></i>
-										<label> <input type="checkbox" class="hummingbirdNoParent" name="Category_id[]" value="1414"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> Machinery, equipment manufacturing</font></font></label>
+										<label> <input type="checkbox" class="hummingbirdNoParent" name="Category_id[]" value="1414"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> Machinery, equipment</font></font></label>
 									</li>
 									<li class="appendli_1429">
 										<span class="loading loading_1429"></span>
@@ -932,8 +1016,8 @@
 									</li>
 									<li class="appendli_1501">
 										<span class="loading loading_1501"></span>
-										<i onclick="accord_cat(1501);" class="fa fa-plus icon-queue lisub_1501"></i>
-										<label> <input type="checkbox" class="hummingbirdNoParent" name="Category_id[]" value="1501"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> Translation and interpreting services</font></font></label>
+										<i onclick="accord_cat(1794);" class="fa fa-plus icon-queue lisub_1794"></i>
+										<label> <input type="checkbox" class="hummingbirdNoParent" name="Category_id[]" value="1501"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> Translation and interpreting</font></font></label>
 									</li>
 									<li class="appendli_1509">
 										<span class="loading loading_1509"></span>
@@ -992,6 +1076,7 @@
 									</li>
 									<li>
 										<span class="noicon lisub_1838"></span>
+										<i onclick="accord_cat(1794);" class="fa fa-plus icon-queue lisub_1794"></i>
 										<label> <input type="checkbox" class="hummingbirdNoParent" name="Category_id[]" value="1838"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> Condo, resort</font></font></label>
 									</li>
 									<li class="appendli_1846">
@@ -999,76 +1084,7 @@
 										<i onclick="accord_cat(1846);" class="fa fa-plus icon-queue lisub_1846"></i>
 										<label> <input type="checkbox" class="hummingbirdNoParent" name="Category_id[]" value="1846"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> Membership</font></font></label>
 									</li>
-									<li class="appendli_1857">
-										<span class="loading loading_1857"></span>
-										<i onclick="accord_cat(1857);" class="fa fa-plus icon-queue lisub_1857"></i>
-										<label> <input type="checkbox" class="hummingbirdNoParent" name="Category_id[]" value="1857"> 피부, 체형 관리</label>
-									</li>
-									<li class="appendli_1861">
-										<span class="loading loading_1861"></span>
-										<i onclick="accord_cat(1861);" class="fa fa-plus icon-queue lisub_1861"></i>
-										<label> <input type="checkbox" class="hummingbirdNoParent" name="Category_id[]" value="1861"> 농업</label>
-									</li>
-									<li class="appendli_1881">
-										<span class="loading loading_1881"></span>
-										<i onclick="accord_cat(1881);" class="fa fa-plus icon-queue lisub_1881"></i>
-										<label> <input type="checkbox" class="hummingbirdNoParent" name="Category_id[]" value="1881"> 자연명소</label>
-									</li>
-									<li class="appendli_1890">
-										<span class="loading loading_1890"></span>
-										<i onclick="accord_cat(1890);" class="fa fa-plus icon-queue lisub_1890"></i>
-										<label> <input type="checkbox" class="hummingbirdNoParent" name="Category_id[]" value="1890"> 다이어트  ,  비만</label>
-									</li>
-									<li class="appendli_1917">
-										<span class="loading loading_1917"></span>
-										<i onclick="accord_cat(1917);" class="fa fa-plus icon-queue lisub_1917"></i>
-										<label> <input type="checkbox" class="hummingbirdNoParent" name="Category_id[]" value="1917"> 불교</label>
-									</li>
-									<li class="appendli_1965">
-										<span class="loading loading_1965"></span>
-										<i onclick="accord_cat(1965);" class="fa fa-plus icon-queue lisub_1965"></i>
-										<label> <input type="checkbox" class="hummingbirdNoParent" name="Category_id[]" value="1965"> 무역</label>
-									</li>
-									<li class="appendli_1972">
-										<span class="loading loading_1972"></span>
-										<i onclick="accord_cat(1972);" class="fa fa-plus icon-queue lisub_1972"></i>
-										<label> <input type="checkbox" class="hummingbirdNoParent" name="Category_id[]" value="1972"> 택시회사</label>
-									</li>
-									<li class="appendli_2012">
-										<span class="loading loading_2012"></span>
-										<i onclick="accord_cat(2012);" class="fa fa-plus icon-queue lisub_2012"></i>
-										<label> <input type="checkbox" class="hummingbirdNoParent" name="Category_id[]" value="2012"> 해양경찰청</label>
-									</li>
-									<li class="appendli_2062">
-										<span class="loading loading_2062"></span>
-										<i onclick="accord_cat(2062);" class="fa fa-plus icon-queue lisub_2062"></i>
-										<label> <input type="checkbox" class="hummingbirdNoParent" name="Category_id[]" value="2062"> 전기,가스,수도사업</label>
-									</li>
-									<li class="appendli_2069">
-										<span class="loading loading_2069"></span>
-										<i onclick="accord_cat(2069);" class="fa fa-plus icon-queue lisub_2069"></i>
-										<label> <input type="checkbox" class="hummingbirdNoParent" name="Category_id[]" value="2069"> 통신</label>
-									</li>
-									<li class="appendli_2127">
-										<span class="loading loading_2127"></span>
-										<i onclick="accord_cat(2127);" class="fa fa-plus icon-queue lisub_2127"></i>
-										<label> <input type="checkbox" class="hummingbirdNoParent" name="Category_id[]" value="2127"> 재활용</label>
-									</li>
-									<li class="appendli_2176">
-										<span class="loading loading_2176"></span>
-										<i onclick="accord_cat(2176);" class="fa fa-plus icon-queue lisub_2176"></i>
-										<label> <input type="checkbox" class="hummingbirdNoParent" name="Category_id[]" value="2176"> 수선</label>
-									</li>
-									<li class="appendli_2205">
-										<span class="loading loading_2205"></span>
-										<i onclick="accord_cat(2205);" class="fa fa-plus icon-queue lisub_2205"></i>
-										<label> <input type="checkbox" class="hummingbirdNoParent" name="Category_id[]" value="2205"> 담배제조</label>
-									</li>
-									<li class="appendli_2217">
-										<span class="loading loading_2217"></span>
-										<i onclick="accord_cat(2217);" class="fa fa-plus icon-queue lisub_2217"></i>
-										<label> <input type="checkbox" class="hummingbirdNoParent" name="Category_id[]" value="2217"> 미용기기,재료</label>
-									</li>
+									
 									
 								</ul>
 								<!--<input type="text" name="allcatlist" class="form-control" id="allcatlist" placeholder="사업장에 관련된 카테고리 검색 후, 선택 바랍니다." />
@@ -1076,7 +1092,7 @@
 							</div>
 						</div>
 						<div class="form-group">
-							<h5>사업장 소개</h5>
+							<h5>Introduction/h5>
 						</div>
 						
 						<div class="form-group">
@@ -1085,7 +1101,7 @@
 								<div class="panel">
 									<div class="panel-body">
 										<div id="content">
-											<div class="jFiler jFiler-theme-dragdropbox"><input type="file" name="files[]" id="filer_input2" multiple="multiple" style="position: absolute; left: -9999px; top: -9999px; z-index: -9999;"><div class="jFiler-input-dragDrop"><div class="jFiler-input-inner"><div class="jFiler-input-icon"><i class="icon-jfi-cloud-up-o"></i></div><div class="jFiler-input-text"><h3>여기에 드래그 &amp; 드롭 파일 첨부</h3> <span style="display:inline-block; margin: 15px 0">또는</span></div><a class="jFiler-input-choose-btn blue">파일 찾기</a></div></div></div>
+											<div class="jFiler jFiler-theme-dragdropbox"><input type="file" name="files[]" id="filer_input2" multiple="multiple" style="position: absolute; left: -9999px; top: -9999px; z-index: -9999;"><div class="jFiler-input-dragDrop"><div class="jFiler-input-inner"><div class="jFiler-input-icon"><i class="fa fa-cloud-upload"></i></div><div class="jFiler-input-text"><h3>Attach drag &amp; drop file here</h3> <span style="display:inline-block; margin: 15px 0">or</span></div><a class="jFiler-input-choose-btn blue">Finding files</a></div></div></div>
 										</div>
 									</div>
 								</div>

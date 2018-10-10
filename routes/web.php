@@ -26,6 +26,9 @@ Route::get('/table_booking', function () {
 Route::get('/category-list', function(){
 	return view('frontend.categoryListing');
 });
+Route::get('/restaurant-list', function(){
+	return view('frontend.restaurant_list');
+});
 Route::get('/grocery-order', function(){
 	return view('frontend.grocery-order');
 });
