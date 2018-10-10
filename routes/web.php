@@ -29,6 +29,9 @@ Route::get('/clothing-list', function(){
 Route::get('/dailyNeeds-list', function(){
 	return view('frontend.dailyNeeds-list');
 });
+Route::get('/restaurant-list', function(){
+	return view('frontend.restaurant_list');
+});
 Route::get('/grocery-order', function(){
 	return view('frontend.grocery-order');
 });

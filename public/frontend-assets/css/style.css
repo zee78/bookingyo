@@ -249,12 +249,12 @@ nav-tab-main li.active a:after {
 	position: relative;
 }
 
-/*input, section {
+.review_tab_sec input, .review_tab_sec section {
   clear: both;
   padding-top: 10px;
   display: none;
 }
-*/
+
 .label_tabs {
   font-weight: 700;
   font-size: 18px;
@@ -476,6 +476,11 @@ label .fa {
 	border-radius: 50%;
     height: 20px;
     width: 21px;
+}
+.like_badge2 i{
+	color: white;
+	margin-top: -6px;
+    margin-left: -1px;
 }
 .like_row {
 	margin-top: 20px;

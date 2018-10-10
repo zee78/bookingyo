@@ -45,13 +45,13 @@
 						<a href="#home" aria-controls="home" role="tab" data-toggle="tab">ABOUT US</a>
 					</li>
 					<li role="presentation">
-						<a href="#tab" aria-controls="tab" role="tab" data-toggle="tab">MENU</a>
+						<a href="{{url('/table_booking')}}" aria-controls="tab" role="tab" data-toggle="tab">MENU</a>
 					</li>
 					<li role="presentation">
-						<a href="{{url('/home')}}" aria-controls="tab" role="tab" data-toggle="tab">BOOK TABLE</a>
+						<a href="{{url('/table_booking')}}" aria-controls="tab" role="tab" data-toggle="tab">BOOK TABLE</a>
 					</li>
 					<li role="presentation">
-						<a href="#tab" aria-controls="tab" role="tab" data-toggle="tab">ORDER ONLINE</a>
+						<a href="{{url('/food_order')}}" aria-controls="tab" role="tab" data-toggle="tab">ORDER ONLINE</a>
 					</li>
 					<li role="presentation">
 						<a href="#tab" aria-controls="tab" role="tab" data-toggle="tab">COUPON</a>
@@ -287,8 +287,8 @@
 											<div class="card">
 												<div class="card-body review_card">
 													<h4 class="card-title">Price Range</h4>
-													<p>W W W W</p>
-													<p>W 500 Below</p>
+													<p><span><i class="fa fa-krw"></i> &nbsp;<i class="fa fa-krw"></i> &nbsp;<i class="fa fa-krw"></i></span></p>
+													<p><span><i class="fa fa-krw"></i></span> 500 Below</p>
 													<!-- <a href="#" class="card-link">Another link</a> -->
 												</div>
 											</div>
@@ -308,19 +308,19 @@
 									<!-- Menu Buttons Start -->
 									<div class="row menu_btn_row">
 										<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-md-offset-1">
-											<button type="button" class="btn btn-success btn-block btn-lg">Menu <span class="pull-right btn_arrow"><i class="fa fa-chevron-circle-right fa_arrow fa-2x"></i></span></button>
+											<a href="{{url('/table_booking')}}" class="btn btn-success btn-block btn-lg">Menu <span class="pull-right btn_arrow"><i class="fa fa-chevron-circle-right fa_arrow fa-2x"></i></span></a>
 										</div>
 										<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
 											<a href="{{url('/table_booking')}}" class="btn btn-success btn-lg btn-block">Book Table <span class="pull-right btn_arrow"><i class="fa fa-chevron-circle-right fa_arrow fa-2x"></i></span></a>
 										</div>
 										<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
-											<button type="button" class="btn btn-success btn-lg btn-block">Order Online <span class="pull-right btn_arrow"><i class="fa fa-chevron-circle-right fa_arrow fa-2x"></i></span></button>
+											<a href="{{url('/food_order')}}" class="btn btn-success btn-lg btn-block">Order Online <span class="pull-right btn_arrow"><i class="fa fa-chevron-circle-right fa_arrow fa-2x"></i></span></a>
 										</div>
 									</div>
 									<!-- Menu Buttons Ends -->
 									<!-- Review Tab Start -->
 									<div class="row">
-										<div class="tab_container">
+										<div class="tab_container review_tab_sec">
 											<input id="tab1" type="radio" name="tabs" checked>
 											<label class="label_tabs" for="tab1"><i class="fa fa-pencil tabs"></i><span>WRITE A REVIEW</span></label>
 											<input id="tab2" type="radio" name="tabs">
