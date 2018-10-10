@@ -38,6 +38,27 @@ Route::get('/login', function(){
 Route::get('/food_order', function(){
 	return view('frontend.food_order');
 });
+Route::get('/dashboard', function(){
+	return view('frontend.dashboard');
+});
+Route::get('/listing', function(){
+	return view('frontend.listing');
+});
+Route::get('/glocerlycategory', function () {
+    return view('frontend.glocerlycategory');
+});
+Route::get('/hospital-reservation', function () {
+    return view('frontend.hospital_reservation');
+});
+Route::get('/profile', function () {
+    return view('frontend.profile');
+});
+Route::get('/password', function () {
+    return view('frontend.password');
+});
+Route::get('/coupons', function () {
+    return view('frontend.coupons');
+});
 Route::get('/food_checkout', function(){
 	return view('frontend.food_checkout');
 });
