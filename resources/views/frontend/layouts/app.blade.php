@@ -38,13 +38,14 @@
         <link href="{{('frontend-assets/css/owl.carousel.min.css')}}" rel="stylesheet">
         <!-- <link href="{{('frontend-assets/css/owl.carousel.css')}}" rel="stylesheet"> -->
         <link href="{{('frontend-assets/css/owl.theme.default.min.css')}}" rel="stylesheet">
+        
         @yield('styling')
     </head>
     <body style="background: #C3C3C3;">
-        @include('frontend.includes.header')
-        
-        @yield('inner-header')
-        @yield('content')
+    <div id="app">
+     <header_com></header_com>
+
+    <router-view></router-view>
 
         <div class="side-bar hidden-xs hidden-sm">
 
@@ -54,7 +55,8 @@
           <a href="#" class="advertise">Advertise</a>
           <a href="#" class="youtube">Coupon</a> 
         </div>
-        @include('frontend.includes.footer')
+       <footer_com></footer_com>
+       </div>
         <!-- <a href="#" class="job-notification">
             <i class="fa fa-bell"></i>
             <span class="notification-label">Subscribe for job notifications</span>
@@ -63,9 +65,10 @@
             <i class="fa fa-arrow-up"></i>
         </a> -->
         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-        <script src="{{ asset('frontend-assets/js/jquery.min.js') }}"></script>
+        <script src="{{asset('js/app.js')}}" type="text/javascript"></script>
+        
         <!-- Include all compiled plugins (below), or include individual files as needed -->
-        <script src="{{ asset('frontend-assets/js/bootstrap.min.js') }}"></script>
+      
         <!-- Pretty Photo for Slider -->
         <script src="{{ asset('frontend-assets/js/jquery.prettyPhoto.js') }}"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-bar-rating/1.2.2/jquery.barrating.min.js"></script>
