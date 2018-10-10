@@ -1986,21 +1986,22 @@ hr{
 	}
 }
 @media only screen and (max-width: 320px){
-.mobile-view a {
-    color: white;
-    padding: 0 9px;
-}
-
-#owl-demo{
-	display: -webkit-box;
-}
-#owl-demo .item{
-  margin: 3px;
-}    height: 90px;
-#owl-demo .item img{
-  display: block;
-  /*width: 100%;*/
-  height: auto;
+	.mobile-view a {
+	    color: white;
+	    padding: 0 9px;
+	}
+	#owl-demo{
+		display: -webkit-box;
+	}
+	#owl-demo .item{
+	  margin: 3px;
+	  height: 90px;
+	}    
+	#owl-demo .item img{
+	  display: block;
+	  /*width: 100%;*/
+	  height: auto;
+	}
 }
 
 
@@ -2130,6 +2131,7 @@ hr{
 #menuSlider .row .col-md-11{
 	padding-left: 0;
 	height: 50px;
+	overflow: hidden;
     width: 94%;
 }
 #menuSlider .row .col-md-1{
