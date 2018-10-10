@@ -23,8 +23,11 @@ Route::get('/', function () {
 Route::get('/table_booking', function () {
     return view('frontend.table_booking');
 });
-Route::get('/category-list', function(){
-	return view('frontend.categoryListing');
+Route::get('/clothing-list', function(){
+	return view('frontend.clothing-list');
+});
+Route::get('/dailyNeeds-list', function(){
+	return view('frontend.dailyNeeds-list');
 });
 Route::get('/grocery-order', function(){
 	return view('frontend.grocery-order');
