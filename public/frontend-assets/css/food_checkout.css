@@ -73,7 +73,7 @@
 .cart_image {
 	margin-top: 20px;
     height: 70px;
-    width: 70px;
+    width: 100px;
 }
 /*Customize Inpute Number*/
 .number-input-food input[type="number"] {
@@ -198,5 +198,17 @@
   }
   .coupon_btn {
     margin-left: 6px;
+  }
+  .item_image {
+     margin-top: 36px;
+    margin-left: -18px;
+    margin-top: 31px;
+    height: 80px;
+    border-radius: 50px;
+    overflow: hidden;
+    width: 80px;
+  }
+  .item_image img {
+    height: 80px;
   }
 }
