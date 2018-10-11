@@ -7,13 +7,13 @@
 
 require('./bootstrap');
 require('./jquery.prettyPhoto');
+require('./owl.carousel.min');
 
 window.Vue = require('vue');
 
 import VueRouter from 'vue-router'
 import Vue from 'vue';
-import VueCarousel from 'vue-carousel';
-Vue.use(VueCarousel);
+
 
 Vue.use(VueRouter)
 
@@ -23,6 +23,7 @@ const rest_list = require('./components/Res_listComponent.vue');
 const foodOrder = require('./components/Food_orderComponent.vue');
 const foodCheckout = require('./components/Food_checkoutComponent.vue');
 const hotelProfile = require('./components/Hotel_profileComponent.vue');
+
 const routes = [
 {
     path: '/',
@@ -48,6 +49,7 @@ const routes = [
     path: '/hotel_profile',
     component: hotelProfile
 },
+
 ];
 /**
  * Next, we will create a fresh Vue application instance and attach it to
@@ -68,3 +70,5 @@ const app = new Vue({
     el: '#app',
     router, 
 });
+
+

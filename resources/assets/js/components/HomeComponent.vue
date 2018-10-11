@@ -497,29 +497,37 @@
 		</div>
 	</div>
 	
-	
 </div>
 </template>
 
+ <script :src="'frontend-assets/js/owl.carousel.min.js'"></script>
+
 <script>
-   import { Carousel, Slide } from 'vue-carousel';
+   
+ 
    export default {
-	    components: {
-    Carousel,
-    Slide
-  },
+	
      data(){
         return{
-          selected:'',
+		  selected:'',
+		  owl:'',
         }
     },
     methods:{
-    
+  
 },
-    created(){
-      
+    mounted(){
+		$('.owl-carousel').owlCarousel({
+			 items:10,
+			loop:true,
+			margin:0,
+			autoplay:false,
+			autoplayTimeout:1000,
+			autoplayHoverPause:true
+		});
     }
 }
+
 </script>
 
 <style>
