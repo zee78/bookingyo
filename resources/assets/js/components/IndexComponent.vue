@@ -41,14 +41,15 @@
 					</ul>
 				</div>
 				<div class="col-xs-2 col-sm-2 col-md-1 col-lg-1 view_icon">
-					<router-link to="/home"><img :src="'frontend-assets/static-images/gallery/main_imageview.png'" class="img-responsive" alt="Image"></router-link>
+					<router-link to="/home">
+						<img :src="'frontend-assets/static-images/gallery/main_imageview.png'" class="img-responsive" alt="Image"></router-link>
 				</div>
 			</div>
 			<div class="row" style="    margin-bottom: 111px;">
 				<div class="col-xs-12 col-sm-12 col-md-10 col-lg-10 col-md-offset-1" style="margin-top: 75px;">
 					<div class="col-xs-4 col-sm-4 col-md-2 col-lg-2">
 						<div class="main-img-div">
-							<a href=""><img :src="'frontend-assets/static-images/category_icons/images/main_cate1.png'" style="" class="" alt="Image"></a>
+							<router-link to="/rest_list"><img :src="'frontend-assets/static-images/category_icons/images/main_cate1.png'" style="" class="" alt="Image"></router-link>
 						</div>
 						<!-- <p class="img-pha">Restaurants</p> -->
 					</div>

@@ -286,7 +286,7 @@
 							</div>
 							<div class="col-md-3 table-btn">
 								<a class="btn btn-success" href="">Book a Table<i class="fa fa-chevron-circle-right fa_arrow"></i></a>
-								<a class="btn btn-success" href="">Order Online<i class="fa fa-chevron-circle-right fa_arrow"></i></a>
+								<router-link class="btn btn-success" to="/food_order">Order Online<i class="fa fa-chevron-circle-right fa_arrow"></i></router-link>
 							</div>
 						</div>
 						<div class="row bottom-row">

@@ -6,6 +6,7 @@
  */
 
 require('./bootstrap');
+require('./jquery.prettyPhoto');
 
 window.Vue = require('vue');
 
@@ -19,6 +20,9 @@ Vue.use(VueRouter)
 const index = require('./components/IndexComponent.vue');
 const home = require('./components/HomeComponent.vue');
 const rest_list = require('./components/Res_listComponent.vue');
+const foodOrder = require('./components/Food_orderComponent.vue');
+const foodCheckout = require('./components/Food_checkoutComponent.vue');
+const hotelProfile = require('./components/Hotel_profileComponent.vue');
 const routes = [
 {
     path: '/',
@@ -31,6 +35,18 @@ const routes = [
 {
     path: '/rest_list',
     component: rest_list
+},
+{
+    path: '/food_order',
+    component: foodOrder
+},
+{
+    path: '/food_checkout',
+    component: foodCheckout
+},
+{
+    path: '/hotel_profile',
+    component: hotelProfile
 },
 ];
 /**

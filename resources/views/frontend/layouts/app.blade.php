@@ -12,8 +12,8 @@
         <link href="{{ asset('frontend-assets/css/style.css') }}" rel="stylesheet">
         <link href="{{ asset('frontend-assets/css/font-awesome.css') }}" rel="stylesheet">
         <link href="{{asset('frontend-assets/css/circle.css')}}" rel='stylesheet' type='text/css' />
-        <link href="{{asset('frontend-assets/css/prettyPhoto.css')}}" rel='stylesheet' type='text/css' />
-        
+        <!-- <link href="{{asset('frontend-assets/css/prettyPhoto.css')}}" rel='stylesheet' type='text/css' />
+         -->
         <link href="{{ asset('frontend-assets/css/toastr.css') }}" rel="stylesheet">
         <style type="text/css">
         
@@ -71,7 +71,7 @@
         <!-- Include all compiled plugins (below), or include individual files as needed -->
       
         <!-- Pretty Photo for Slider -->
-        <script src="{{ asset('frontend-assets/js/jquery.prettyPhoto.js') }}"></script>
+        <!-- <script src="{{ asset('frontend-assets/js/jquery.prettyPhoto.js') }}"></script> -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-bar-rating/1.2.2/jquery.barrating.min.js"></script>
         <!-- Owl Carousel -->
         <script type="{{('frontend-assets/js/owl.carousel.min.js')}}"></script>
@@ -81,7 +81,7 @@
 
 		
 
-        <script type="text/javascript" charset="utf-8">
+      <!--   <script type="text/javascript" charset="utf-8">
         $(document).ready(function(){
         $("area[rel^='prettyPhoto']").prettyPhoto();
         
@@ -97,7 +97,7 @@
         changepicturecallback: function(){ _bsap.exec(); }
         });
         });
-        </script>     
+        </script>   -->   
     
     <script>
     
