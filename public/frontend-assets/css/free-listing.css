@@ -197,6 +197,7 @@
 .form-timing {
 	margin-bottom: 20px;
 }
+
 @media  only screen and (max-width: 767px){ 
 	.main-login h5 {
 		padding: 12px 5px;
@@ -225,5 +226,8 @@
 	}
 	.col-establish {
 		margin-bottom: 20px;
+	}
+	.timing_col {
+		margin-left: 15px;
 	}
 }

@@ -58,12 +58,12 @@
 			<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
 				<div class="cart">
 					<div class="row">
-						<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+						<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
 							<div class="cart_image">
 								<img src="frontend-assets/static-images/foodOrder/roll.jpg" class="img-responsive" alt="Image" style="width: 100%;">
 							</div>
 						</div>
-						<div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
+						<div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
 							<h4><strong>Tibb's Frankie</strong></h4>
 							<span class="text-muted" style="border-bottom: 2px solid black; padding-bottom: 10px;">Fort Colaba</span>
 						</div>
@@ -73,7 +73,7 @@
 							<span><strong>Veg Frankie</strong></span><br>
 							<span class="text-muted">Customise</span>
 						</div>
-						<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 col-md-offset-1">
+						<div class="col-xs-5 col-sm-5 col-md-4 col-lg-4 col-md-offset-1">
 							<div class="text-right">
 								<div class="number-input-food">
 									<button onclick="this.parentNode.querySelector('input[type=number]').stepDown()" ></button>
@@ -110,7 +110,7 @@
 									<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
 										<label for="">Name</label>
 									</div>
-									<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+									<div class="col-xs-9 col-sm-9 col-md-6 col-lg-6">
 										<div class="form-group">
 											<input type="text" class="form-control" id="" placeholder="Sung Yong Kim">
 										</div>
@@ -120,9 +120,9 @@
 									<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
 										<label for="">Mobile Phone#</label>
 									</div>
-									<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+									<div class="col-xs-9 col-sm-9 col-md-6 col-lg-6">
 										<div class="form-group">
-											<input type="text" class="form-control" id="" placeholder="Input field">
+											<input type="text" class="form-control" id="" placeholder="123456498">
 										</div>
 									</div>
 								</div>
@@ -179,12 +179,12 @@
 				<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
 					<div class="cart">
 						<div class="row">
-							<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+							<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
 								<div class="cart_image">
 									<img src="frontend-assets/static-images/foodOrder/roll.jpg" class="img-responsive" alt="Image" style="width: 100%;">
 								</div>
 							</div>
-							<div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
+							<div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
 								<h4><strong>Tibb's Frankie</strong></h4>
 								<span class="text-muted" style="border-bottom: 2px solid black; padding-bottom: 10px;">Fort Colaba</span>
 							</div>
@@ -194,7 +194,7 @@
 								<span><strong>Veg Frankie</strong></span><br>
 								<span class="text-muted">Customise</span>
 							</div>
-							<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 col-md-offset-1">
+							<div class="col-xs-5 col-sm-5 col-md-4 col-lg-4 col-md-offset-1">
 								<div class="text-right">
 									<div class="number-input-food">
 										<button onclick="this.parentNode.querySelector('input[type=number]').stepDown()" ></button>
@@ -211,18 +211,19 @@
 						<p><span class="text-muted pull-left">Item Total</span><span class="text-muted pull-right"><i class="fa fa-krw"></i>170.00</span></p><br>
 						<p><span class="text-muted pull-left">GST</span><span class="text-muted pull-right"><i class="fa fa-krw"></i>8.50</span></p><br>
 						<p><span class="text-muted pull-left">Deliver Charges <i class="fa fa-info-circle"></i></span><span class="text-muted pull-right"><i class="fa fa-krw"></i>8.50</span></p><br>
-						<p><span class="text-muted pull-left">Coupon Code</span><button class="btn btn-default" style="margin-left: 26px;">12345678910</button> <button class="btn pull-right" style="">certificaton</button></p>
+						<p><span class="text-muted pull-left">Coupon Code</span><button class="btn btn-default coupon_btn">12345678910</button> <button class="btn pull-right" style="">certificaton</button></p>
 						<hr style="border: 1px solid black;">
 						<p><span class="pull-left"><strong>TO PAY</strong></span><span class="pull-right"><i class="fa fa-krw"></i><STRONG>199</STRONG></span></p><br>
 					</div>
 					<div class="cart">
 						<div class="row">
-							<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+							<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
 								<div class="cart_image">
 									<img src="frontend-assets/static-images/foodOrder/roll.jpg" class="img-responsive" alt="Image" style="width: 100%;">
 								</div>
+								<!-- checking -->
 							</div>
-							<div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
+							<div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
 								<h4><strong>Tibb's Frankie</strong></h4>
 								<span class="text-muted" style="border-bottom: 2px solid black; padding-bottom: 10px;">Fort Colaba</span>
 							</div>
@@ -232,7 +233,7 @@
 								<span><strong>Veg Frankie</strong></span><br>
 								<span class="text-muted">Customise</span>
 							</div>
-							<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 col-md-offset-1">
+							<div class="col-xs-5 col-sm-5 col-md-4 col-lg-4 col-md-offset-1">
 								<div class="text-right">
 									<div class="number-input-food">
 										<button onclick="this.parentNode.querySelector('input[type=number]').stepDown()" ></button>
@@ -250,7 +251,7 @@
 						<p><span class="text-muted pull-left">GST</span><span class="text-muted pull-right"><i class="fa fa-krw"></i>8.50</span></p><br>
 						<p><span class="text-muted pull-left">Deliver Charges <i class="fa fa-info-circle"></i></span><span class="text-muted pull-right"><i class="fa fa-krw"></i>8.50</span></p><br>
 						<p><span class="text-muted pull-left">Coupon Code</span><span class="pull-right"><i class="fa fa-krw"></i><span style="color: red;">2.00</span></span></p>
-						<hr style="border: 1px solid black;">
+						<hr style="border: 1px solid black; width: 100%;">
 						<p><span class="pull-left"><strong>TO PAY</strong></span><span class="pull-right"><i class="fa fa-krw"></i><STRONG>197</STRONG></span></p><br>
 					</div>
 				</div>
