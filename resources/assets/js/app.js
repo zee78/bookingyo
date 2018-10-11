@@ -6,19 +6,20 @@
  */
 
 require('./bootstrap');
+require('./owl.carousel.min');
 
 window.Vue = require('vue');
 
 import VueRouter from 'vue-router'
 import Vue from 'vue';
-import VueCarousel from 'vue-carousel';
-Vue.use(VueCarousel);
+
 
 Vue.use(VueRouter)
 
 const index = require('./components/IndexComponent.vue');
 const home = require('./components/HomeComponent.vue');
 const rest_list = require('./components/Res_listComponent.vue');
+
 const routes = [
 {
     path: '/',
@@ -32,6 +33,7 @@ const routes = [
     path: '/rest_list',
     component: rest_list
 },
+
 ];
 /**
  * Next, we will create a fresh Vue application instance and attach it to
@@ -52,3 +54,5 @@ const app = new Vue({
     el: '#app',
     router, 
 });
+
+

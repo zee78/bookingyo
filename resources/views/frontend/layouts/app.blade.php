@@ -35,9 +35,7 @@
         width: 1000px;
         }
         </style>
-        <link href="{{('frontend-assets/css/owl.carousel.min.css')}}" rel="stylesheet">
-        <!-- <link href="{{('frontend-assets/css/owl.carousel.css')}}" rel="stylesheet"> -->
-        <link href="{{('frontend-assets/css/owl.theme.default.min.css')}}" rel="stylesheet">
+       
         
         @yield('styling')
     </head>
@@ -74,13 +72,31 @@
         <script src="{{ asset('frontend-assets/js/jquery.prettyPhoto.js') }}"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-bar-rating/1.2.2/jquery.barrating.min.js"></script>
         <!-- Owl Carousel -->
-        <script type="{{('frontend-assets/js/owl.carousel.min.js')}}"></script>
-        <script src="{{('frontend-assets/js/owl.carousel.min.js')}}"></script>
+        
         @yield('script')
         
 
 		
-
+        <script>
+	// Get the modal
+	var modal = document.getElementById('myModal');
+	// Get the image and insert it inside the modal - use its "alt" text as a caption
+	var sp_img = document.getElementById('span_img');
+	var img = document.getElementById('myImg');
+	var modalImg = document.getElementById("img01");
+	var captionText = document.getElementById("caption");
+	sp_img.onclick = function(){
+	modal.style.display = "block";
+	modalImg.src = img.src;
+	captionText.innerHTML = img.alt;
+	}
+	// Get the <span> element that closes the modal
+		var span = document.getElementsByClassName("close")[0];
+		// When the user clicks on <span> (x), close the modal
+			span.onclick = function() {
+			modal.style.display = "none";
+			}
+			</script>
         <script type="text/javascript" charset="utf-8">
         $(document).ready(function(){
         $("area[rel^='prettyPhoto']").prettyPhoto();
