@@ -148,7 +148,7 @@
 			</div>
 			<div class="col-md-12">
 				<div class="col-md-2-1 category-img" style="border:0px solid #EEEEEE;padding-top:5px;">
-					<a href=""><img src="{{'frontend-assets/static-images/home/grocery.jpg'}}">
+					<a href="{{ url('/dailyNeeds-list')}}"><img src="{{'frontend-assets/static-images/home/grocery.jpg'}}">
 						<div class="overlay-text">
 							<h4>Daily needs</h4>
 							<span>grocery, pharmacy ... </span>
@@ -421,7 +421,7 @@
 					</a>
 				</div>
 				<div class="col-md-2-1 category-img" style="border:0px solid #EEEEEE;padding-top:5px;">
-					<a href=""><img src="{{'frontend-assets/static-images/home/shopping.jpg'}}">
+					<a href="{{ url('/clothing-list')}}"><img src="{{'frontend-assets/static-images/home/shopping.jpg'}}">
 						<div class="overlay-text" style="left: 61%;">
 							<h4>shopping</h4>
 							<span>clothing, jewellry, watches ...</span>

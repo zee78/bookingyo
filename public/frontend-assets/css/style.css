@@ -1821,75 +1821,6 @@ hr{
 }
 
 
-/*profile page css*/
-
-#row_pdng{
-	padding:50px 0px 30px 0px;
-}
-#row_pdng label
-{
-	padding: 0px;
-}
-.radio_bttn{
-	margin-right: 5px;
-}
-
-@media (max-width: 575px)
-{
-	#row_pdng label{
-	padding:0px 15px;}
-
-	.btn_styl{
-	 padding: 7px 40px;}
-
-	 .radio_bttn label{
-	 font-size: 13px;}
-
-}
-
-@media (min-width: 576px) and (max-width: 767px)
-{
-	#row_pdng label{
-	padding:0px 15px;}
-
-	.btn_styl{
-	 padding: 7px 50px;}
-}
-@media (min-width: 768px) and (max-width: 991px)
-{
-	#row_pdng label{
-	padding:0px 15px;}
-
-	.btn_styl{
-	 padding: 7px 60px;}
-}
-
-@media (min-width: 992px) and (max-width: 1199px)
-{
-	#row_pdng label{
-	padding:0px 15px;}
-
-	.btn_styl{
-	 padding: 8px 60px;}
-}
-
-
-@media (min-width: 1200px)
-{
-	#row_pdng label{
-	padding:0px 15px;}
-
-	.btn_styl{
-	 padding: 8px 60px;}
-}
-
-
-/* Coupans Page CSS */
-
-
-.panel>.table-bordered, .panel>.table-responsive>.table-bordered{
-	border: 2px solid #ddd !important;
-}
 /*Media Query*/
 @media  only screen and (max-width: 767px){
 	.col-md-2-1{
@@ -1964,7 +1895,7 @@ hr{
 		padding-left: 0;
 	}
 	.table_tabs li {
-	margin-right: 0px;
+	margin-right: 0px !important;
 	}
 	.overview .icon_col {
 		margin-left: 20px;
@@ -2048,17 +1979,29 @@ hr{
 	}
 
 }
-
-#owl-demo{
-	display: -webkit-box;
+@media only screen and (max-width: 410px){
+	.mobile-view a {
+    	color: white;
+    	padding: 0 14px;
+	}
 }
-#owl-demo .item{
-  margin: 3px;
-}    height: 90px;
-#owl-demo .item img{
-  display: block;
-  /*width: 100%;*/
-  height: auto;
+@media only screen and (max-width: 320px){
+	.mobile-view a {
+	    color: white;
+	    padding: 0 9px;
+	}
+	#owl-demo{
+		display: -webkit-box;
+	}
+	#owl-demo .item{
+	  margin: 3px;
+	  height: 90px;
+	}    
+	#owl-demo .item img{
+	  display: block;
+	  /*width: 100%;*/
+	  height: auto;
+	}
 }
 
 
@@ -2188,6 +2131,7 @@ hr{
 #menuSlider .row .col-md-11{
 	padding-left: 0;
 	height: 50px;
+	overflow: hidden;
     width: 94%;
 }
 #menuSlider .row .col-md-1{

@@ -83,7 +83,7 @@
         <div class="col-md-6 right-menu">
           <ul class="nav navbar-nav">
             <li><a href="#" class="btn bg-primary"> Advertise </a></li>
-            <li style="padding-left: 15px;"><a href="#" class="btn listing-btn"> Free Listing</a> </li>
+            <li style="padding-left: 15px;"><a href="{{ url('/free-listing')}}" class="btn listing-btn"> Free Listing</a> </li>
             <li>    
               <div class="dropdown">
               <button class="language btn btn-primary dropdown-toggle" style="background:transparent" type="button" data-toggle="dropdown">Language

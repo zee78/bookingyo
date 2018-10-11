@@ -37,7 +37,7 @@
 					</a>
 				</li>
 				<li>
-					<a href="s">
+					<a href="{{ url('/coupon')}}">
 						<div class="profile-icon">
 							<i class="fa fa-clock-o" aria-hidden="true"></i>
 						</div>

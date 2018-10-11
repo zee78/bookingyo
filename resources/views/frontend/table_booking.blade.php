@@ -907,12 +907,9 @@
 				</div>
 		</div>
 	</div>
-		</div>
-		</div>
 	
-	
-  @endsection
-			@section('script')
+@endsection
+@section('script')
 	<script>
 		$(document).ready(function() {
 			$('.table_hidden_area').hide();

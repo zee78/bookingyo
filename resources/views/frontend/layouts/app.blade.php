@@ -137,7 +137,7 @@
 <script>
 var owl = $('.owl-carousel');
 owl.owlCarousel({
-    items:14,
+    items:10,
     loop:true,
     margin:0,
     autoplay:false,
