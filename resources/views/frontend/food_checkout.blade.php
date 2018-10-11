@@ -221,6 +221,7 @@
 								<div class="cart_image">
 									<img src="frontend-assets/static-images/foodOrder/roll.jpg" class="img-responsive" alt="Image" style="width: 100%;">
 								</div>
+								<!-- checking -->
 							</div>
 							<div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
 								<h4><strong>Tibb's Frankie</strong></h4>
