@@ -113,7 +113,7 @@
 						</div>
 						<div class="col-xs-10 col-sm-10 col-md-7 col-lg-7">
 							<div class="row">
-								<div class="col-xs-5 col-sm-5 col-md-3 col-lg-3">
+								<div class="col-xs-5 col-sm-5 col-md-3 col-lg-3 timing_col">
 									<div class="form-timing">
 										<input type="time" class="form-control" id="">
 									</div>
@@ -133,17 +133,17 @@
 						<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 col-md-offset-1">
 							<label for="">Tuesday:</label>
 						</div>
-						<div class="col-xs-7 col-sm-7 col-md-7 col-lg-7">
+						<div class="col-xs-10 col-sm-10 col-md-7 col-lg-7">
 							<div class="row">
-								<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+								<div class="col-xs-5 col-sm-5 col-md-3 col-lg-3 timing_col">
 									<div class="form-timing">
 										<input type="time" class="form-control" id="">
 									</div>
 								</div>
-								<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+								<div class="col-xs-1 col-sm-1 col-md-2 col-lg-2">
 									<label><strong>TO</strong></label>
 								</div>
-								<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+								<div class="col-xs-5 col-sm-5 col-md-3 col-lg-3">
 									<div class="form-timing">
 									<input type="time" class="form-control" id="">
 								</div>
@@ -155,17 +155,17 @@
 						<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 col-md-offset-1">
 							<label for="">Wednesday:</label>
 						</div>
-						<div class="col-xs-7 col-sm-7 col-md-7 col-lg-7">
+						<div class="col-xs-10 col-sm-10 col-md-7 col-lg-7">
 							<div class="row">
-								<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+								<div class="col-xs-5 col-sm-5 col-md-3 col-lg-3 timing_col">
 									<div class="form-timing">
 										<input type="time" class="form-control" id="">
 									</div>
 								</div>
-								<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+								<div class="col-xs-1 col-sm-1 col-md-2 col-lg-2">
 									<label><strong>TO</strong></label>
 								</div>
-								<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+								<div class="col-xs-5 col-sm-5 col-md-3 col-lg-3">
 									<div class="form-timing">
 									<input type="time" class="form-control" id="">
 								</div>
@@ -177,17 +177,17 @@
 						<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 col-md-offset-1">
 							<label for="">Thursday:</label>
 						</div>
-						<div class="col-xs-7 col-sm-7 col-md-7 col-lg-7">
+						<div class="col-xs-10 col-sm-10 col-md-7 col-lg-7">
 							<div class="row">
-								<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+								<div class="col-xs-5 col-sm-5 col-md-3 col-lg-3 timing_col">
 									<div class="form-timing">
 										<input type="time" class="form-control" id="">
 									</div>
 								</div>
-								<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+								<div class="col-xs-1 col-sm-1 col-md-2 col-lg-2">
 									<label><strong>TO</strong></label>
 								</div>
-								<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+								<div class="col-xs-5 col-sm-5 col-md-3 col-lg-3">
 									<div class="form-timing">
 									<input type="time" class="form-control" id="">
 								</div>
@@ -199,17 +199,17 @@
 						<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 col-md-offset-1">
 							<label for="">Friday:</label>
 						</div>
-						<div class="col-xs-7 col-sm-7 col-md-7 col-lg-7">
+						<div class="col-xs-10 col-sm-10 col-md-7 col-lg-7">
 							<div class="row">
-								<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+								<div class="col-xs-5 col-sm-5 col-md-3 col-lg-3 timing_col">
 									<div class="form-timing">
 										<input type="time" class="form-control" id="">
 									</div>
 								</div>
-								<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+								<div class="col-xs-1 col-sm-1 col-md-2 col-lg-2">
 									<label><strong>TO</strong></label>
 								</div>
-								<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+								<div class="col-xs-5 col-sm-5 col-md-3 col-lg-3">
 									<div class="form-timing">
 									<input type="time" class="form-control" id="">
 								</div>
@@ -221,17 +221,17 @@
 						<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 col-md-offset-1">
 							<label for="">Saturday:</label>
 						</div>
-						<div class="col-xs-7 col-sm-7 col-md-7 col-lg-7">
+						<div class="col-xs-10 col-sm-10 col-md-7 col-lg-7">
 							<div class="row">
-								<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+								<div class="col-xs-5 col-sm-5 col-md-3 col-lg-3 timing_col">
 									<div class="form-timing">
 										<input type="time" class="form-control" id="">
 									</div>
 								</div>
-								<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+								<div class="col-xs-1 col-sm-1 col-md-2 col-lg-2">
 									<label><strong>TO</strong></label>
 								</div>
-								<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+								<div class="col-xs-5 col-sm-5 col-md-3 col-lg-3">
 									<div class="form-timing">
 									<input type="time" class="form-control" id="">
 								</div>
@@ -243,17 +243,17 @@
 						<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 col-md-offset-1">
 							<label for="">Sunday:</label>
 						</div>
-						<div class="col-xs-7 col-sm-7 col-md-7 col-lg-7">
+						<div class="col-xs-10 col-sm-10 col-md-7 col-lg-7">
 							<div class="row">
-								<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+								<div class="col-xs-5 col-sm-5 col-md-3 col-lg-3 timing_col">
 									<div class="form-timing">
 										<input type="time" class="form-control" id="">
 									</div>
 								</div>
-								<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+								<div class="col-xs-1 col-sm-1 col-md-2 col-lg-2">
 									<label><strong>TO</strong></label>
 								</div>
-								<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+								<div class="col-xs-5 col-sm-5 col-md-3 col-lg-3">
 									<div class="form-timing">
 									<input type="time" class="form-control" id="">
 								</div>

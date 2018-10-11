@@ -55,7 +55,7 @@ $('#hide_bar').hide();
 				<div class="col-xs-12 col-sm-12 col-md-10 col-lg-10 col-md-offset-1" style="margin-top: 75px;">
 					<div class="col-xs-4 col-sm-4 col-md-2 col-lg-2">
 						<div class="main-img-div">
-							<a href="{{url('/category-list')}}"><img src="{{'frontend-assets/static-images/category_icons/images/main_cate1.png'}}" style="" class="" alt="Image"></a>
+							<a href="{{url('/restaurant-list')}}"><img src="{{'frontend-assets/static-images/category_icons/images/main_cate1.png'}}" style="" class="" alt="Image"></a>
 						</div>
 						<!-- <p class="img-pha">Restaurants</p> -->
 					</div>
