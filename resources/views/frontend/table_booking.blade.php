@@ -905,7 +905,9 @@
 			</div>
 		</div>
 	</div>
-	@section('script')
+	
+@endsection
+@section('script')
 	<script>
 		$(document).ready(function() {
 			$('.table_hidden_area').hide();
@@ -951,5 +953,4 @@
 			modal.style.display = "none";
 			}
 			</script>
-			@endsection
 			@endsection

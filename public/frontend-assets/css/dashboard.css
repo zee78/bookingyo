@@ -116,6 +116,78 @@
     -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .25), 0 2px 3px rgba(0, 0, 0, .1);
     box-shadow: 0 1px 1px rgba(0, 0, 0, .25), 0 2px 3px rgba(0, 0, 0, .1);
 }
+
+/*Nabeel CSS*/
+
+/*profile page css*/
+
+#row_pdng{
+	padding:50px 0px 30px 0px;
+}
+#row_pdng label
+{
+	padding: 0px;
+}
+.radio_bttn{
+	margin-right: 5px;
+}
+
+@media (max-width: 575px)
+{
+	#row_pdng label{
+	padding:0px 15px;}
+
+	.btn_styl{
+	 padding: 7px 40px;}
+
+	 .radio_bttn label{
+	 font-size: 13px;}
+
+}
+
+@media (min-width: 576px) and (max-width: 767px)
+{
+	#row_pdng label{
+	padding:0px 15px;}
+
+	.btn_styl{
+	 padding: 7px 50px;}
+}
+@media (min-width: 768px) and (max-width: 991px)
+{
+	#row_pdng label{
+	padding:0px 15px;}
+
+	.btn_styl{
+	 padding: 7px 60px;}
+}
+
+@media (min-width: 992px) and (max-width: 1199px)
+{
+	#row_pdng label{
+	padding:0px 15px;}
+
+	.btn_styl{
+	 padding: 8px 60px;}
+}
+
+
+@media (min-width: 1200px)
+{
+	#row_pdng label{
+	padding:0px 15px;}
+
+	.btn_styl{
+	 padding: 8px 60px;}
+}
+
+
+/* Coupans Page CSS */
+
+
+.panel>.table-bordered, .panel>.table-responsive>.table-bordered{
+	border: 2px solid #ddd !important;
+}
 @media  only screen and (max-width: 767px){
 	.dashboard-menu ul{
 		padding-left: 0 !important;
