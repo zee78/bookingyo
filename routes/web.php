@@ -11,14 +11,12 @@
 |
 */
 
-Route::get('/home', function () {
-    return view('frontend.home');
-});
+
 Route::get('/hotel_profile', function () {
     return view('frontend.hotel_profile');
 });
 Route::get('/', function () {
-    return view('frontend.index');
+    return view('frontend.layouts.app');
 });
 Route::get('/table_booking', function () {
     return view('frontend.table_booking');

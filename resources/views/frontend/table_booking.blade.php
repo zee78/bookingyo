@@ -3,7 +3,7 @@
 @section('content')
 <div class="container" style="background: white;">
 	<div class="row" style="margin-bottom: 50px;">
-		<div class="container">
+		<div class="">
 			<div class="col-xs-12 col-sm-12 col-md-7 col-lg-7">
 				<h2 class="text-muted">Diadio Restaurant <span class="table_heading"><i class="fa fa-comments"></i>Video & chat</span></h2>
 				<div role="tabpanel" style="border: 1px solid #a8a8a8; border-radius: 4px;">
@@ -745,7 +745,10 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-md-offset-1">
+						
+			
+			</div>
+			<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-md-offset-1">
 					<div class="reservation">
 						<div class="reservation_heading">
 							<span>Make a Reservation</span>
@@ -902,7 +905,6 @@
 						</div>
 					</div>
 				</div>
-			</div>
 		</div>
 	</div>
 	
