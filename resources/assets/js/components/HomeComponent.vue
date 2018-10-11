@@ -15,6 +15,7 @@
             </div>
             <div class="col-md-11">
               <div class="owl-carousel listing-carousel">
+				  
                 <span><i class="fa fa-futbol-o" aria-hidden="true"></i> Social</span>
                 <span><i class="fa fa-plane" aria-hidden="true"></i> Air Ticket</span>
                 <span><i class="fa fa-money" aria-hidden="true"></i> O2O</span>
@@ -72,12 +73,12 @@
 			
 			<div class="col-md-5">
 				<div class="col-md-6 category-img" style="border:0px solid #EEEEEE;">
-					<a href="" class=""><img :src="'frontend-assets/static-images/home/resturants.jpg'" style="width: 100%">
+					<router-link to="/rest_list"><img :src="'frontend-assets/static-images/home/resturants.jpg'" style="width: 100%">
 						<div class="overlay-text">
 							<h4>Resturants</h4>
 							<span>dining, lounge bar, pizza ...</span>
 						</div>
-					</a>
+					</router-link>
 				</div>
 				<div class="col-md-6 category-img" style="border:0px solid #EEEEEE;">
 					<a href=""><img :src="'frontend-assets/static-images/home/movies.jpg'">
@@ -501,11 +502,27 @@
 </template>
 
 <script>
-export default {
+   import { Carousel, Slide } from 'vue-carousel';
+   export default {
+	    components: {
+    Carousel,
+    Slide
+  },
+     data(){
+        return{
+          selected:'',
+        }
+    },
+    methods:{
     
+},
+    created(){
+      
+    }
 }
 </script>
 
 <style>
-
+@import '/frontend-assets/css/owl.carousel.min.css';
+@import '/frontend-assets/css/owl.theme.default.min.css';
 </style>

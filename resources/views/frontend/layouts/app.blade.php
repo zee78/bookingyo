@@ -56,7 +56,8 @@
           <a href="#" class="youtube">Coupon</a> 
         </div>
        <footer_com></footer_com>
-       </div>
+     
+    </div>
         <!-- <a href="#" class="job-notification">
             <i class="fa fa-bell"></i>
             <span class="notification-label">Subscribe for job notifications</span>
@@ -97,7 +98,7 @@
         });
         });
         </script>     
-    </body>
+    
     <script>
     
     
@@ -130,20 +131,11 @@
     });
     </script>
     <script>
-    $('select[name="dropdown"]').change(function(){
-    
-    if ($(this).val() == "2"){
-    $('#image-view').css('display', 'block');
-    $('#list-view').css('display', 'none');
-    }else{
-    $('#image-view').css('display', 'none');
-    $('#list-view').css('display', 'block');
-    }
-});
+   
 </script>
 
 <script>
-    var owl = $('.owl-carousel');
+var owl = $('.owl-carousel');
 owl.owlCarousel({
     items:14,
     loop:true,
@@ -160,6 +152,6 @@ $('.stop').on('click',function(){
 })
 </script>
 
-
+</body>
 
 </html>

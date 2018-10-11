@@ -19,6 +19,8 @@
         "vue": "^2.5.7"
     },
     "dependencies": {
+        "v-owl-carousel": "^1.0.7",
+        "vue-carousel": "^0.14.0",
         "vue-router": "^3.0.1"
     }
 }
