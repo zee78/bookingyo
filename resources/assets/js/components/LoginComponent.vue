@@ -1,7 +1,5 @@
-@extends('frontend.layouts.app')
-@section('title', 'Booking Yo')
-@section('content')
-<div class="container" id="cont">
+<template>
+	<div class="container" id="cont">
 	<div class="main-sec">
 		<div class="row rw">
 			<div class="col-md-6 col-xs-12" id="brdr">
@@ -70,4 +68,12 @@
 	</div>
 	<br><br>
 </div>
-@endsection
+</template>
+<script>
+export default {
+    
+}
+</script>
+<style>
+		@import '/frontend-assets/css/style.css';
+</style>

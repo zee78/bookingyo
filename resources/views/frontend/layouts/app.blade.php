@@ -77,10 +77,10 @@
         
 
 		
-<<<<<<< HEAD
+
 
       <!--   <script type="text/javascript" charset="utf-8">
-=======
+
         <script>
 	// Get the modal
 	var modal = document.getElementById('myModal');
@@ -102,7 +102,6 @@
 			}
 			</script>
         <script type="text/javascript" charset="utf-8">
->>>>>>> fc47997ef1b3ba2caf0017907f8646088a4d4c8d
         $(document).ready(function(){
         $("area[rel^='prettyPhoto']").prettyPhoto();
         

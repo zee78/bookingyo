@@ -312,7 +312,7 @@
 											<a href="{{url('/table_booking')" class="btn btn-success btn-lg btn-block">Book Table <span class="pull-right btn_arrow"><i class="fa fa-chevron-circle-right fa_arrow fa-2x"></i></span></a>
 										</div>
 										<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
-											<a href="{{url('/food_order')" class="btn btn-success btn-lg btn-block">Order Online <span class="pull-right btn_arrow"><i class="fa fa-chevron-circle-right fa_arrow fa-2x"></i></span></a>
+											<router-link to="/food_order" class="btn btn-success btn-lg btn-block">Order Online <span class="pull-right btn_arrow"><i class="fa fa-chevron-circle-right fa_arrow fa-2x"></i></span></router-link>
 										</div>
 									</div>
 									<!-- Menu Buttons Ends -->

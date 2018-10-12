@@ -8,7 +8,7 @@ $('#hide_bar').hide();
 @endif
 <div class="container" style="background: white;">
 	<div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-md-offset-3 main_advertisement">
-		<img src="{{'frontend-assets/static-images/gallery/main_adv.png'}}" class="img-responsive" alt="Image">
+		<img :src="'frontend-assets/static-images/gallery/main_adv.png'" class="img-responsive" alt="Image">
 	</div>
 	<!-- Search Bar Start -->
 	<div class="search_bar">

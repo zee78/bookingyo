@@ -1,11 +1,11 @@
 @extends('frontend.layouts.app')
 @section('title', 'Booking Yo')
 @section('content')
-<!--  -->
+
 
 <div class="container bg_clr">
 
-<!------Add img Section -------------->
+<!--Add img Section -->
 	<div class="row imgsctn" style="margin:0px";>	
 		<img src="{{'frontend-assets/gloceryimages/image1.png'}}" class="img-responsive">
 	</div>
@@ -13,7 +13,7 @@
 	<div class="row imgsctns" style="margin:0px;">
 		<img src="{{'frontend-assets/gloceryimages/image3.png'}}" class="img-responsive">
 	</div>	
-	<!------Add img Section Ends -------------->
+	<!--Add img Section Ends -->
 
 		<div class="row srchbar-row-setting">
 		<div class="col-sm-7 col-sm-offset-2 col-xs-9 col-xs-offset-1 col-md-6 col-md-offset-2 col-lg-6 col-lg-offset-2">

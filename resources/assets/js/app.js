@@ -23,6 +23,9 @@ const rest_list = require('./components/Res_listComponent.vue');
 const foodOrder = require('./components/Food_orderComponent.vue');
 const foodCheckout = require('./components/Food_checkoutComponent.vue');
 const hotelProfile = require('./components/Hotel_profileComponent.vue');
+const login = require('./components/LoginComponent.vue');
+const hospital = require('./components/HospitalComponent.vue');
+const free_list = require('./components/Free_listingComponent.vue');
 
 const routes = [
 {
@@ -48,6 +51,18 @@ const routes = [
 {
     path: '/hotel_profile',
     component: hotelProfile
+},
+{
+    path: '/login',
+    component: login
+},
+{
+    path: '/hospital_reservation',
+    component: hospital
+},
+{
+    path: '/free_listing',
+    component: free_list
 },
 
 ];

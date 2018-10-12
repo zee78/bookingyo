@@ -271,7 +271,7 @@
 					<div class="col-md-9">
 						<div class="row">
 							<div class="col-md-9 grid-detail">
-								<h4>Pearl Continental</h4>
+								<router-link to="/hotel_profile"><h4>Pearl Continental</h4></router-link>
 								<p><i class="fa fa-phone" aria-hidden="true"></i> 031457922</p>
 								<p><i class="fa fa-map-marker" aria-hidden="true"></i> Lorem ipsum dolor sit amet</p>
 								<p><i class="fa fa-product-hunt" aria-hidden="true"></i> Jeans, Casual Shirts, Pants , Jumper, Shoes</p>

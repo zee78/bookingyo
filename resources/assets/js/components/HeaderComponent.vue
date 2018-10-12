@@ -78,8 +78,8 @@
         </div>
         <div class="col-md-6 right-menu">
           <ul class="nav navbar-nav">
-            <li><a href="#" class="btn bg-primary"> Advertise </a></li>
-            <li style="padding-left: 15px;"><a href="#" class="btn listing-btn"> Free Listing</a> </li>
+            <li><router-link to="/free_listing" class="btn bg-primary"> Advertise </router-link></li>
+            <li style="padding-left: 15px;"><router-link to="/free_listing" class="btn listing-btn"> Free Listing</router-link> </li>
             <li>    
               <div class="dropdown">
               <button class="language btn btn-primary dropdown-toggle" style="background:transparent" type="button" data-toggle="dropdown">Language
